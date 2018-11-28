@@ -1,0 +1,52 @@
+{
+  "orlando": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Call Center | Orlando",
+      "formID": "IM59*1-IVMRDE",
+      "formLOC": "CO08*1-IYU306",
+      "formName": "MVC - Request Information | Call Center | Orlando"
+    }
+  },
+  "newport": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Call Center | Newport",
+      "formID": "IM59*1-IVMRDB",
+      "formLOC": "CO08*1-IYU303",
+      "formName": "MVC - Request Information | Call Center | Newport"
+    }
+  },
+  "palmbeaches": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Call Center | Palm Beaches",
+      "formID": "IM59*1-IVMRHD",
+      "formLOC": "CO08*1-IYU309",
+      "formName": "MVC - Request Information | Call Center | Palm Beaches"
+    }
+  },
+  "newyorkcity": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Call Center | New York City",
+      "formID": "IM59*1-IVMRHG",
+      "formLOC": "CO08*1-IYU30C",
+      "formName": "MVC - Request Information | Call Center | New York City"
+    }
+  },
+  "offers": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Call Center | Offers",
+      "formID": "",
+      "formLOC": ""
+    }
+  },
+  "details": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName" : "MVC - Landing Pages | Call Center | DOP"
+    }
+  }
+}
