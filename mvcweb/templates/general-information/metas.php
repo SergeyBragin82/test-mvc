@@ -295,17 +295,11 @@
                     $description = "Request vacation ownership information. Learn about Marriott timeshare vacations.";
                     $keywords = "contact us, request information";
                     break;
-                    
+					
                 case "/owners/ilg-acquisition/":
                     $title = "ILG Acquisition for Owners | Marriott Vacation Club® Official Site";
                     $description = "Request vacation ownership information. Learn about Marriott timeshare vacations.";
                     $keywords = "contact us, request information";
-                    break;
-                    
-                case "/faq/":
-                    $title = "Frequently Asked Questions (FAQ) | Marriott Vacation Club® Official Site";
-                    $description = "Get answers to frequently asked questions including: what is timeshare, how do timeshares work, how much do timeshares cost, how to buy a timeshare and more.";
-                    $keywords = "frequently asked questions";
                     break;
 
                 default:

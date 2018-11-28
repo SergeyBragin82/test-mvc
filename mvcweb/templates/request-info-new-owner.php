@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			<div class='col-xl-8 cover-picture-container'>
-				<?php echo getImageTag("201809/1200x900_NewYork_1.jpg", "New York City ", array(0 => 'content'), true); ?>
+				<?php echo getImageTag("GV-LP-081.jpg", "Family having fun roasting marshmellows at a Marriott Vacation Club timeshare resort. ", array(0 => 'content'), true); ?>
 			</div>
 		</div>
 	</div>
