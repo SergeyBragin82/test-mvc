@@ -133,6 +133,7 @@
 		        no_access();
 		    }
 		    else {
+		    	$image_dir = get_home_path() . "/wp-content/images/";
 		    	$tmpfile = $_FILES['file']['name'];
 		    	$filepath = $image_dir . $request["id"] . "." . pathinfo($tmpfile, PATHINFO_EXTENSION);
 		    	$url = $request["link"];

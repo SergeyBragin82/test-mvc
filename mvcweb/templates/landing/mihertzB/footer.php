@@ -1,8 +1,4 @@
-<div class="participationdetails">
-        <hr>
-    </div>
-    <div class="infodetails row">
-        <img class="desktop-block" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/doily_3.png" alt="">
+<!--    <div class="infodetails row">
       <div class="companyinfo mr-4  ">
         <h6><p class="infoheader kessel-book">COMPANY INFORMATION</p></h6>
         <h6><p class="infop"><a href="//www.marriottvacationsworldwide.com/company/about-us.shtml" target='_blank'>Corporate Info</a><br/></p></h6>
@@ -14,9 +10,9 @@
         <h6><p class="infop"><a href="/privacy">Privacy Policy</a><br/></p></h6>
         <h6><p class="infop"><a href="/terms-of-use">Terms of Use</a></p></h6>
     </div>
-</div>
-<div class="teal-bg back-to-top text-center py-4" onclick="javacript:btp();">
-    <img class="arrow d-block mx-auto mb-2" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/uparrow.svg" alt="up arrow">
+  </div>-->
+<div class="teal-bg text-center py-4" onclick="javacript:btp();">
+    <img class="arrow d-block mx-auto mb-2" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/uparrow.svg">
     <a class="white-fg reg-link mb-4" href="javascript:void();">BACK TO TOP</a><br/><br/>
 </div>
 <script>
@@ -31,7 +27,7 @@
             This is neither an offer to sell timeshare nor a solicitation to buy timeshare to residents in jurisdictions in which registration requirements have not been fulfilled, including any Member State of the European Union, and your eligibility to purchase may depend upon your residency. All requests originating in Member States of the European Union will not be carried out by Marriott Vacation Club. Visit <a class="teal-fg" href="https://www.MarriottVacationClub.eu">MarriottVacationClub.eu</a> for Marriott Vacation Club products available for purchase by residents of the European Union.</p>
     </div>
     <div class="mainfooterinfo2">
-        <div><img width="50" class="housinglogo mx-auto" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/equal_housing_logo.png" alt="Housing Logo"></div>
+        <div><img width="50" class="housinglogo mx-auto" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/equal_housing_logo.png"></div>
         <p class="mt-1"><b>THIS ADVERTISING MATERIAL IS BEING USED FOR THE PURPOSE OF SOLICITING THE SALE OF TIMESHARE PERIODS. ANY NAMES AND ADDRESSES ACQUIRED WILL BE USED FOR THE PURPOSE OF SOLICITING THE SALE OF TIMESHARE PERIODS. THE COMPLETE OFFERING TERMS ARE IN AN OFFERING PLAN AVAILABLE FROM MARRIOTT OWNERSHIP RESORTS, INC. D/B/A MARRIOTT VACATION CLUB INTERNATIONAL.</b>
         </p>
     </div>

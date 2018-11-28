@@ -254,7 +254,7 @@ If you purchase from the comfort of your home, you will receive the best availab
 				experience_template.css("display", "flex");
 				experience_template.css("height", "auto");
 				experience_template.find(".title").html(experience.ShortDesc);
-				experience_template.find(".image").attr("src", "https://www.marriottvacationclub.com/wp-content/images/sct_content/" + experience.ImageMainURL);
+				experience_template.find(".image").attr("src", "https://tpd1.www.marriottvacationclub.com/wp-content/images/sct_content/" + experience.ImageMainURL);
 				experience_template.find(".image").attr("alt", "Image of " + experience.ShortDesc + " ");
 				experience_template.find(".text").html(experience.LongDesc);
 				//experience_template.find(".location").html(experience.Location);
@@ -283,6 +283,10 @@ If you purchase from the comfort of your home, you will receive the best availab
 		populateByPoints(0);
 	});
 
+	<?php // scroll to "Start Living the Vacation Lifestyle" ?>
+	setTimeout(function() {
+		$("html, body").animate({ scrollTop: $('#vacationLifestyle').offset().top-$('.logo').height() }, 0);
+	}, 1000);
 </script>
 <script src="<?php echo $GLOBALS['asset_path'] . 'javascript/ownershipHowToSlider.js'?>">
 </script>
