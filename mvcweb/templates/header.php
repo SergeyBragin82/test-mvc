@@ -1,22 +1,22 @@
 <nav class="navbar navbar-expand-md navbar-dark justify-content-between fixed-header">
-<?php if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>	<a href='/' class='logo-href'> <?php } ?>
+<?php if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>	<a href='/' class='logo-href'> <?php } ?>
 		<div class='logo'>
 			<?php echo getImageTag('logoNew.svg', 'Marriott Vacation Club Logo', NULL, true); ?>
 			<!-- <object type='image/svg+xml' data='<?php echo($GLOBALS['img_path'] . 'logoNew.svg'); ?>'>
 				<?php echo getImageTag('logoNew.png', 'Marriott Vacation Club Logo', NULL, true); ?>
 			</object> -->
 		</div>
-<?php if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>	</a> <?php } ?>
+<?php if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>	</a> <?php } ?>
 
 <?php 
-if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>
 	
 		<?php // If page is a /landing page, do not display navbar ?>
 		<?php if( false === strpos($_SERVER['REQUEST_URI'], '/landing') ) { ?>
 			<div class="header-navbar" id="navbarNav">
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 					<li class="nav-item nav-link header-option header-navbar-dropdown" aria-haspopup="true" aria-expanded="false">
-						<span alt='Ownership'>Ownership</span>
+					<span title='ownership'>Ownership</span>
 						<i class='icon-rounded-down'></i>
 						<ul>
 							<li>
@@ -37,7 +37,7 @@ if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochur
 						</ul>
 					</li>
 					<li class="nav-item nav-link header-option header-navbar-dropdown" aria-haspopup="true" aria-expanded="false">
-						<span alt='Destinations'>Destinations</span>
+						<span title='destinations'>Destinations</span>
 						<i class='icon-rounded-down'></i>
 						<ul>
 							<li>
@@ -62,7 +62,7 @@ if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochur
 						</ul>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link header-option" href="/vacation-inspiration/" alt='Inspiration'>
+						<a class="nav-link header-option" href="/vacation-inspiration/" title='inspiration'>
 							Inspiration
 						</a>
 					</li>

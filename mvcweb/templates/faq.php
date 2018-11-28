@@ -108,7 +108,7 @@
 					<li class="faq">
 						<h2 id="faq3" class="faq-title">How does Marriott Vacation Club timeshare work?</h2>
 						<div class="faq-description">
-							<p>When you become an Owner in the Marriott Vacation Club Destinations<sup>&reg;</sup> Program, you receive an annual allotment of Vacation Club Points. Vacation Club Points can be used to book over 10,000 vacation experiences, including resort and hotel stays, cruises, guided tours, private luxury vacation homes and more. Not all timeshares work the same as the Marriott Vacation Club Destinations Program. <a href="/timeshare-ownership/how-it-works/" title="Learn more">Learn more about how the program works</a>.</p>
+							<p>When you become an Owner in the Marriott Vacation Club Destinations<sup>&reg;</sup> Program, you receive an annual allotment of Vacation Club Points. Along with membership in the Marriott Vacation Club Destinations Exchange Program, Vacation Club Points can be used to book over 10,000 vacation experiences, including resort and hotel stays, cruises, guided tours, private luxury vacation homes and more. Not all timeshares work the same as the Marriott Vacation Club Destinations Program. <a href="/timeshare-ownership/how-it-works/" title="Learn more">Learn more</a> about how the program works.</p>
 						</div>
 					</li>
 
@@ -119,16 +119,16 @@
 							<p>You have choices on how you can purchase a timeshare interest from Marriott Vacation Club.</p>
 							<ul>
 								<li>Visit a sales gallery at one of our resorts or other locations.</li>
-								<li><strong><a href="/request-information/" title="Request information">Request information</a></strong> or call <a class="telephone-number" href="tel:+1-800-445-0893" title="Call 800-445-0893">800-445-0893</a>.</li>
+								<li><a href="/request-information/" title="Request information">Request information</a> or call <a class="telephone-number" href="tel:+1-800-445-0893" title="Call 800-445-0893">800-445-0893</a>.</li>
 							</ul>
-							<p>When you contact us, we will give you a clear, simple overview of our program, answer any of your questions and guide you through vacation options based on your preferences and needs. Find out more about <a href="/timeshare-ownership/get-started/">how to get started</a>.</p>
+							<p>When you contact us, we will give you a clear, simple overview of our program, answer any of your questions and guide you through vacation options based on your preferences and needs. Find out more about how to get started.</p>
 						</div>
 					</li>
 
 					<li class="faq">
 						<h2 id="faq5" class="faq-title">What are the costs associated with owning a Marriott Vacation Club Destinations timeshare interest?</h2>
 						<div class="faq-description">
-							<p>There are three costs associated with ownership in the Marriott Vacation Club Destinations Program: (i) the <a href="/timeshare-ownership/how-it-works/" title="purchase price">purchase price</a> for the interest, (ii) annual maintenance fees and (iii) annual club dues. Pricing and fees vary depending on how many Vacation Club Points you purchase. So that we may help you determine how many Vacation Club Points you need based on your travel and vacation interests, <strong><a href="/request-information/" title="request information">request information</a></strong> or call <a class="telephone-number" href="tel:+1-800-445-0893" title="Call 800-445-0893">800-445-0893</a>. A Marriott Vacation Club representative will create your customized plan complete with current prices, incentives and savings.</p>
+							<p>There are three costs associated with ownership in the Marriott Vacation Club Destinations Program: (i) the <a href="/timeshare-ownership/how-it-works/" title="purchase price">purchase price</a> for the interest, (ii) annual maintenance fees and (iii) annual club dues. Pricing and fees vary depending on how many Vacation Club Points you purchase. So that we may help you determine how many Vacation Club Points you need based on your travel and vacation interests, <a href="/request-information/" title="request information">request information</a> or call <a class="telephone-number" href="tel:+1-800-445-0893" title="Call 800-445-0893">800-445-0893</a>. A Marriott Vacation Club representative will help create your customized plan complete with current prices, incentives and savings.</p>
 						</div>
 					</li>
 
@@ -154,16 +154,10 @@
 					</li>
 				</ul>
 
-				<footer class="faq-footer">If you have other questions about Marriott Vacation Club timeshare, we're here to help. Just <strong><a href="/request-information/" title="request information">request information</a></strong> or call us at <a class="telephone-number" href="tel:+1=800-445-0893" title="Call 800-445-0893">800-445-0893</a>.</footer>
+				<footer class="faq-footer">If you have other questions about Marriott Vacation Club timeshare, we're here to help. Just <a href="/request-information/" title="request information">request information</a> or call us at <a class="telephone-number" href="tel:+1=800-445-0893" title="Call 800-445-0893">800-445-0893</a>.</footer>
 
 				<span class="legal-code">MDC-18-167</span>
 			</div><!-- .col -->
 		</div><!-- .row -->
 	</div><!-- .hero-element -->
 </div><!-- .page-faq -->
-
-<script>
-	$(document).ready(function() {
-		$("ul.footer-list li a[href='javascript:attachSweepstakesModal(\"https://marriottvacationclubaloha.dja.com/pages/registration.php?loc=IM59%2A1-FKXQET\");']").remove();
-	});
-</script>

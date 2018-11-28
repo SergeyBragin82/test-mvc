@@ -207,27 +207,21 @@
 		</script>
 		<?php
 			$siteUrl = get_site_url();
-
-			$scripts = [
-                'tpd1'    => '<script src="//assets.adobedtm.com/launch-EN2cfbf54f3d8a4243b590278c8c6aa32e-development.min.js" async></script>',
-                'tpd2'    => '<script src="//assets.adobedtm.com/launch-EN8c3efd88fdd34005a033b61186b8ea68-development.min.js" async></script>',
-                'tpd3'    => '<script src="//assets.adobedtm.com/launch-ENd38dac75aa14466da66a9bbf493b2b30-development.min.js" async></script>',
-                'tpd4'    => '<script src="//assets.adobedtm.com/launch-ENeed993cb01724d478b7e027697974699-development.min.js" async></script>',
-                'tpd5'    => '<script src="//assets.adobedtm.com/launch-EN443eb51a6c1444d0952ea6fbc3deb478-development.min.js" async></script>',
-                'tps1'    => '<script src="//assets.adobedtm.com/launch-EN6f46b9a9181745c9b45662985c793fec-staging.min.js" async></script>',
-                'prod'    => '<script src="//assets.adobedtm.com/launch-EN31aa2451be744634a8b3889f449cad55.min.js" async></script>',
-                'default' => '<script src="//assets.adobedtm.com/launch-EN2cfbf54f3d8a4243b590278c8c6aa32e-development.min.js" async></script>'
-            ];
-
-			foreach ($scripts as $hostName => $script) {
-			    if ($hostName == 'default' || strpos($siteUrl, $hostName) !== FALSE) {
-                    echo $script;
-                    break;
-                }
+			if(strpos($siteUrl, 'tpd1') !== FALSE || strpos($siteUrl, 'localhost') !== FALSE) {
+		?>
+			<script src="//assets.adobedtm.com/launch-EN2cfbf54f3d8a4243b590278c8c6aa32e-development.min.js"></script>
+			<?php
+			} else if(strpos($siteUrl, 'tps1') !== FALSE) {
+		?>
+				<script src="//assets.adobedtm.com/launch-EN6f46b9a9181745c9b45662985c793fec-staging.min.js"></script>
+				<?php
+			} else {
+		?>
+					<script src="//assets.adobedtm.com/launch-EN31aa2451be744634a8b3889f449cad55.min.js"></script>
+					<?php
 			}
 		?>
-
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 	</head>
 
 	<body>
@@ -252,6 +246,7 @@
 			</header>
 			<div class='resort-submenu' id='submenu-desktop'></div>
 		<main id="mobileMenuPanel" class="panel">
+	
 			<?php include($template); ?>
 
 			<footer>
@@ -295,6 +290,68 @@
 				</div>
 			</div>
 		</div>
+
+        <div class="modal fade" id="share-modal" tabindex="-1" role="dialog" aria-labelledby="share-modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="modal-title">Share</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i aria-hidden="true" class="icon-cancel-circle"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-modal-top-btn">
+                            <div class="email-container-btn">
+                                <i class="icon-envelope"></i>
+                                <span>EMAIL</span>
+                            </div>
+                            <div class="text-container-btn">
+                                <i class="icon-bubble"></i>
+                                <span>TEXT</span>
+                            </div>
+                        </div>
+                        <form action="/activity.share" method="post" id="share-form">
+                            <input type="hidden" name="code" value="<?php echo $context->xpath("//code")[0]; ?>">
+							<input type="hidden" name="sharing_page" value="<?php echo the_ID(); ?>">
+                            <div class="form-group">
+                                <label for="share_to">To</label>
+                                <input type="email" name="email" class="form-control" id="share_to" value="" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="share_from">From</label>
+                                <input type="text" name="from" class="form-control" id="share_from" placeholder="Name">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" rows="5" id="share_message" placeholder="Message..."></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn send">SEND</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="map-modal" tabindex="-1" role="dialog" aria-labelledby="map-modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="image-container" style="position: relative;">
+                            <img class="img-map" src="">
+                            <img class="pin" src="/wp-content/plugins/mvcweb/assets/images/pin.png">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <i aria-hidden="true" class="icon-cancel-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 		<script type="text/javascript">
 			function toggleMenuSearch(obj, e) {
@@ -509,4 +566,4 @@
 	<?php } else {
 	include($template);
 }
-?>
+?>	

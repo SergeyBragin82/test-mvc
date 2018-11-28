@@ -1,4 +1,6 @@
 <?php
+$startMemory = 0;
+$startMemory = memory_get_usage();
 	require_once(dirname(__FILE__) . '/csv.php');
 	require_once('mihertz.php');
 
@@ -89,7 +91,7 @@ function parse_loc() {
 
 function copy_resales() {
 	// from user/resales to https://tpd1.www.marriottvacationclub.com/soa/rest/resales/grid.json
-	//copy("/user/resales/resales.csv", "/httpdocs/soa/rest/resales/grid.json");
+	copy("/user/resales/resales.csv", "/httpdocs/soa/rest/resales/grid.json");
 }
 
 function parse_osa() {
@@ -162,15 +164,15 @@ function parse_sct() {
 	}
 	
 
-//	if(strpos($_SERVER['SERVER_NAME'], 'localhost') === false){
-//		$experienceTypesData = json_decode(file_get_contents('/user/sct/Marketing_Website_SCT_Data_ExperienceTypes.json'));
-//		$experienceOptionsData = json_decode(file_get_contents('/user/sct/Marketing_Website_SCT_Data_ExperienceOptions.json'));
-//		$mapsData = json_decode(file_get_contents('/user/sct/Marketing_Website_SCT_Data_Maps.json'));
-//	} else {
+	if(strpos($_SERVER['SERVER_NAME'], 'localhost') === false){
+		$experienceTypesData = json_decode(file_get_contents('/user/sct/Marketing_Website_SCT_Data_ExperienceTypes.json'));
+		$experienceOptionsData = json_decode(file_get_contents('/user/sct/Marketing_Website_SCT_Data_ExperienceOptions.json'));
+		$mapsData = json_decode(file_get_contents('/user/sct/Marketing_Website_SCT_Data_Maps.json'));
+	} else {
 		$experienceTypesData = json_decode(file_get_contents($prefix . "/data/sct/Marketing_Website_SCT_Data_ExperienceTypes.json"));
 		$experienceOptionsData = json_decode(file_get_contents($prefix . "/data/sct/Marketing_Website_SCT_Data_ExperienceOptions.json"));
 		$mapsData = json_decode(file_get_contents($prefix . "/data/sct/Marketing_Website_SCT_Data_Maps.json"));
-//	}
+	}
 	
 	// Experience Types collection
 	$experiences = $experienceTypesData->ExperienceTypes;
@@ -395,8 +397,12 @@ function parse_pcm() {
 	$region_hash_to_use = array();
 
 	$resorts = $table_map['Resort']->xpath("Resort");
-	foreach($resorts as $resort) {
 
+	$resort_index = new SimpleXMLElement("<resorts/>");
+	foreach($resorts as $resort) {
+		$resort_index_entry = $resort_index->addChild("resort");
+		$resort_index_entry[0] = $resort->xpath("name")[0];
+		$resort_index_entry->addAttribute("code", $resort->xpath("code")[0]);
 		// generate permalink *** TODO : change this to be PCM driven or from another hardcoded data source as it cannot be generated algorithmically **
 		$permalinkGenerated = strtolower($resort->xpath("marshaHotelCode")[0] . "-" . str_replace("--", "-", preg_replace('/[^A-Za-z0-9\-]|(sm)|(SM)/', '', str_replace(" ", "-", str_replace(" - ", "-", $resort->xpath("altName")[0])))));
 		$resort->addChild('permalink', $permalinkGenerated);
@@ -536,10 +542,20 @@ function parse_pcm() {
 
 			// activities
 			$resort_activities = $osadata->xpath("//Row[code='" . $resort->xpath("code")[0] . "']");
-			$osa_node = $resort->addChild("OSARowCollection");
+			$osa_node = new SimpleXMLElement("<OSARowCollection/>");
 			foreach($resort_activities as $resort_activity) {
+				$resort_activity->addAttribute("id", guidv4());
 				sxml_append($osa_node, $resort_activity, false);
 			}
+
+			$osa_option = "MVC_OSA_" . $resort->xpath("code")[0];
+			if(!get_option($osa_option)) {
+				update_option($osa_option, $osa_node->asXML());
+			}
+
+			// nuke the option
+			$empty_xml = new SimpleXMLElement("<OSARowCollection/>");
+			update_option($osa_option, $empty_xml->asXML());
 
 			// workaround for broken data on some resort accommodation pages
 			$villaCollection = $resort->xpath('.//VilaOptions');
@@ -610,6 +626,21 @@ function parse_pcm() {
 			delete_node($resort);
 		}
 	}
+
+	// create template resorts 
+	function create_template_resort($resort_index, $code, $title) {
+		$return_resort = $resort_index->addChild("resort");
+		$return_resort->addAttribute("code", $code);
+		$return_resort[0] = $title;
+		$empty_xml = new SimpleXMLElement("<OSARowCollection/>");
+		update_option("MVC_OSA_" . $code, $empty_xml->asXML());
+		return $return_resort;
+	}
+
+	create_template_resort($resort_index, "admin", "Activity Template Administration");
+
+	echo "RI: " . htmlspecialchars($resort_index->asXML());
+	update_option("MVC_RESORTS_INDEX", $resort_index->asXML());
 
 	// Construct Regions
 	$regions = $output->addChild("Regions");
@@ -691,6 +722,8 @@ function perform_publish() {
 	foreach($pages as $page) {
 	    wp_delete_post($page->ID, true);
 	}
+        
+        unset($pages);
 
 	$parse_config_data = simplexml_load_file($prefix . "/data/mvcweb.xml");
 	$configParams = $parse_config_data->xpath('//config_params')[0];
@@ -754,7 +787,7 @@ function perform_publish() {
 		echo get_permalink(get_post($e)) . "<BR>";
 	}
 	update_option("MVC_SEARCH_EXCLUDE", implode(",", $search_excludes));
-
+echo (memory_get_usage() - $startMemory) . ' bytes' . PHP_EOL;
 }
 
 function parse_static($static_imports, &$search_excludes) {
@@ -861,15 +894,16 @@ function mvc_add_interest(&$collection, $code, $text) {
 
 function generate_page($metadata, $page_data = NULL, $search_excludes = NULL) {
 	global $parse_config_data;
-	
 
-	if(count($metadata->xpath("@data_filter"))>0 && $metadata->xpath("@data_filter")[0] !=='') {
+	if(count($metadata->xpath("@data_filter")) > 0 && $metadata->xpath("@data_filter")[0] !== '') {
 		$filter_function = (string)$metadata->xpath("@data_filter")[0];
 		echo $filter_function . "!<BR>";
 	} else if (count($metadata->xpath("@resort_filter")) > 0 && $metadata->xpath("@resort_filter")[0] !== '') {
 		$resort_filter = (string)$metadata->xpath("@resort_filter")[0];
 	}
+
 	$page_xml = new SimpleXMLElement("<mvcweb/>");
+
 	if ($filter_function && $filter_function != '') {
 		echo "filter function: " . $filter_function . "<BR>";
 		$page_xml = call_user_func_array($filter_function, [$page_data, $metadata, &$search_excludes]);
@@ -1055,8 +1089,41 @@ function mvc_resorts_generate($page_data, $metadata = NULL, &$search_excludes) {
 			if ($ebrochure) {
 				mvc_add_search_exclude($page_id);
 			}
+
+			/*Create subpages in per_resort_pages*/
+			foreach ($resort_page_template->xpath("page") as $sub_page_template) {
+                resort_pages_generate_sub_page($resort, $page_id, $sub_page_template, $subtitle, $search_excludes);
+			}
 		}
 	}
+}
+
+function resort_pages_generate_sub_page($resort, $resort_landing_id, $resort_page_template, $resort_page_title, $search_excludes) {
+    $subtitle = (string)$resort_page_template->xpath("@subtitle")[0];
+    // This is the same string but without html tags
+    $resortAltName = (string)$resort->xpath("altName")[0];
+
+    $resort_page = new SimpleXMLElement("<page/>");
+
+	/*----Add code of resort to page for /vacation-resorts/[name]/activities/json----*/
+    if (count($resort_page_template->xpath("@resort_activities_filter")) > 0 && $resort_page_template->xpath("@resort_activities_filter")[0] !== '') {
+        $code = (string)$resort->xpath("code")[0];
+        $resort_page->addAttribute("code", $code);
+    }
+
+    $resort_page->addAttribute("permalink", (string)$resort_page_template->xpath("@permalink")[0]);
+
+    if ($subtitle!="") {
+        $resort_page->addAttribute("title", $resortAltName . " - " . $resort_page_title . " - " . $subtitle);
+    }
+
+    $resort_page->addAttribute("ebrochure_mode", (string)$resort_page_template->xpath("@ebrochure_mode")[0]);
+    $resort_page->addAttribute("template", (string)$resort_page_template->xpath("@template")[0]);
+    $resort_page->addAttribute("excerpt", (string)$resort->xpath("description")[0]);
+    $resort_page->addAttribute("skip_theme", (string)$resort_page_template->xpath("@skip_theme")[0]);
+    $resort_page->addAttribute("mime_type", (string)$resort_page_template->xpath("@mime_type")[0]);
+    $resort_page["parent_page_id"] = $resort_landing_id;
+    $page_id = generate_page($resort_page, $resort_page, $search_excludes);
 }
 
 function mvc_ebrochures_generate($page_data, $metadata = NULL, &$search_excludes) {
