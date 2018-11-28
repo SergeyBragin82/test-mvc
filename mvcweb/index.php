@@ -1,3 +1,0 @@
-<?php
-# No-op file
-?>
