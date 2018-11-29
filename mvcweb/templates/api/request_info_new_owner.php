@@ -136,8 +136,8 @@ $(function() {
 			$('.cover-picture-container').append($('<img>').addClass('content').on('load', function() {
 					$(this).fadeIn();
 				}).attr({
-					src: <?php echo json_encode($GLOBALS['img_path'] . '201810/41286/KoOlina02__1200x900.jpg');?>,
-					alt: 'View of Marriott\'s Ko Olina Beach Club.'
+					src: <?php echo json_encode($GLOBALS['img_path'] . '201809/NewportCoastVillas02_1200x900.jpg');?>,
+					alt: 'View of the main pool at Marriott\'s Newport Coast Villas in Newport Coast, California.'
 			}));
 		}
 		$zipCodeInfoForm.blur(function() {
@@ -269,8 +269,8 @@ var checkFieldsFirstStep = function() {
 			$('.cover-picture-container').append($('<img>').addClass('content').on('load', function() {
 				$(this).fadeIn();
 			}).attr({
-				src: <?php echo json_encode($GLOBALS['img_path'] . '201810/41286/KoOlina02__1200x900.jpg');?>,
-				alt: 'View of Marriott\'s Ko Olina Beach Club.'
+				src: <?php echo json_encode($GLOBALS['img_path'] . '201809/NewportCoastVillas02_1200x900.jpg');?>,
+				alt: 'View of the main pool at Marriott\'s Newport Coast Villas in Newport Coast, California.'
 			}));
 		}
 		firstStepForm.hide();
@@ -287,8 +287,8 @@ var checkFieldsFirstStep = function() {
 				$('.cover-picture-container').append($('<img>').addClass('content').on('load', function() {
 					$(this).fadeIn();
 				}).attr({
-					src: <?php echo json_encode($GLOBALS['img_path'] . '201810/41286/WaiohaiBeachClub02_1200x900.jpg');?>,
-					alt: 'View of Marriott\'s Ko Olina Beach Club.'
+					src: <?php echo json_encode($GLOBALS['img_path'] . '201809/GrandeVista01_1200x900.jpg');?>,
+					alt: 'View of the main pool at Marriott\'s Grande Vista, Orlando, Florida.'
 				}));
 				clearPromoFormStore();
 			}
@@ -345,13 +345,6 @@ var checkFieldsFirstStep = function() {
 
 	initialize();
 	manageStep();
-
-	// ENTER key triggers NEXT
-	$(document).keypress(function(event){
-	    if(event.keyCode == 13) { 
-	    	$("#infoFormButton").click();
-	    }
-	});
 });
 
 </script>

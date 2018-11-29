@@ -3,7 +3,7 @@
 	$heroTitle = "A World of Amazing New Opportunities Awaits";
 	$heroContent = array(
 		0 => new HeroContent(array(
-			"contentParagraph" => "<p>Marriott Vacations Worldwide<sup>SM</sup>, with its three outstanding brands, Marriott Vacation Club<sup>&reg;</sup>, The Ritz-Carlton Destination Club<sup>&reg;</sup> and Grand Residences by Marriott<sup>SM</sup>, has recently acquired ILG, the parent company of the developer and operator of Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club and St. Regis<sup>&reg;</sup> Residence Club.</p><br /><p>This is an exciting time as we grow our brands, and we want to share this excitement by offering expanded opportunities to our valued Members.</p>"
+			"contentParagraph" => "<p>Marriott Vacations Worldwide<sup>SM</sup>, with its three outstanding brands, Marriott Vacation Club<sup>&reg;</sup>, The Ritz-Carlton Destination Club<sup>&reg;</sup> and Grand Residences by Marriott<sup>SM</sup>, has recently acquired ILG, the parent company of the developer and operator of Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club and St. Regis Residence Club.</p><br /><p>This is an exciting time as we grow our brands, and we want to share this excitement by offering expanded opportunities to our valued Members.</p>"
 		))
 	);
 	echo heroElementTemplate($heroTitle, "inspiration/ILGMVC-Autstralia_Victoria_GreatOceanRoad_12Apostles.jpg", "Vacation Your Way", $heroContent);
@@ -111,10 +111,10 @@ display: inline-block;
 				<div class='row'>
 					<div class="col-xl-3" style="padding-right:10px;">
 						<div class="item">
-							<h3 class='header'>Enjoy Elevated Marriott Rewards Status</h3>
+							<h3 class='header'>Enjoy Elevated Marriott Rewards<sup>&reg;</sup> Status</h3>
 						</div>
 						<div class="description">
-							<p>As a Member of Marriott Vacation Club Destinations<sup>&reg;</sup> Exchange Program, at the Select, Executive, Presidential or Chairman's Club benefit level, your Elite status in the Marriott Rewards<sup>&reg;</sup> program is now upgraded.  So, with our expansion, Members with Marriott Rewards Gold Elite status will be elevated to Platinum Elite status, and Members with Platinum Elite status will be elevated to Platinum Premier Elite status. </p> 
+							<p>As a Member of Marriott Vacation Club Destinations Exchange Program, at the Select, Executive, Presidential or Chairman's Club benefit level, your Elite status in the Marriott Rewards program is now upgraded.  So, with our expansion, Members with Marriott Rewards Gold Elite status will be elevated to Platinum Elite status, and Members with Platinum Elite status will be elevated to Platinum Premier Elite status. </p> 
 						</div>
 						<div class="description">
 							<p>In addition, Members of Marriott Vacation Club Destinations Exchange Program currently at the Owner benefit level will be upgraded to Gold Elite status in February, 2019.    The benefits just got better, and with your new status, you'll enjoy these outstanding features:<sup class="note" style="font-size:10px;color:#343a40;">1</sup></p>
@@ -228,7 +228,7 @@ display: inline-block;
 									Discover New Brands and Destinations Worldwide Through Marriott Rewards
 								</h3>
 								<div class='description'>
-									Previously, Marriott Rewards points earned from your Marriott Vacation Club ownership were only eligible to use at Marriott<sup>&reg;</sup> branded hotels.  Now you'll have opportunities to use your Marriott Rewards points at more than 6,500 hotels, across 29 unique brands where you'll enjoy elevated Elite benefits and status recognition.<sup class="note" style="font-size:10px;color:#343a40;">2</sup>  Consider all of the places your elevated status can take you:  exciting destinations at hotels under The Ritz-Carlton, St. Regis, Marriott and Starwood brands.
+									Previously, Marriott Rewards points earned from your Marriott Vacation Club ownership were only eligible to use at Marriott<sup>&reg;</sup> branded hotels.  Now you'll have opportunities to use your Marriott Rewards points at more than 6,500 hotels, across 29 unique brands where you'll enjoy elevated Elite benefits and status recognition.<sup class="note" style="font-size:10px;color:#343a40;">2</sup>  Consider all of the places your elevated status can take you:  exciting destinations at hotels under The Ritz-Carlton<sup>&reg;</sup>, St. Regis, Marriott and Starwood brands.
 								</div>
 								
 								<br />
@@ -241,7 +241,7 @@ display: inline-block;
 									Save 25% on Rental Stays
 								</h3>
 								<div class='description'>
-									You currently receive a villa rental discount exclusively at Marriott Vacation Club resorts. Now, with the unification of Marriott Vacations Worldwide and ILG, you will also receive the current 25% villa rental discount at all available Westin Vacation Club and Sheraton Vacation Club locations, subject to terms and conditions.<sup>3</sup>
+									You currently receive a villa rental discount exclusively at Marriott Vacation Club resorts. Now, with the unification of Marriott Vacations Worldwide and ILG, you will also receive the current 25% villa rental discount at all available Westin<sup>&reg;</sup> Vacation Club and Sheraton<sup>&reg;</sup> Vacation Club locations, subject to terms and conditions.<sup>3</sup>
 								</div>
 								<br />
 								<div class="note" style="font-size:10px;color:#343a40;">
@@ -294,7 +294,7 @@ display: inline-block;
                         <div id="collapse36" class="faq-panel panel-collapse collapse" role="tabpanel" aria-labelledby="heading36" data-parent="#terms">
                             <div class="card-body rgba-black-light white-text z-depth-1">
 							
-								<p><strong>Owner Rental Discount:</strong> Rental discounts in the amount of 25% off the available nightly rental rate at Marriott Vacation Club, Sheraton Vacation Club and Westin Vacation Club resorts are only available to Owners and Members of the Marriott Vacation Club, Sheraton Vacation Club, Westin Vacation Club, Grand Residences by Marriott, The Ritz-Carlton Club, and St. Regis Residence Club, subject to availability.  Owner must be present at check-in and there is a limit of two villas per Owner per night.  Discount may be greater for Marriott Vacation Club Owners at Marriott Vacation Club resorts based on Owner benefit level.  Only one discount may be applied per reservation.  Offer may be modified or terminated at any time.</p>
+								<p><strong>Owner Rental Discount:</strong> Rental discounts in the amount of 25% off the available nightly rental rate at Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts are only available to Owners and Members of the Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club, Grand Residences by Marriott, The Ritz-Carlton Club, and St. Regis Residence Club, subject to availability.  Owner must be present at check-in and there is a limit of two villas per Owner per night.  Discount may be greater for Marriott Vacation Club Owners at Marriott Vacation Club resorts based on Owner benefit level.  Only one discount may be applied per reservation.  Offer may be modified or terminated at any time.</p>
                             </div>
                         </div>
 					</div>
@@ -321,7 +321,7 @@ display: inline-block;
 									Get More Savings on Vacation
 								</h3>
 								<div class='description'>
-									Another added value to your vacation ownership is certain exclusive food, beverage, and activity discounts and specials you receive while staying at participating Marriott Vacation Club resorts.  This benefit is expanding for you to now enjoy also at participating Sheraton Vacation Club and Westin Vacation Club locations, subject to terms and conditions.
+									Another added value to your vacation ownership is certain exclusive food, beverage, and activity discounts and specials you receive while staying at participating Marriott Vacation Club resorts.  This benefit is expanding for you to now enjoy also at participating Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club locations, subject to terms and conditions.
 								</div>
 							</div>
 						
@@ -343,7 +343,7 @@ display: inline-block;
                         <div id="collapse37" class="faq-panel panel-collapse collapse" role="tabpanel" aria-labelledby="heading37" data-parent="#terms">
                             <div class="card-body rgba-black-light white-text z-depth-1">
 							
-                                <p><strong>On-site Discounts:</strong> Discounts for Owners and Members of Marriott Vacation Club, Sheraton Vacation Club, Westin Vacation Club, Grand Residences by Marriott<sup>&reg;</sup>, The Ritz-Carlton Club and St. Regis Residence Club interests are available at participating outlets of select Marriott Vacation Club, Sheraton Vacation Club and Westin Vacation Club resorts. Discounts vary by site, are not guaranteed and may be modified or terminated at any time. Owners should check to see what discounts may be available at the time of check-in.</p>
+                                <p><strong>On-site Discounts:</strong> Discounts for Owners and Members of Marriott Vacation Club<sup>&reg;</sup>, Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club, Grand Residences by Marriott<sup>&reg;</sup>, The Ritz-Carlton Club<sup>&reg;</sup> and St. Regis Residence Club interests are available at participating outlets of select Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts. Discounts vary by site, are not guaranteed and may be modified or terminated at any time. Owners should check to see what discounts may be available at the time of check-in.</p>
 
                             </div>
                         </div>
@@ -402,24 +402,24 @@ display: inline-block;
 				</div><br />
 								
 				<h6>WHAT IS THE STATUS OF THE ACQUISITION OF ILG?</h6>
-				<p>Marriott Vacations Worldwide<sup>SM</sup> (MVW) has acquired ILG in a cash and stock transaction with an implied equity value of approximately $4.7 billion as of the announcement date of April 30, 2018. The acquisition will create a leading global provider of premier vacation experiences.</p>
+				<p>Marriott Vacations Worldwide (MVW) has acquired ILG in a cash and stock transaction with an implied equity value of approximately $4.7 billion as of the announcement date of April 30, 2018. The acquisition will create a leading global provider of premier vacation experiences.</p>
   
 				<h6>WHO IS ILG?</h6>
 				<p>ILG is a leading provider of premier vacation experiences with over 40 properties and more than 250,000 owners in its Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club and other vacation ownership portfolios. ILG also has exchange networks comprising nearly two million members and over 3,200 resorts worldwide, including our longstanding exchange partner, Interval International<sup>&reg;</sup>.</p>
   
 				<h6>WHY DID MVW ACQUIRE ILG?</h6>
-				<p>This transaction has brought together two industry-leading companies with properties in some of the most highly demanded vacation destinations, including popular vacation locations in Mexico and the Caribbean. With this acquisition, MVW now has over 100 vacation properties and more than 20,000 vacation ownership units around the world. We will also be the global licensee of seven upper-upscale and luxury vacation brands including Marriott Vacation Club<sup>&reg;</sup>, Grand Residences by Marriott<sup>SM</sup>, The Ritz-Carlton Destination Club<sup>&reg;</sup>, Sheraton Vacation Club, Westin Vacation Club and St. Regis<sup>&reg;</sup> Residence Club.</p>
+				<p>This transaction has brought together two industry-leading companies with properties in some of the most highly demanded vacation destinations, including popular vacation locations in Mexico and the Caribbean. With this acquisition, MVW now has over 100 vacation properties and more than 20,000 vacation ownership units around the world. We will also be the global licensee of seven upper-upscale and luxury vacation brands including Marriott Vacation Club<sup>&reg;</sup>, Grand Residences by Marriott<sup>SM</sup>, The Ritz-Carlton Destination Club<sup>&reg;</sup>, Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club and St. Regis Residence Club.</p>
 				
 				<h6>WILL THERE BE ANY CHANGES TO THE PRODUCT I CURRENTLY OWN OR PRICING?</h6>
 				<p>We do not currently expect this transaction to result in any material changes to our products or pricing. With that said, it is early in the process and there are still many decisions to be made.</p>
   
-				<h6>WILL I BE ABLE TO USE MY OWNERSHIP TO DIRECTLY RESERVE A VACATION AT Sheraton Vacation Club OR Westin Vacation Club RESORTS?</h6>
+				<h6>WILL I BE ABLE TO USE MY OWNERSHIP TO DIRECTLY RESERVE A VACATION AT Sheraton<sup>&reg;</sup> Vacation Club OR Westin<sup>&reg;</sup> Vacation Club RESORTS?</h6>
 				<p>At this time, there will be no changes in MVW’s programs or products; however, we will continue to evaluate what, if any, additional benefits and services could potentially be made available in the future from our newly combined company.</p>
-				<p>Of course, Owners and Members of Marriott Vacation Club, Marriott’s Grand Residences, Sheraton Vacation Club and Westin Vacation Club will continue to have access to the recently combined Marriott Rewards<sup>&reg;</sup>, Starwood Preferred Guest<sup>&reg;</sup> and The Ritz-Carlton Rewards loyalty programs. In addition, Owners and Members may still be eligible to stay across brands with a membership and exchange through Interval International.</p>
+				<p>Of course, Owners and Members of Marriott Vacation Club, Marriott’s Grand Residences, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club will continue to have access to the recently combined Marriott Rewards, Starwood Preferred Guest and The Ritz-Carlton Rewards loyalty programs. In addition, Owners and Members may still be eligible to stay across brands with a membership and exchange through Interval International.</p>
 				<p>We will provide additional relevant information as decisions are made.</p>
 
 				<h6>ARE THERE ANY OTHER POTENTIAL IMPACTS TO MY OWNERSHIP AS A RESULT OF THE ACQUISITION OF ILG?</h6>
-				<p>We are pleased to announce that Owners and Members will experience some immediate advantages with their ownership, which include upgraded Marriott Rewards and Ritz-Carlton Rewards benefits for eligible Owners and Members, new rental discounts at Sheraton Vacation Club and Westin Vacation Club properties and select on-site resort discounts. </p>
+				<p>We are pleased to announce that Owners and Members will experience some immediate advantages with their ownership, which include upgraded Marriott Rewards and Ritz-Carlton Rewards benefits for eligible Owners and Members, new rental discounts at Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club properties and select on-site resort discounts. </p>
 							</div>
                         </div>
 					</div>
@@ -428,7 +428,7 @@ display: inline-block;
                         <div class="card-header" role="tab" id="heading31">
                             <a data-toggle="collapse" data-parent="#upgradedbenefits" href="#collapse31" aria-expanded="true" aria-controls="collapse31">
                                 
-                                    Marriott Rewards Upgraded Benefits
+                                    Marriott Rewards<sup>&reg;</sup> Upgraded Benefits
                             </a>
                         </div>
 
@@ -450,7 +450,7 @@ display: inline-block;
 				</p>
 				
 				<h6>I AM A WEEK(S) OWNER OR MEMBER WITHOUT AN OWNER BENEFIT LEVEL. WILL I RECEIVE A MARRIOTT REWARDS UPGRADE?</h6>
-				<p>The Marriott Rewards upgrade is being provided to those Owners and Members who own Vacation Club Points or who have enrolled in the Marriott Vacation Club Destinations<sup>&reg;</sup> Exchange Program. If you have not enrolled, you might consider enrolling to receive this additional benefit. You can learn more about the benefits of enrolling when you visit our Enrollment webpage <a href="https://owners.marriottvacationclub.com/timeshare/mvco/enroll">here</a>. </p>
+				<p>The Marriott Rewards upgrade is being provided to those Owners and Members who own Vacation Club Points or who have enrolled in the Marriott Vacation Club Destinations Exchange Program. If you have not enrolled, you might consider enrolling to receive this additional benefit. You can learn more about the benefits of enrolling when you visit our Enrollment webpage <a href="https://owners.marriottvacationclub.com/timeshare/mvco/enroll">here</a>. </p>
 				
 				<h6>I HAVE AN OWNER BENEFIT LEVEL OF OWNER. WHEN WILL I RECEIVE MY NEW GOLD ELITE MEMBERSHIP?</h6>
 				<p>We anticipate this to take place in February of 2019.</p>
@@ -495,10 +495,10 @@ display: inline-block;
 				<br />
 				
 				<h6>WILL THERE BE ANY CHANGES TO RENTAL DISCOUNTS AT VACATION OWNERSHIP RESORTS?</h6>
-				<p>Yes. You will now receive the current 25% rental discount at Sheraton Vacation Club and Westin Vacation Club (as well as Marriott Vacation Club) properties based on availability, subject to terms and conditions. </p>
+				<p>Yes. You will now receive the current 25% rental discount at Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club (as well as Marriott Vacation Club) properties based on availability, subject to terms and conditions. </p>
 				
 				<h6>HOW DOES THIS DISCOUNT IMPACT THOSE WITH OWNER BENEFIT LEVELS OF EXECUTIVE, PRESIDENTIAL OR CHAIRMAN’S CLUB?</h6>
-				<p>The current rental discount will remain the same at Marriott Vacation Club resorts. The rental discount for all Owners and Members is currently 25% at Sheraton Vacation Club and Westin Vacation Club resorts, subject to terms and conditions.
+				<p>The current rental discount will remain the same at Marriott Vacation Club resorts. The rental discount for all Owners and Members is currently 25% at Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts, subject to terms and conditions.
 </p>
 				
 				<h6>HOW WILL THIS DISCOUNT BE APPLIED TO A RENTAL RESERVATION?</h6>
@@ -508,12 +508,12 @@ display: inline-block;
 										<li>Type in your desired Destination</span></li>
 										<li>Choose your desired travel dates</span></li>
 										<li>Select Corporate/Promo from the Special Rates dropdown menu</span></li>
-										<li>Use code: 14974 (Use for Westin Vacation Club and Sheraton Vacation Club)</li>
+										<li>Use code: 14974 (Use for Westin<sup>&reg;</sup> Vacation Club and Sheraton<sup>&reg;</sup> Vacation Club)</li>
 										<li>Click Find Hotels</li>
 									</ol>
 				
 				<h6>ARE THERE ANY RESTRICTIONS ASSOCIATED WITH THIS OFFER?</h6>
-				<p>While there is currently no time limit on this rental discount, there are a few restrictions. Rental discounts at Marriott Vacation Club, Sheraton Vacation Club and Westin Vacation Club resorts are limited to two villas per Owner or Member per night. Also, the Owner or Member must be a member of the travel party checking in to receive the rental discount. Rental accommodations are subject to availability. This rental discount may be modified or terminated at any time; however, any previously confirmed reservations will be honored at the discounted rate. Only one discount may be applied per reservation. </p>
+				<p>While there is currently no time limit on this rental discount, there are a few restrictions. Rental discounts at Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts are limited to two villas per Owner or Member per night. Also, the Owner or Member must be a member of the travel party checking in to receive the rental discount. Rental accommodations are subject to availability. This rental discount may be modified or terminated at any time; however, any previously confirmed reservations will be honored at the discounted rate. Only one discount may be applied per reservation. </p>
 				
                             </div>
                         </div>
@@ -535,16 +535,16 @@ display: inline-block;
 				</div><br />
 				
 				<h6>WILL THE RESORT DISCOUNTS I CURRENTLY ENJOY CHANGE DUE TO THIS ACQUISITION?</h6>
-				<p>The discounts are now being expanded. Marriott Vacation Club, The Ritz-Carlton Destination Club and Grand Residences by Marriott Owners and Members staying at Sheraton Vacation Club and Westin Vacation Club resorts will now receive certain site-based Owner and Member discounts at participating properties, subject to terms and conditions. </p>
+				<p>The discounts are now being expanded. Marriott Vacation Club, The Ritz-Carlton Destination Club and Grand Residences by Marriott Owners and Members staying at Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts will now receive certain site-based Owner and Member discounts at participating properties, subject to terms and conditions. </p>
 				
 				<h6>IS THERE AN EXPIRATION DATE TO THIS BENEFIT?</h6>
 				<p>There is currently no time limit placed on these discounts; however, discounts will vary by resort and may be terminated or changed at any time.</p>
 				
 				<h6>DOES THIS DISCOUNT APPLY TO ME WHEN I RENT A VILLA ACROSS BRANDS?</h6>
-				<p>Applicable resort discounts are available to Owners and Members staying on-site, at participating Marriott Vacation Club, Westin Vacation Club and Sheraton Vacation Club locations regardless of whether they are renting or using their Ownership/Membership rights.</p>
+				<p>Applicable resort discounts are available to Owners and Members staying on-site, at participating Marriott Vacation Club, Westin<sup>&reg;</sup> Vacation Club and Sheraton<sup>&reg;</sup> Vacation Club locations regardless of whether they are renting or using their Ownership/Membership rights.</p>
 				
 				<h6>HOW CAN I GET THIS DISCOUNT?</h6>
-				<p>When you check in at a Marriott Vacation Club, Sheraton Vacation Club or Westin Vacation Club resort, just inquire at the front desk to see what discounts are available and how to redeem them.</p>
+				<p>When you check in at a Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club or Westin<sup>&reg;</sup> Vacation Club resort, just inquire at the front desk to see what discounts are available and how to redeem them.</p>
 				
 				<h6>WHEN WILL THE DISCOUNTS GO INTO EFFECT? </h6>
 				<p>Both the rental and on-site discounts will begin with check-ins starting September 7, 2018.</p>

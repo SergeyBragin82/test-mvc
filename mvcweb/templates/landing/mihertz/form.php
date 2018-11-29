@@ -7,9 +7,9 @@ include("mobile_detect.php");
 <div>
 <div class="header-desktop">
 	<div class="form-header">
-	      <a href="/landing/cc/offers?loc=<?php echo $loc_set;?>"><img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/marriott_logo_dark.svg" alt="Marriott_logo"></a>
+	      <a href="/landing/cc/offers?loc=<?php echo $loc_set;?>"><img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/marriott_logo_dark.svg"></a>
 	      <a href="javascript:void();" data-toggle="sidebar">
-	      		<img  width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/darkburger.svg" alt="hamburger">
+	      		<img  width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/darkburger.svg">
 	  		</a>
 	  	</div>
 	  	<div class="dark-grey-bg desktop-divider"></div>
@@ -17,16 +17,16 @@ include("mobile_detect.php");
 	  <div class="header-mobile">
 	  	<div class="p-2">
 	  		<a href="/landing/cc/offers?loc=<?php echo $loc_set;?>">
-	  	<img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg" alt="Marriott_logo"></a>
+	  	<img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg"></a>
 	      <a href="javascript:void();" data-toggle="sidebar">
-	      		<img width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/hamburger.svg" alt="hamburger">
+	      		<img width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/hamburger.svg">
 	  		</a>
 	  	</div>
 
 	  </div>
 	</div>
 <?php
-include(dirname(__DIR__) . '/../partials/carousel_widget.php');
+//include(dirname(__DIR__) . '/../partials/carousel_widget.php');
 include(dirname(__DIR__) . '/../partials/resort-common.php');
 	$carouselImages = array();
 	$mobile = new Mobile_Detect();
@@ -58,6 +58,7 @@ include(dirname(__DIR__) . '/../partials/resort-common.php');
     <h2><?php echo $context->xpath("//Resort/ResortAddress/city")[0] . ", " . $context->xpath("//Resort/ResortAddress/state")[0];?></h2>
 	<?php } ?>
   </div>
+<!-- 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	  	<?php foreach($carouselImages as $idx => $image) {?>
@@ -80,11 +81,12 @@ include(dirname(__DIR__) . '/../partials/resort-common.php');
     </span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true">
+    <span class="carousel-control-next-icon" style="right: 0%; position: absolute;" aria-hidden="true">
     	<i class="fg fa fa-chevron-right"></i>
     </span>
   </a>
 </div>
+ -->
 <?php $map_key = get_param("GOOGLE_MAPS_API_KEY"); ?>
 <script src="https://maps.googleapis.com/maps/api/js?key=<?php print $map_key; ?>"></script>
 <script type="text/javascript">
@@ -112,11 +114,8 @@ include(dirname(__DIR__) . '/../partials/resort-common.php');
 						$("#city").val(component['long_name']);
 					} else if (component.types.indexOf('sublocality') >= 0) {
 						$("#city").val(component['long_name']);
-					} else if (component.types.indexOf('neighborhood')>=0) {
-						$("#city").val(component['long_name']);
 					}
-					
-					if (component.types.indexOf('administrative_area_level_1') >= 0) {
+					else if (component.types.indexOf('administrative_area_level_1') >= 0) {
 						$("#state").val(component['short_name']);
 					}
 				});
@@ -153,29 +152,24 @@ include(dirname(__DIR__) . '/../partials/resort-common.php');
 </script>
 <div class="w-100 resortheader1 mt-3">
     <div class="row mx-0">
-    <div class="col d-flex light-grey-bg resortdcopy-container p-4 mt-0">
-      <div class="align-self-center resortdcopy mx-auto mr-3">
-	      <h4 class="teal-fg">4 DAYS, 3 NIGHTS</h4>
-	      <?php if ($context->xpath("//resort/location")[0]) {?>
-	<h1>In <?php echo $context->xpath("//resort/location")[0]; ?></h1>
-	<?php } else { ?>
-    <h1>In <?php echo $context->xpath("//Resort/ResortAddress/city")[0] . ", " . $context->xpath("//Resort/ResortAddress/state")[0];?></h1>
-	<?php } ?>
-</div>
+    <div class="col d-flex light-grey-bg resortdcopy-container p-2 mt-0">
+		<div class="resortdcopy mx-auto mr-3 d-flex align-items-center">
+			<h3 class="teal-fg mb-0">4&nbsp;DAYS,&nbsp;3&nbsp;NIGHTS &nbsp; NOW&nbsp;</h3><span class="teal-fg price-large"><?php echo $context->xpath("//price")[0];?></span>
+		</div>
   	</div>
-    <div class="col d-flex light-grey-bg p-4 ml-3 mt-0">
-      <div class="align-self-center resortdprice mx-auto">
+    <!-- <div class="col d-flex light-grey-bg p-4 ml-3 mt-0">
+		<div class="align-self-center resortdprice mx-auto">
 	      <h5 class="mb-0">FROM</h5>
 	      <h2 class="teal-fg price-large"><?php echo $context->xpath("//price")[0];?><?php if ($context->xpath("//resort/legal")[0]) {?>*<?php } ?></h2>
 	      <?php if ($context->xpath("//resort/legal")[0]) {?>
 				<h6 class="belowmoneycopy"><?php echo $context->xpath("//resort/legal")[0];?></h6>
 	      <?php }?> 
-    </div>
-  </div>
+		</div>
+  </div> -->
 </div>
 </div>
-<div class="tealdiv my-3"></div>
-<div class="choice-container">
+<div class="tealdiv mb-3 mt-0"></div>
+<div class="choice-container white-bg">
 <div class="container">
 <div class="row">
 	<div class="col-lg d-flex" >
@@ -205,7 +199,7 @@ include(dirname(__DIR__) . '/../partials/resort-common.php');
 	<div class="col-lg">
 <div class="flexdates mt-3 p-2">
 	<h3 class="flexdatesheader ">FLEXIBLE TRAVEL DATES.</h3>
-	<p>When you submit the form, a Vacation Specialist will contact you to help you purchase your vacation package and reserve the perfect dates for your vacation.</p>
+	<p>When you submit the form, a vacation specialist will contact you to help you purchase your vacation package and reserve the perfect dates for your vacation.</p>
 </div>
 <?php if ($_GET["form"]=="thankyou") {
 ?>
@@ -229,6 +223,7 @@ Thank You, we’ve received all your information and we’ll be in contact with 
 					Please provide a Last Name.
 			</div>
 		</div>
+        <br/>
 	</div>
 		<div class="form-group">
 		 <input type="text" class="form-control" name="PHONE" id="phoneInfoForm" aria-describedby="phoneNumber" placeholder="Phone" required>
@@ -265,7 +260,12 @@ Thank You, we’ve received all your information and we’ll be in contact with 
 </form>
 <?php } ?>
 </div></div></div></div>
-<div class="teal-bg mb-3 desktop-divider"></div>
+<div class="teal-bg tealdiv my-0 desktop-divider"></div>
+<?php if ( !empty( @$carouselImages[0] ) ): ?>
+<div class="offer-image">
+	<img class="prlx-img" src="<?php echo $carouselImages[0]->imgPath; ?>"/>
+</div>
+<?php endif; ?>
 <div class="light-grey-bg text-center py-5">
 	<?php
 		$resortorhotel = $context->xpath("//ishotel")[0]=="true" ? "HOTEL" : "RESORT";
@@ -274,7 +274,12 @@ Thank You, we’ve received all your information and we’ll be in contact with 
 	<div class="flavor-crystal teal-bg mx-auto my-3"></div>
 	<p class="about-resort mx-auto kessel"><?php echo $context->xpath("//about")[0];?></p>
 </div>
-<div class="pt-5 text-center">
+<?php if ( !empty( @$carouselImages[1] ) ): ?>
+<div class="offer-image" style="z-index:-2;">
+	<img class="prlx-img" src="<?php echo $carouselImages[1]->imgPath; ?>"/>
+</div>
+<?php endif; ?>
+<div class="pt-5 text-center white-bg">
 	<h2 class="attraction-header baskerville" id="attractions">AREA ATTRACTIONS</h2>
 	<div class="flavor-crystal teal-bg mx-auto my-3"></div>
 	<div class="about-resort mx-auto mt-4">
@@ -291,9 +296,7 @@ Thank You, we’ve received all your information and we’ll be in contact with 
 		?>
 	</div>
 </div>
-<div class="pt-0 pb-0 px-5 mx-3 cc-quote">
-	<?php echo tripAdvisorQuote2(); ?>
-</div>
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		_satellite.track('form start');
@@ -312,7 +315,53 @@ Thank You, we’ve received all your information and we’ll be in contact with 
 		    return false; // return false to cancel form action
 		});
 		$('.carousel').carousel({interval: 2000});
+
+
+		////// parallax images
+		var jQWindow = $( window );
+		$('.prlx-img').on('load',function(){
+			var pos, scrollTop;
+			var elemHeight, imgHeight, windowHeight, elemTop, maxScTop, minScTop;
+ 			var element = $(this);
+ 			var elemHeight = element.parent().outerHeight();
+ 			var imgHeight = element.outerHeight();
+ 			var windowHeight = jQWindow.outerHeight();
+ 			var elemTop = element.parent().offset().top;
+ 			var maxScTop = elemTop + elemHeight;
+ 			var minScTop = elemTop - windowHeight;
+
+			jQWindow.resize( function() {
+				if ( typeof element === 'undefined' ) return;
+    			elemHeight = element.parent().outerHeight();
+    			imgHeight = element.outerHeight();
+    			windowHeight = jQWindow.outerHeight();
+    			elemTop = element.parent().offset().top;
+    			maxScTop = elemTop + elemHeight;
+    			minScTop = elemTop - windowHeight;
+    			if ( jQWindow.outerWidth() < element.outerWidth() ){
+    				element.css({ left: ( jQWindow.outerWidth() - element.outerWidth() )/2 +'px' });
+    			}
+    			jQWindow.scroll();
+			});
+			
+			jQWindow.scroll( function() {
+				if ( typeof element === 'undefined' ) return;
+				scrollTop = jQWindow.scrollTop();
+				if( scrollTop < minScTop || scrollTop > maxScTop ) {
+					// do nothing when image out of screen
+				} else {
+					pos = ( scrollTop - minScTop ) / ( elemHeight + windowHeight ) * (elemHeight - imgHeight);
+					element.css({ top: pos+'px' });
+				}
+			});
+			jQWindow.resize();
+		}).each( function(){
+			if(this.complete) $(this).load();
+		});
+		
 	});
+
+	
 
 	function validate(form) {
 		if($("#" + form + "InfoForm").val()=="") {
@@ -344,104 +393,103 @@ Thank You, we’ve received all your information and we’ll be in contact with 
 	  return decodeHTMLEntities;
 	})();
 
-		function setTripAdvisorQuote(taData) {
-			if (!taData.reviews) {
-				return;
-			}
-			var filtered = taData.reviews.filter(function (review) {
-				return review.rating >= 5;
-			});
-			var container = $('#taQuoteContainer');
-			var containerCol = $('#quoteCol');
-			var review = filtered[Math.floor(Math.random() * filtered.length)];
-			var publishedDate = moment(review.published_date);
-			var reviewText = review.text;
-			var indexCutoff = Math.min(reviewText.length, 100);
-			if (reviewText[indexCutoff] !== ' ') {
-				indexCutoff = reviewText.indexOf(' ', indexCutoff);
-			}
-			reviewText = reviewText.substr(0, indexCutoff) + "...<span class='quote-more'>more</span>";
-
+	function setTripAdvisorQuote(taData) {
+		if (!taData.reviews) {
+			return;
+		}
+		var filtered = taData.reviews.filter(function (review) {
+			return review.rating >= 5;
+		});
+		var container = $('#taQuoteContainer');
+		var containerCol = $('#quoteCol');
+		var review = filtered[Math.floor(Math.random() * filtered.length)];
+		var publishedDate = moment(review.published_date);
+		var reviewText = review.text;
+		var indexCutoff = Math.min(reviewText.length, 100);
+		if (reviewText[indexCutoff] !== ' ') {
+			indexCutoff = reviewText.indexOf(' ', indexCutoff);
+		}
+		reviewText = reviewText.substr(0, indexCutoff) + "...<span class='quote-more'>more</span>";
 			var reviewContent =
-				setupLegalPopup($('<a>').attr('href', review.url)
+			setupLegalPopup($('<a>').attr('href', review.url)
+				.append(
+					$('<blockquote class="ta-quote-content teal-border p-4">')
+					.append($('<h4>').addClass('quote-title teal-fg').html(review.title))
+					.append($('<p>').addClass('quote-text').html(reviewText))
 					.append(
-						$('<blockquote class="ta-quote-content teal-border p-4">')
-						.append($('<h4>').addClass('quote-title teal-fg').html(review.title))
-						.append($('<p>').addClass('quote-text').html(reviewText))
-						.append(
-							$('<img>')
-							.attr('src', review.rating_image_url)
-						)
-						.append(
-							$('<span>')
-							.addClass('quote-meta')
-							.html(
-								"Reviewed by a TripAdvisor traveler, " +
-								publishedDate.format('MM/DD/YYYY')
-							)
-						)
-					));
-			container.fadeIn();
-			$('<div class="quote-content">').appendTo(containerCol)
-				.append(
-					reviewContent
-				);
-		}
-
-		function retrieveTripadvisorData() {
-			api("/api/tripadvisor", "GET", {
-				taCode: <?php echo json_encode((string)$context->xpath('//tripAdvisorCode')[0]); ?>
-			}, function (result) {
-				try {
-					data = JSON.parse(result);
-					if (data) {
-						setTripadvisorReviews(data);
-						setTripAdvisorQuote(data);
-					}
-				} catch (e) {
-					console.error('error trying to parse json response', result);
-				}
-				
-			});
-		}
-
-
-		function setTripadvisorReviews(taData) {
-			var taReviewLink =
-				setupLegalPopup(
-					$('<a>')
-					.attr({
-						href: data.web_url,
-					})
-				);
-			var taReviewImg =
-				$('<img>')
-				.attr({
-					id: 'taReviewImg',
-					alt: 'tripadvisor ratings',
-					src: data.rating_image_url,
-				});
-			var taReviewCount =
-				$('<span>')
-				.attr({
-					id: 'taReviewNumber',
-				})
-				.html(data.num_reviews + " Reviews");
-			var taReviewElement =
-				$('.ta-container-review')
-				.append(
-					taReviewLink.append(
-						taReviewImg,
-						taReviewCount
+						$('<img>')
+						.attr('src', review.rating_image_url)
 					)
-				)
-				.fadeIn()
-				.css({
-					visibility: 'visible',
+					.append(
+						$('<span>')
+						.addClass('quote-meta')
+						.html(
+							"Reviewed by a TripAdvisor traveler, " +
+							publishedDate.format('MM/DD/YYYY')
+						)
+					)
+				));
+		container.fadeIn();
+		$('<div class="quote-content">').appendTo(containerCol)
+			.append(
+				reviewContent
+			);
+	}
+
+	function retrieveTripadvisorData() {
+		api("/api/tripadvisor", "GET", {
+			taCode: <?php echo json_encode((string)$context->xpath('//tripAdvisorCode')[0]); ?>
+		}, function (result) {
+			try {
+				data = JSON.parse(result);
+				if (data) {
+					setTripadvisorReviews(data);
+					setTripAdvisorQuote(data);
+				}
+			} catch (e) {
+				console.error('error trying to parse json response', result);
+			}
+			
+		});
+	}
+
+
+	function setTripadvisorReviews(taData) {
+		var taReviewLink =
+			setupLegalPopup(
+				$('<a>')
+				.attr({
+					href: data.web_url,
 				})
-				.resize();
-		}
-		retrieveTripadvisorData();
+			);
+		var taReviewImg =
+			$('<img>')
+			.attr({
+				id: 'taReviewImg',
+				alt: 'tripadvisor ratings',
+				src: data.rating_image_url,
+			});
+		var taReviewCount =
+			$('<span>')
+			.attr({
+				id: 'taReviewNumber',
+			})
+			.html(data.num_reviews + " Reviews");
+		var taReviewElement =
+			$('.ta-container-review')
+			.append(
+				taReviewLink.append(
+					taReviewImg,
+					taReviewCount
+				)
+			)
+			.fadeIn()
+			.css({
+				visibility: 'visible',
+			})
+			.resize();
+	}
+	retrieveTripadvisorData();
 </script>
 <hr/>
 <?php include("footer.php"); ?>

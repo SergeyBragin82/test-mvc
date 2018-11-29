@@ -99,7 +99,7 @@
 		    }, 2000);
 
 		    $('html, body').animate({
-		        scrollTop: $('div.general-info-privacy').find("div.panel-group.cookies").offset().top
+		        scrollTop: $('#privacyAccordion').find(".cookies").offset().top
 		    }, 2000);
 		}
 		if (window.location.href.indexOf("#info") > -1) {
@@ -108,17 +108,9 @@
 		    }, 2000);
 
 		    $('html, body').animate({
-		        scrollTop: $('div.general-info-privacy').find("div.panel-group.information").offset().top
+		        scrollTop: $('#privacyAccordion').find(".information").offset().top
 		    }, 2000);
 		}
-		$('div.general-info-privacy div#accordion.panel-group').remove();
 
-		for (i = 1; i < $('div.panel-group.cookies:not("#accordion") a').length; i++) {
-			var cookieLink = $('div.panel-group.cookies:not("#accordion") a:eq(' + i + ')');
-			var cookieHref = $('div.panel-group.cookies:not("#accordion") a:eq(' + i + ')').attr('href');
-			var cookieText = $('div.panel-group.cookies:not("#accordion") a:eq(' + i + ')').text();
-
-			cookieLink.replaceWith("<a href='javascript: void(0);' onclick='javascript:attachLegalPopupToExternalLinks(&quot;" + cookieHref + "&quot;)'>" + cookieText + "</a>");
-		}
 	});
 </script>
