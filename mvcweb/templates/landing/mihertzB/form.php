@@ -130,7 +130,7 @@ foreach ($carouselImages as $idx => $image) {
                 $(".form-submit").attr("disabled", null);
                 return;
             }
-
+          
             var form = $("#hertzInfoForm");
             var url = form.attr('action');
 
@@ -182,6 +182,7 @@ foreach ($carouselImages as $idx => $image) {
         <div class="row pb-0 pb-lg-3 wrapp-column-reverse">
             <div class="col-lg order-2 order-lg-1 d-flex flex-column pt-lg-0 mt-lg-2">
                 <div class="call-us-at text-center text-lg-left mt-3 mb-3 mb-lg-0 tablet-hidden">
+
                     <div class="goldline2 mb-0"></div>
                     <h6><p class="callat desktop-block">CALL US AT:</p></h6>
                     <h6><p class="callat mobile-block">OR CALL US AT:</p></h6>
@@ -266,6 +267,7 @@ foreach ($carouselImages as $idx => $image) {
                         <div class="text-center mobile-block"><a class="teal-fg tap-details" href="/landing/cc/offers-c/details?loc=<?php echo $loc_set; ?>">Details of Participation</a></div>
                     </form>
                 <?php } ?>
+
                 <div class="call-us-at text-center text-lg-left mt-3 mb-3 mb-lg-0 tablet-block">
                     <div class="goldline2 mb-0"></div>
                     <h6><p class="callat desktop-block">CALL US AT:</p></h6>
@@ -281,6 +283,7 @@ foreach ($carouselImages as $idx => $image) {
                     ?>
                     <h5 class="mb-0"><p class="phone"><a href="tel:<?php echo $telphone; ?>" class="teal-fg"><?php echo $phone; ?></a></p></h5>
                 </div>
+
             </div></div></div></div>
 <div class="teal-bg tealdiv my-0 desktop-divider"></div>
 <?php if (!empty(@$carouselImages[3])): ?>

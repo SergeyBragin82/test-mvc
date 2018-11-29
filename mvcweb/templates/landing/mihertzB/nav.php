@@ -35,7 +35,7 @@
 	</script>
 <?php 
 
-function navlink($url, $title, $index, $ishotel) {
+function navlink($url, $title, $index, $ishotel, $loc_set) {
 	$class = "";
 
 	if(strpos($_SERVER["REQUEST_URI"], $url) !== false) {

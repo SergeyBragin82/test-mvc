@@ -218,7 +218,9 @@ foreach ($carouselImages as $idx => $image) {
                     $telphone = "+1" . str_replace("-", "", $phone);
                     ?>
                     <h5 class="mb-0"><p class="phone"><a href="tel:<?php echo $telphone; ?>" class="teal-fg"><?php echo $phone; ?></a></p></h5>
+
                     <!--<span class="kessel desktop-block">Or simply complete the form.</span>-->
+                  
                     <span class="kessel mobile-block">Or, simply fill out the form below.</span>
                     <div class="goldline2"></div>
                 </div>

@@ -92,6 +92,14 @@
 					yelp_search('<?php echo((string)$context->xpath(' //latitude')[0]) ?>', '<?php echo((string)$context->xpath('//longitude')[0]) ?>', activityId);
 					}
 
+					function getYelpStarsImage(numOfStars) {
+						var yelpStarsImage = "<?php echo $GLOBALS['img_path'] . 'yelp/regular_'; ?>";
+						var starHalf = numOfStars - Math.floor(numOfStars);
+						var starWhole = numOfStars - starHalf;
+						var halfNameAdd = starHalf !== 0 ? '_half' : '';
+						return yelpStarsImage + starWhole + halfNameAdd + '.png';
+					}
+
 					function populateHtml() {
 						var htmlItems = results.businesses.map(
 							function (element) {

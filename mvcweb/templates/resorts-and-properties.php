@@ -111,7 +111,7 @@
 
 	<div class="hero">
 		<div class="hero-image-container">
-			<img src="https://tpd1.www.marriottvacationclub.com/wp-content/images/ZA-P-022_Exterior_rgb_cropped_1200x345.jpg" alt="Image of girl riding on her father's shoulders on a beach. Welcome to Vacation Greatness overview video. " class="hero-image" />
+			<img src="https://www.marriottvacationclub.com/wp-content/images/ZA-P-022_Exterior_rgb_cropped_1200x345.jpg" alt="Image of girl riding on her father's shoulders on a beach. Welcome to Vacation Greatness overview video. " class="hero-image" />
 		</div><!--  / .hero-image-container -->
 
 		<div class="hero-caption">

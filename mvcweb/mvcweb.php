@@ -47,6 +47,7 @@
 		}
 	}
 
+
 	function add_query_vars_filter( $vars ){
 		$vars[] = "keyword";
 		$vars[] = "pagination";
@@ -78,18 +79,14 @@
 	}
 	include(dirname(__FILE__) . '/util/form-processing.php');
 	include(dirname(__FILE__) . '/util/booking-processing.php');
-
-	function mvc_router() {
-		if (!is_admin()) {
-			add_action( 'wp_enqueue_scripts', 'mvcweb_front_end_scripts' );
-			add_filter( 'template_include', 'mvcweb_front_end_template' );
-			
-			load_xml_data();
-		} else if (is_user_logged_in()) {
-			add_action( 'get_header', 'remove_admin_login_header' );
-			add_action( 'wp_enqueue_scripts', 'mvcweb_back_end_scripts' );
-			include('back_end.php');
-		}
+	if (!is_admin()) {
+		add_action( 'wp_enqueue_scripts', 'mvcweb_front_end_scripts' );
+		add_filter( 'template_include', 'mvcweb_front_end_template' );
+		
+		load_xml_data();
+	} else {
+		add_action( 'get_header', 'remove_admin_login_header' );
+		include('back_end.php');
 	}
 
 	function remove_admin_login_header() {
@@ -97,23 +94,11 @@
 	}
 
 
-	function mvcweb_back_end_scripts () {
-
-register_script('jquery', plugins_url('assets/jquery/js/jquery-3.2.1.min.js', __FILE__));
-		
-		register_script(
-			'flatpickr',
-			'https://cdn.jsdelivr.net/npm/flatpickr'
-		);
-
-		register_style('flatpickr', 'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css');
-	}
-
 	function mvcweb_front_end_scripts() {
-		if(strpos($_SERVER['SERVER_NAME'], 'localhost') === false){
+		if(strpos($_SERVER['SERVER_NAME'], 'https://www.marriottvacationclub.com') === true){
 			$GLOBALS['img_path'] = '/wp-content/images/';
 		} else {
-			$GLOBALS['img_path'] = 'https://s23039.pcdn.co/wp-content/images/';
+			$GLOBALS['img_path'] = 'https://www.marriottvacationclub.com/wp-content/images/';
 		}
 		$GLOBALS['asset_path'] = plugins_url('/assets/', __FILE__);
 		$GLOBALS['olapic_customer_id'] = '216967';
@@ -132,7 +117,7 @@ register_script('jquery', plugins_url('assets/jquery/js/jquery-3.2.1.min.js', __
 			11 => 'urban',
 		);
 
-//		register_style('bootstrap', plugins_url('assets/bootstrap-4.0.0-dist/css/bootstrap.min.css', __FILE__));
+		register_style('bootstrap', plugins_url('assets/bootstrap-4.0.0-dist/css/bootstrap.min.css', __FILE__));
 
 		register_style('jqueryUIStyle', plugins_url('assets/jquery-ui-1.12.1/jquery-ui.min.css', __FILE__));
 
@@ -199,11 +184,6 @@ register_script('jquery', plugins_url('assets/jquery/js/jquery-3.2.1.min.js', __
 			'cookie-js',
 			plugins_url('assets/js.cookie.js', __FILE__)
 		);
-
-		register_script(
-			'activitites',
-			plugins_Url('assets/javascript/activities.js', __FILE__)
-		);
 	}
 
 	function mvcweb_front_end_template($template) {
@@ -252,15 +232,26 @@ register_script('jquery', plugins_url('assets/jquery/js/jquery-3.2.1.min.js', __
 		}
 	}
 	add_action( 'template_redirect', 'mvc_redirect_logic' );
-	add_action('init', 'mvc_router');
 
-	
-	function changeHeadersForICS( $headers )
-	{
-	    $headers['Content-Type'] = 'text/calendar; charset=utf-8';
-	    $headers['Content-Disposition'] = 'attachment; filename="activity.ics"';
-	    $headers['Content-Transfer-Encoding'] = 'binary';
-	    return $headers;
+	// Only process batch files if the request is on the primary node, this ensures the file is written to the correct directory for the MoveIT process.
+	if(gethostname()=="marriottvacationsworldwide1.vps.pagelyhosting.com") {
+		$now = date("omdH") . "0000";
+		//error_log("Checking " . $now);
+		
+		$current_timestamp = get_option("mi_current_timestamp");
+		//error_log("Comparing " . $now . " to " . $current_timestamp);
+
+		if($current_timestamp==$now||$current_timestamp=="") {
+			//error_log("Skip Writing Conditional True: " . $current_timestamp);
+			// do nothing
+			if($current_timestamp=="") {
+				error_log("Timestamp not detected, blank: " . $current_timestamp . " now: " . $now);
+				update_option("mi_current_timestamp", $now);
+			}
+		} else {
+			error_log("New TimeStamp (" . $now . "), writing to " . $current_timestamp);
+			// update current timestamp and save out current queue
+			handle_hertz_resort_form_batch($current_timestamp, $now);
+		}
 	}
-	if ( substr( $_SERVER['REQUEST_URI'], 0, 14 ) === '/activity-ics/' ) add_filter('wp_headers', 'changeHeadersForICS');
 ?>

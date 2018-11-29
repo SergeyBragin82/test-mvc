@@ -73,6 +73,7 @@
 		<page permalink="/cookie-policy" template="general-information/cookiepolicy" title="Cookie Policy" menu_order='16' />
 		<page permalink="/state-and-legal-disclosures" template="general-information/disclosures" title="State and Legal Disclosures" menu_order='17' />
 		<page permalink="/terms-of-use" template="general-information/terms" title="Terms of Service" menu_order='18' />
+    <page permalink="/accessibility-statement" template="general-information/accessibility-statement" title="Accessibility Statement" menu_order='18' />
 		<page permalink="/photo-and-video-terms-of-use" template="general-information/phototerms" title="Photo and Video Terms of Use" menu_order='20'/>
 		
 		<!-- start - /general-information/alerts/hawaii --> 
@@ -122,15 +123,22 @@
 					<page permalink="/newyorkcity" template="landing/mihertzB/form" title="Marriott Vacation Club | New York City" search_exclude="true" skip_theme="true" data_filter="mihertz" resort="NY"/>
 					<page permalink="/thankyou" template="landing/mihertzB/thankyou" title="Thank You" search_exclude="true" skip_theme="true"/>
 					<page permalink="/details" template="landing/mihertzB/details" title="Marriott Vacation Club | Details of Participation" search_exclude="true" skip_theme="true"/>
-				</page>
-				<page permalink="/wifi" template="" title="" search_exclude="true">
+
+			</page>
+		  <page permalink="/wifi" template="" title="" search_exclude="true">
                     <page permalink="/mcogv-marriotts-grande-vista" template="landing/wifi/grande-vista-home" search_exclude="true" skip_theme="true" title="Grande Vista"/>
                     <page permalink="/mcolr-marriotts-lakeshore-reserve" template="landing/wifi/lakeshore-home" search_exclude="true" skip_theme="true" title="Lakeshore"/>
                     <page permalink="/connect-wifi" template="landing/wifi/connect-wifi" search_exclude="true" skip_theme="true" title="Connect to Our Resort WiFi"/>
                 </page>
 			</page>
-			<page permalink="/ppc" template="404" title="" search_exclude="true">
-			</page>
+				<!-- start - /landing/ppc/sitelink/ -->
+				<page permalink="/ppc" template="" title="Why Choose Marriott Vacation Club" search_exclude="false">
+					<page permalink="/sitelink" template="" title="Why Choose Marriott Vacation Club" search_exclude="false">
+						<page permalink="/why-choose-marriott-vacation-club" template="landing/ppc/sitelink/why-choose-marriott-vacation-club" title="Why Choose Marriott Vacation Club"/>
+						<page permalink="/how-vacation-club-points-work" template="landing/ppc/sitelink/how-vacation-club-points-work" title="How Vacation Club Points Work"/>
+					</page>
+				</page>	
+				<!-- close - /landing/ppc/sitelink/ -->
 		</page>
 		
 		

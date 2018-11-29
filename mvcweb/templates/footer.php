@@ -1,7 +1,7 @@
 <div class="container-fluid footer-container">
 	<div class="row">
 		<?php // If page is a /landing page, do not display this block ?>
-		<?php if( false === strpos($_SERVER['REQUEST_URI'], '/landing')  && $context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+		<?php if( false === strpos($_SERVER['REQUEST_URI'], '/landing')  && (count($context->xpath("//@ebrochure_mode"))==0 || $context->xpath("//@ebrochure_mode")[0]!="true")) { ?>
 			<div class="col-sm-12 col-md-3 footer-content">
 				<span class="footer-element-divider"></span>
 				<h4>Connect with us</h4>
@@ -40,7 +40,7 @@
 		<?php } // if( false !== strpos($_SERVER['REQUEST_URI'], '/landing') ) ?>
 
 		<div class="col-sm-12 col-md-3 footer-content">
-			<?php if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+			<?php if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>
 				<span class="footer-element-divider footer-content"></span>
 			<?php } ?>
 			<h4>company information</h4>
@@ -50,7 +50,7 @@
 						Corporate Info
 					</a>
 				</li>
-				<?php if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+				<?php if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>
 				<li>
 					<a href="/newsroom">
 						Newsroom
@@ -62,7 +62,7 @@
 						Careers
 					</a>
 				</li>
-				<?php if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+				<?php if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>
 				<li>
 					<a href="/contact-us">
 						Contact Us
@@ -72,7 +72,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-12 col-md-3 footer-content">
-			<?php if ($context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+			<?php if (count($context->xpath("//@ebrochure_mode"))==0||$context->xpath("//@ebrochure_mode")[0]!="true") { ?>
 				<span class="footer-element-divider"></span>
 			<?php } ?>
 			<h4>legal information</h4>
@@ -92,11 +92,16 @@
 						Terms of Use
 					</a>
 				</li>
+				<li>
+					<a href="/accessibility-statement">
+						Accessibility Statement
+					</a>
+				</li>
 			</ul>
 		</div>
 
 		<?php // If page is a /landing page, do not display this block ?>
-		<?php if( false === strpos($_SERVER['REQUEST_URI'], '/landing') && $context->xpath("//@ebrochure_mode")[0]!="true") { ?>
+		<?php if( false === strpos($_SERVER['REQUEST_URI'], '/landing') && (count($context->xpath("//@ebrochure_mode"))==0 || $context->xpath("//@ebrochure_mode")[0]!="true")) { ?>
 			<div class="col-sm-12 col-md-3 footer-content">
 				<h4>other link areas</h4>
 				<ul class="footer-list">
@@ -106,13 +111,13 @@
 						</a>
 					</li>
 					<li>
-						<a href='javascript:attachSweepstakesModal("https://marriottvacationclubaloha.dja.com/pages/registration.php?loc=IM59%2A1-FKXQET");'
-						  target="_self">Sweepstakes</a>
+						<a href='/faq'>FAQ</a>
 					</li>
 					<li>
-						<a href="/faq" target='_blank'>
-							FAQ
-						</a>
+						<a href='javascript:attachSweepstakesModal("https://marriottvacationclubaloha.dja.com/pages/registration.php?loc=IM59%2A1-FKXQET");' target="_self">Sweepstakes</a>
+					</li>
+					<li>
+						<a href='javascript:attachLegalPopupToExternalLinks("https://www.essentialaccessibility.com/marriott-vacation-club?utm_source=marriottvacationclubhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=marriottvacationclub");' target="_self"><img src="/wp-content/images/ea_app_icon_new.png" alt="This icon serves as a link to download the eSSENTIAL Accessibility assistive technology app for individuals with physical disabilities. It is featured as part of our commitment to diversity and inclusion." height="25px"></a>
 					</li>
 				</ul>
 			</div>

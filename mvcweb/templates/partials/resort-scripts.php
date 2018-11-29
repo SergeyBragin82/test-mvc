@@ -17,38 +17,7 @@
 			}).appendTo($('#sticky-wrapper'));
 		});
 		//$('.resort-submenu').append($('.resort-header-container'));
-		
-		$('.activities-top-bar-mobile').sticky({
-			topSpacing: 98,
-			zIndex: 80001,
-		});
-                
-                
-                function filtersSticky() {
-                    var footerHeight = $("footer").height();
-                    var windowWidth = $(window).width();
-                    var windowHeight = $(window).height();
-                    if ( windowWidth >= 992){
-                        $('.activities-filters-block').sticky({
-                                topSpacing: 195,
-                                zIndex: 100,
-                                bottomSpacing: footerHeight + 30,
-                        });
-                    }
-                    $( document ).on( "click",".js-mobile-filters", function() {
-                        if ( windowWidth <= 991 ){
-                            $('.js-activities-filters-wrapper').css({'min-height' : windowHeight - 197});
-                            $('.activities-grid-wrapper').css({'min-height' : windowHeight - 197});
-                        }
-                    });
-                }
-    
-                filtersSticky();
-                $(window).resize(function() {
-                    filtersSticky();
-                });
-                
-                function setupDatePicker() {
+		function setupDatePicker() {
 			var checkInDateWidget, checkOutWidget;
 			var bookingForm = $('#booking-form');
 
@@ -324,13 +293,5 @@
 			}
 		});
 		setPanelTop();
-
-		$('.activities-sort .custom-select').selectmenu({
-			icons: { button: "ui-icon-blank" },
-			position: { my: "left top", at: "left top" },
-			classes: { "ui-selectmenu-button" : "custom-select" }
-		});
-
-		$('.activities-sort .ui-selectmenu-button').removeClass('ui-button');
 	});
 </script>

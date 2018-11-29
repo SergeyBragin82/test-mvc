@@ -264,7 +264,7 @@
 				</div>
 
 				<div class="title-description">
-					<img src="/wp-content/images/exit-specialist.jpg" alt="Exit specialist">
+					<img src="//www.marriottvacationclub.com/wp-content/images/exit-specialist.jpg" alt="Exit specialist">
 
 					<p>Vacation ownership is a life-changing decision. At Marriott Vacation Club, we understand that sometimes even long-time Owners need to sell their timeshare due to life circumstances. Reduced finances, fixed incomes, declining health and other reasons may make it difficult for Owners to get out and use their timeshare to explore the world.</p>
 					
@@ -342,6 +342,8 @@
 			$('body').addClass('js');
 
 			$('.exit .ha-header-meta').appendTo('.navbar')
+			
+			$('button.hamburger').remove();
 
 			$('.slide-control').click(function(){
 				var $this = $(this);

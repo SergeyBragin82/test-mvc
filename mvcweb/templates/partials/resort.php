@@ -34,8 +34,8 @@
 
 	echo resortBookingSection($brandCode, $marshaHotelCode, (string)$context->xpath('Resort/code')[0], $context->xpath('//disclaimer')[0], $bookingHeader, $bookingParagraph, '', '', '', $childResorts, $resortName, ($context->xpath("//@ebrochure_mode")[0]=="true"));
 
-//	if ($context->xpath("//@ebrochure_mode")[0]!="true") {
-//		echo tripAdvisorQuote();
-//	}
+	if ($context->xpath("//@ebrochure_mode")[0]!="true") {
+		echo tripAdvisorQuote();
+	}
 	echo horizontalBreak();
 ?>

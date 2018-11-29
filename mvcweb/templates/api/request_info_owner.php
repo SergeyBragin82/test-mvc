@@ -126,7 +126,7 @@
 				$('.cover-picture-container').append($('<img>').addClass('content').on('load', function() {
 					$(this).fadeIn();
 				}).attr({
-					src: <?php echo json_encode($GLOBALS['img_path'] . '201809/NewportCoastVillas02_1200x900.jpg');?>,
+					src: <?php echo json_encode($GLOBALS['img_path'] . '201810/41286/WaikoloaOceanClub01_1200x900.jpg');?>,
 					alt: 'View of the main pool at Marriott\'s Newport Coast Villas in Newport Coast, California.'
 				}));
 				ownerOptions.hide();
@@ -300,7 +300,7 @@
 				$('.cover-picture-container').append($('<img>').addClass('content').on('load', function() {
 					$(this).fadeIn();
 				}).attr({
-					src: <?php echo json_encode($GLOBALS['img_path'] . '201809/NewportCoastVillas02_1200x900.jpg');?>,
+					src: <?php echo json_encode($GLOBALS['img_path'] . '201810/41286/WaikoloaOceanClub01_1200x900.jpg');?>,
 					alt: 'View of the main pool at Marriott\'s Newport Coast Villas in Newport Coast, California.'
 				}));
 			}
@@ -319,7 +319,7 @@
 				$('.cover-picture-container').append($('<img>').addClass('content').on('load', function() {
 					$(this).fadeIn();
 				}).attr({
-					src: <?php echo json_encode($GLOBALS['img_path'] . '201809/GrandeVista01_1200x900.jpg');?>,
+					src: <?php echo json_encode($GLOBALS['img_path'] . '201810/41286/WaiohaiBeachClub02_1200x900.jpg');?>,
 					alt: 'View of the main pool at Marriott\'s Grande Vista, Orlando, Florida.'
 				}));
 				clearPromoFormStore();
@@ -375,5 +375,12 @@
 			}
 		};
 		initialize();
+
+		// ENTER key triggers NEXT
+		$(document).keypress(function(event){
+		    if(event.keyCode == 13) { 
+		    	$("#infoFormButton").click();
+		    }
+		});
 	});
 </script>

@@ -527,5 +527,17 @@
       "siteSection": "MVC - General Information",
       "pageName": "MVC - General Information | ILG Acquisition"
     }
+  },
+  "points-charts": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Points Chart"
+    }
+  },
+  "seasonal-calendars": {
+    "pageInfo": {
+      "siteSection": "MVC - Landing Pages",
+      "pageName": "MVC - Landing Pages | Seasonal Calendars"
+    }
   }
 }
