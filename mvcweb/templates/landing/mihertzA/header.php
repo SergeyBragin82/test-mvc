@@ -3,7 +3,7 @@
   $loc_table = array(
     "IM59*1-IPDRF3" => array(
       "main_home_loc" => "IM59*1-IPDRF3",
-      "main_home_phone" => "855-762-0330",
+      "main_home_phone" => "855-762-0330",      
       "main_npc_loc" => "CO08*1-IYU303",
       "main_npc_fid" => "IM59*1-IVMRDB",
       "main_npc_phone" => "855-762-0294",
@@ -12,7 +12,7 @@
       "main_orl_phone" => "855-762-0321",
       "main_sin_loc" => "CO08*1-IYU309",
       "main_sin_fid" => "IM59*1-IVMRHD",
-      "main_sin_phone" => "855-762-0329",
+      "main_sin_phone" => "855-762-0329", 
       "main_nyc_loc" => "CO08*1-IYU30C",
       "main_nyc_fid" => "IM59*1-IVMRHG",
       "main_nyc_phone" => "855-762-0525",
@@ -55,33 +55,33 @@
       "legal" => "MG-18-194",
       "legal_copy" => "Residents of Maine, Alabama, Hawaii, Idaho, Missouri, North Dakota, Ohio, Washington and West Virginia are not eligible for this offer."
     ),
-    "IM59*1-KE6WOI" => array(
-      "main_home_loc"   => "IM59*1-KE6WOI",
-      "main_home_phone" => "855-762-0236",
-      "main_npc_loc"    => "CO08*1-KE4EKS",
+    "IM59*1-KE6WOF" => array(
+      "main_home_loc"   => "IM59*1-KE6WOF",
+      "main_home_phone" => "855-762-0231",
+      "main_npc_loc"    => "CO08*1-KE4EKP",
       "main_npc_fid"    => "IM59*1-IVMRDB",
-      "main_npc_phone"  => "855-762-0236",
-      "main_orl_loc"    => "CO08*1-KE4EKS",
+      "main_npc_phone"  => "855-762-0231",
+      "main_orl_loc"    => "CO08*1-KE4EKP",
       "main_orl_fid"    => "IM59*1-IVMRDE",
-      "main_orl_phone"  => "855-762-0236",
-      "main_sin_loc"    => "CO08*1-KE4EKS",
+      "main_orl_phone"  => "855-762-0231",
+      "main_sin_loc"    => "CO08*1-KE4EKP",
       "main_sin_fid"    => "IM59*1-IVMRHD",
-      "main_sin_phone"  => "855-762-0236",
-      "main_nyc_loc"    => "CO08*1-KE4EKS",
+      "main_sin_phone"  => "855-762-0231",
+      "main_nyc_loc"    => "CO08*1-KE4EKP",
       "main_nyc_fid"    => "IM59*1-IVMRHG",
-      "main_nyc_phone"  => "855-762-0236",
+      "main_nyc_phone"  => "855-762-0231",
       "legal"           => "MG-18-194",
       "legal_copy"      => "Residents of Maine, Alabama, Hawaii, Idaho, Missouri, North Dakota, Ohio, Washington and West Virginia are not eligible for this offer."
     )
-
   );
 
+  
 
   function find_main_set($loc_table, $fid, $loc) {
     $loc_found = false;
     $fid_found = false;
 
-    $loc_set = "IM59*1-KE6WOI";
+    $loc_set = "IM59*1-KE6WOF";
 
     foreach($loc_table as $set_key => $set) {
       foreach($set as $key => $value) {
@@ -100,7 +100,7 @@
         }
 
         if($loc_found&&$fid_found) {
-          $loc_set = $set_key;
+          $loc_set = $set_key;  
           return $loc_set;
         }
       }
@@ -108,7 +108,7 @@
     return $loc_set;
   }
 
-  $loc_set = "IM59*1-KE6WOI";
+  $loc_set = "IM59*1-KE6WOF";
 
   if($_GET["main_loc"]) {
     $loc_set = $_GET["main_loc"];
@@ -121,7 +121,7 @@
   $loc = $loc_table[$loc_set];
 
   if(!$loc) {
-    $loc = $loc_table["IM59*1-KE6WOI"];
+    $loc = $loc_table["IM59*1-KE6WOF"];
   }
 ?>
 <!DOCTYPE html>
@@ -181,7 +181,7 @@ function satelliteTrack2(trackName, customFunction) {
 		if(strpos($post_slug, '-')) {
 			$split = array_filter(explode('-', $post_slug), function($value) { return $value !== ''; });
     }
-
+    
     $digitalLayerData = json_decode(file_get_contents(dirname(__FILE__) . "/digitalLayerData.json"));
     if(isset($digitalLayerData->$post_slug)) {
       // If a slug is found, then read the info for that page
@@ -203,9 +203,9 @@ var digitalData = <?php echo json_encode($digitalLayerObj, JSON_PRETTY_PRINT); ?
   digitalData.pageInfo.formID = "<?php echo $_GET["fid"];?>";
   digitalData.pageInfo.formLOC = "<?php echo $_GET["loc"];?>";
 
-  <?php
+  <?php 
     if($isform) {?>
-      digitalData.pageInfo.formSerial = getUniqueID();
+      digitalData.pageInfo.formSerial = getUniqueID();    
     <?php } ?>
 
   var benefitLevelCookie = Cookies.get('ownerBenefitLevel');
@@ -224,14 +224,18 @@ var digitalData = <?php echo json_encode($digitalLayerObj, JSON_PRETTY_PRINT); ?
   <title><?php echo $context->xpath("//template/@title")[0];?></title>
   <?php
 			$siteUrl = get_site_url();
-			echo "<!-- Site URL: " . $siteUrl . "---> \n\r";
+      echo "<!-- Site URL: " . $siteUrl . "---> \n\r";
       if(strpos($siteUrl, 'https://www.marriottvacationclub.com') !== FALSE || strpos($siteUrl, 'https://marriottvacationclub.com') !== FALSE) {
 		?>
-			<script src="//assets.adobedtm.com/launch-EN31aa2451be744634a8b3889f449cad55.min.js"></script>
+      <script src="//assets.adobedtm.com/launch-EN31aa2451be744634a8b3889f449cad55.min.js"></script>
 			<?php
 			} else if(strpos($siteUrl, 'tps1') !== FALSE) {
 		?>
 				<script src="//assets.adobedtm.com/launch-EN6f46b9a9181745c9b45662985c793fec-staging.min.js"></script>
+    <?php } else if(strpos($siteUrl, 'tpd4') !== FALSE) { ?>
+      <script src="//assets.adobedtm.com/launch-ENeed993cb01724d478b7e027697974699-development.min.js" async></script>
+    <?php } else if(strpos($siteUrl, 'tpd5') !== FALSE) { ?>
+      <script src="//assets.adobedtm.com/launch-EN443eb51a6c1444d0952ea6fbc3deb478-development.min.js" async></script>
 				<?php
 			} else {
 		?>
@@ -240,7 +244,7 @@ var digitalData = <?php echo json_encode($digitalLayerObj, JSON_PRETTY_PRINT); ?
 			}
 		?>
 </head>
-  <body id="wrapper_offers_b" <?php body_class(); ?> >
+  <body  id="wrapper_offers_a" <?php body_class(); ?> >
     <div id="wrapper" class="toggled">
   <?php include("nav.php"); ?>
          <!-- Page Content -->

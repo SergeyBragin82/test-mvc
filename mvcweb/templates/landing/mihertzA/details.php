@@ -1,12 +1,13 @@
 <?php 
 $pagetitle = "DOP";
-$pagename = "MVC - Landing Pages | Call Center | DOP | C";
+$pagename = "MVC - Landing Pages | Call Center | DOP | B";
 include("header.php");
 include("mobile_detect.php");
- ?><div>
+?>
+<div>
 <div class="header-desktop">
 	<div class="form-header">
-	      <a href="/landing/cc/offers-c?loc=<?php echo $loc_set; ?>"><img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/marriott_logo_dark.svg"></a>
+	      <a href="/landing/cc/offers-b/?loc=<?php echo $loc_set; ?>"><img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/marriott_logo_dark.svg"></a>
 	      <a href="javascript:void();" data-toggle="sidebar">
 	      		<img class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/darkburger.svg">
 	  		</a>
@@ -15,7 +16,7 @@ include("mobile_detect.php");
 	  </div>
 	  <div class="header-mobile">
 	  	<div class="p-2">
-	  		<a href="/landing/cc/offers-c?loc=<?php echo $loc_set; ?>">
+	  		<a href="/landing/cc/offers-b/?loc=<?php echo $loc_set; ?>">
 	  	<img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg"></a>
 	      <a href="javascript:void();" data-toggle="sidebar">
 	      		<img width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/hamburger.svg">
@@ -33,7 +34,7 @@ include("mobile_detect.php");
 <div class="about-resort mx-auto details-copy">
 <p><b>Sponsor:</b> Marriott Ownership Resorts, Inc. d/b/a Marriott Vacation Club International</p>
 
-<p><b>Eligibility:</b> Annual income of $100,000 or more is required. Guest must meet eligibility requirements and be a resident of the District of Columbia or one of the 50 states within the United States. Guest may not have attended a sales presentation at any Marriott Vacation Club property in the last 12 months. Employees of Sponsor and its affiliated companies, and their immediate families are not eligible for this offer.</p>
+<p><b>Eligibility:</b> Annual income of $100,000 or more is required. Guest must meet eligibility requirements and be a resident of the District of Columbia or one of the 50 states within the United States. <?php echo $loc["legal_copy"]; ?> Guest may not have attended a sales presentation at any Marriott Vacation Club property in the last 12 months. Employees of Sponsor and its affiliated companies, and their immediate families are not eligible for this offer.</p>
 
 <p><b>Presentation: Attendance at a Marriott Vacation Club sales presentation lasting approximately 90 minutes is required.</b> If married, living together or with significant other, couples must attend the presentation together to receive this offer; individuals not cohabitating may attend separately. <b>Failure to attend the sales presentation will result in the charge of the retail value of the accommodations.</b></p>
 

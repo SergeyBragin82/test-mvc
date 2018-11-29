@@ -1,18 +1,18 @@
 <?php
 $pagetitle = "Offers";
-$pagename = "MVC - Landing Pages | Call Center | Offers | C";
+$pagename = "MVC - Landing Pages | Call Center | Offers | B";
 include("header.php");
 ?>
 <div class="mainheader">
     <div class="header-desktop">
-        <img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg" alt="Marriott logo">
+        <img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg" alt="Marriott_logo">
         <a href="javascript:void();" data-toggle="sidebar">
             <img width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/hamburger.svg" alt="hamburger">
         </a>
 
     </div>
     <div class="header-mobile">
-        <img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg" alt="Marriott logo">
+        <img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg" alt="Marriott_logo">
         <a href="javascript:void();" data-toggle="sidebar">
             <img width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/hamburger.svg" alt="hamburger">
         </a>
@@ -53,8 +53,8 @@ include("header.php");
                     <span class="timeshare">Attendance at a 90-minute timeshare sales presentation is required.</span>
                     <div class="participationdetails">
                         <h4><p class="particpationclick pt-0 mt-0">
-                                <a class="desktop-block" href="/landing/cc/offers-c/details?loc=<?php echo $loc_set; ?>">Details of Participation</a>
-                                <a class="mobile-block" href="/landing/cc/offers-c/details?loc=<?php echo $loc_set; ?>">Details of Participation</a>
+                                <a class="desktop-block" href="/landing/cc/offers-b/details?loc=<?php echo $loc_set; ?>">Details of Participation</a>
+                                <a class="mobile-block" href="/landing/cc/offers-b/details?loc=<?php echo $loc_set; ?>">Details of Participation</a>
                             </p></h4>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ include("header.php");
         <hr class="d-none d-lg-block">
         <div class="row mt-1 mt-md-5">
             <div class="col-lg text-center mb-5">
-                <a class="a-link" href="/landing/cc/offers-c/newport/?fid=<?php echo $loc["main_npc_fid"];?>&loc=<?php echo $loc["main_npc_loc"];?>&main_loc=<?php echo $loc_set;?>">
+                <a class="a-link" href="/landing/cc/offers-b/newport/?fid=<?php echo $loc["main_npc_fid"];?>&loc=<?php echo $loc["main_npc_loc"];?>&main_loc=<?php echo $loc_set;?>">
                     <div class="image-description-border pb-5">
                         <img class="img-fluid" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/newport_thumb.jpg" alt="Photo of a Hotel"><br/>
                         <div class="pl-3 pr-3 pb-3">
@@ -80,10 +80,10 @@ include("header.php");
                     </div>
                 </a>
 
-                <a class="btn marriott-btn" href="/landing/cc/offers-c/newport/?fid=<?php echo $loc["main_npc_fid"];?>&loc=<?php echo $loc["main_npc_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
+                <a class="btn marriott-btn" href="/landing/cc/offers-b/newport/?fid=<?php echo $loc["main_npc_fid"];?>&loc=<?php echo $loc["main_npc_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
             </div>
             <div class="col-lg text-center mb-5">
-                <a class="a-link" href="/landing/cc/offers-c/newyorkcity/?fid=<?php echo $loc["main_nyc_fid"];?>&loc=<?php echo $loc["main_nyc_loc"];?>&main_loc=<?php echo $loc_set;?>">
+                <a class="a-link" href="/landing/cc/offers-b/newyorkcity/?fid=<?php echo $loc["main_nyc_fid"];?>&loc=<?php echo $loc["main_nyc_loc"];?>&main_loc=<?php echo $loc_set;?>">
                     <div class="image-description-border pb-5">
                         <img class="img-fluid" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/newYork_thumb.jpg" alt="Photo of a Hotel"><br/>
                         <div class="pl-3 pr-3 pb-3">
@@ -94,14 +94,14 @@ include("header.php");
                         </div>
                     </div>
                 </a>
-                <a class="btn marriott-btn" href="/landing/cc/offers-c/newyorkcity/?fid=<?php echo $loc["main_nyc_fid"];?>&loc=<?php echo $loc["main_nyc_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
+                <a class="btn marriott-btn" href="/landing/cc/offers-b/newyorkcity/?fid=<?php echo $loc["main_nyc_fid"];?>&loc=<?php echo $loc["main_nyc_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
             </div>
 
 
         </div>
         <div class="row">
             <div class="col-lg text-center mb-5">
-                <a class="a-link" href="/landing/cc/offers-c/orlando/?fid=<?php echo $loc["main_orl_fid"];?>&loc=<?php echo $loc["main_orl_loc"];?>&main_loc=<?php echo $loc_set;?>">
+                <a class="a-link" href="/landing/cc/offers-b/orlando/?fid=<?php echo $loc["main_orl_fid"];?>&loc=<?php echo $loc["main_orl_loc"];?>&main_loc=<?php echo $loc_set;?>">
                     <div class="image-description-border pb-5">
                         <img class="img-fluid" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/cypress_thumb.jpg" alt="Photo of a Hotel"/><br/>
                         <div class="pl-3 pr-3 pb-3">
@@ -111,27 +111,27 @@ include("header.php");
                             <span class="money"><h4>From  <span> $199 per stay</span></h4></span>
                         </div>
                     </div></a>
-                <a class="btn marriott-btn" href="/landing/cc/offers-c/orlando/?fid=<?php echo $loc["main_orl_fid"];?>&loc=<?php echo $loc["main_orl_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
+                <a class="btn marriott-btn" href="/landing/cc/offers-b/orlando/?fid=<?php echo $loc["main_orl_fid"];?>&loc=<?php echo $loc["main_orl_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
             </div>
             <div class="col-lg text-center mb-5">
-                <a class="a-link" href="/landing/cc/offers-c/palmbeaches/?fid=<?php echo $loc["main_sin_fid"];?>&loc=<?php echo $loc["main_sin_loc"];?>&main_loc=<?php echo $loc_set;?>">
+                <a class="a-link" href="/landing/cc/offers-b/palmbeaches/?fid=<?php echo $loc["main_sin_fid"];?>&loc=<?php echo $loc["main_sin_loc"];?>&main_loc=<?php echo $loc_set;?>">
                     <div class="image-description-border pb-5">
                         <img class="img-fluid" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/oceana_thumb.jpg" alt="Photo of a Hotel"><br/>
                         <div class="pl-3 pr-3 pb-3">
                             <span class="resortinfo"><h1>Marriott's Oceana Palms</h1></span>
                             <span class="location"><h6>The Palm Beaches, Florida</h6></span>
                             <span class="days"><h4>4 days, 3 nights</h4></span>
-                            <span class="money"><h4>From  <span> $199 per stay</span></h4></span>
+                            <span class="money"><h4>From  <span> $299 per stay</span></h4></span>
                         </div>
                     </div></a>
-                <a class="btn marriott-btn" href="/landing/cc/offers-c/palmbeaches/?fid=<?php echo $loc["main_sin_fid"];?>&loc=<?php echo $loc["main_sin_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
+                <a class="btn marriott-btn" href="/landing/cc/offers-b/palmbeaches/?fid=<?php echo $loc["main_sin_fid"];?>&loc=<?php echo $loc["main_sin_loc"];?>&main_loc=<?php echo $loc_set;?>">GET OFFER</a>
             </div>
         </div>
     </div>
 <!--    <div class="participationdetails text-center mb-4">
         <h4><p class="particpationclick pt-0 mt-0">
-                <a class="desktop-block" href="/landing/cc/offers-c/details/details?loc=<?php// echo $loc_set; ?>">Click Here for Details of Participation</a>
-                <a class="mobile-block" href="/landing/cc/offers-c/details/details?loc=<?php// echo $loc_set; ?>">Click Here for Details of Participation</a>
+                <a class="desktop-block" href="/landing/cc/offers-b/details/details?loc=<?php// echo $loc_set; ?>">Click Here for Details of Participation</a>
+                <a class="mobile-block" href="/landing/cc/offers-b/details/details?loc=<?php// echo $loc_set; ?>">Click Here for Details of Participation</a>
             </p>
         </h4>
     </div>-->

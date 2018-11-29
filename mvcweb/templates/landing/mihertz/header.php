@@ -111,11 +111,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel='stylesheet' id='marriott-css'  href='/wp-content/plugins/mvcweb/assets/mvcweb/css/marriott.css?ver=1531423087' type='text/css' media='all' />
+    <link rel='stylesheet' id='marriott-css'  href='https://s23040.pcdn.co/wp-content/plugins/mvcweb/assets/mvcweb/css/marriott.css?ver=1531423087' type='text/css' media='all' />
     <link rel='stylesheet' id='webfonts-css'  href='https://s23040.pcdn.co/wp-content/plugins/mvcweb/assets/mvcweb/css/webfonts.css?ver=4.9.7' type='text/css' media='all' />
-    <link rel="stylesheet" type="text/css" href="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing.css?ver=1.1">
+    <link rel="stylesheet" type="text/css" href="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/main.css?ver=1.1">
+    <link rel="stylesheet" type="text/css" href="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/header.css?ver=1.2">
     <link rel='stylesheet' id='slick-css-css'  href='https://s23040.pcdn.co/wp-content/plugins/mvcweb/assets/slick/slick.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='slick-theme-css'  href='https://s23040.pcdn.co/wp-content/plugins/mvcweb/assets/slick/slick-theme.css?ver=4.9.7' type='text/css' media='all' />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -180,6 +181,9 @@ var digitalData = <?php echo json_encode($digitalLayerObj, JSON_PRETTY_PRINT); ?
     digitalData.pageInfo.pageName += window.location.href;
   }
 
+//  digitalData.pageInfo.pageName = "<?php echo $pagename; ?>";
+//  digitalData.pageInfo.siteSection = "MVC - Landing Pages";
+
   <?php 
     if($isform) {?>
       digitalData.pageInfo.formSerial = getUniqueID();    
@@ -199,28 +203,29 @@ var digitalData = <?php echo json_encode($digitalLayerObj, JSON_PRETTY_PRINT); ?
 </script>
 
   <title><?php echo $context->xpath("//template/@title")[0];?></title>
-  <?php
-			$siteUrl = get_site_url();
-			if(strpos($siteUrl, 'tpd1') !== FALSE || strpos($siteUrl, 'localhost') !== FALSE) {
-		?>
-			<script src="//assets.adobedtm.com/launch-EN2cfbf54f3d8a4243b590278c8c6aa32e-development.min.js"></script>
-			<?php
-			} else if(strpos($siteUrl, 'tps1') !== FALSE) {
-		?>
-				<script src="//assets.adobedtm.com/launch-EN6f46b9a9181745c9b45662985c793fec-staging.min.js"></script>
+   <?php
+      $siteUrl = get_site_url();
+      echo "<!-- Site URL: " . $siteUrl . "---> \n\r";
+      if(strpos($siteUrl, 'https://www.marriottvacationclub.com') !== FALSE || strpos($siteUrl, 'https://marriottvacationclub.com') !== FALSE) {
+    ?>
+      <script src="//assets.adobedtm.com/launch-EN31aa2451be744634a8b3889f449cad55.min.js"></script>
+      <?php
+      } else if(strpos($siteUrl, 'tps1') !== FALSE) {
+    ?>
+        <script src="//assets.adobedtm.com/launch-EN6f46b9a9181745c9b45662985c793fec-staging.min.js"></script>
     <?php } else if(strpos($siteUrl, 'tpd4') !== FALSE) { ?>
       <script src="//assets.adobedtm.com/launch-ENeed993cb01724d478b7e027697974699-development.min.js" async></script>
     <?php } else if(strpos($siteUrl, 'tpd5') !== FALSE) { ?>
       <script src="//assets.adobedtm.com/launch-EN443eb51a6c1444d0952ea6fbc3deb478-development.min.js" async></script>
-				<?php
-			} else {
-		?>
-					<script src="//assets.adobedtm.com/launch-EN31aa2451be744634a8b3889f449cad55.min.js"></script>
-					<?php
-			}
-		?>
+        <?php
+      } else {
+    ?>
+          <script src="//assets.adobedtm.com/launch-EN2cfbf54f3d8a4243b590278c8c6aa32e-development.min.js"></script>
+          <?php
+      }
+    ?>
 </head>
-  <body>
+  <body id="wrapper_offers">
     <div id="wrapper" class="toggled">
   <?php include("nav.php"); ?>
          <!-- Page Content -->
