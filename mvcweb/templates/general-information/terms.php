@@ -2,9 +2,9 @@
 	<h1 class='general-info-title'>
 		Terms of Use
 	</h1>
-	© Copyright 2018, Marriott Vacation Club International. All rights reserved.
+	© Copyright 2012 - 2016, Marriott Vacation Club International. All rights reserved.
 	<br><br>
-	The content and information ("MVCI Information") displayed on this Marriott Vacation Club International website ("Site") is the property of Marriott Vacation Club International, ("MVCI") and/or other parties. The downloading, reproduction, or retransmission of MVCI Information, other than for non-commercial individual use, is strictly prohibited. Please feel free to browse the Site at any time; however, by browsing this Site, you are subject to the terms and conditions ("Terms and Conditions") of this Site. By accessing this Site, you accept, without limitation or qualification, the following Terms and Conditions. If you do NOT accept the Terms and Conditions, then please discontinue your use of this Site.
+	The content and information (“MVCI Information”) displayed on this Marriott Vacation Club International website ("Site") is the property of Marriott Vacation Club International, ("MVCI") and/or other parties. The downloading, reproduction, or retransmission of MVCI Information, other than for non-commercial individual use, is strictly prohibited. Please feel free to browse the Site at any time; however, by browsing this Site, you are subject to the terms and conditions ("Terms and Conditions") of this Site. By accessing this Site, you accept, without limitation or qualification, the following Terms and Conditions. If you do NOT accept the Terms and Conditions, then please discontinue your use of this Site.
 	<br><br>
 	<h2 class='general-info-header'>
 		TERMS AND CONDITIONS
@@ -27,18 +27,6 @@
 		Submissions
 	</h3>
 	Any communication or material you do transmit to the Site by electronic mail or otherwise will be treated as non-confidential and non-proprietary. Anything you transmit or post shall be deemed the property of and may be used by MVCI, or its affiliates, for any purpose, including, but not limited to, reproduction, disclosure, transmission, publication, broadcast and posting. Furthermore, MVCI is free to use and shall be deemed to own, any ideas, concepts, know-how, or techniques contained in any communication you send to the Site for any purpose whatsoever, including, but not limited to, developing, producing, manufacturing, and marketing products and services using such information. Disclosure, postings, submission, or offer of any submissions to the Site shall constitute an assignment to MVCI of all worldwide rights, titles, and interests in all copyrights and other intellectual property rights in such submission. MVCI may edit, copy, publish, distribute, translate, and otherwise use in any medium any submission that you forward to MVCI or post on the Site and will own exclusively all such rights, titles, and interest and shall not be limited in any way in its use, commercial or otherwise, of the submission or posting. MVCI is and shall be under no obligation to: (1) maintain any of your or any user's submissions or postings in confidence; (2) to pay to you or any user any compensation for any submissions; or (3) to respond to any of your or any other user's submissions or postings.
-    <h3 class="general-info-cursive">Copyright Protection</h3>
-    If you believe in good faith that materials hosted on the Site infringe your copyright you may send written notice to the designated copyright agent for Marriott Vacations Worldwide Corporation on behalf of MVCI that includes the following information.  Please note that your complaint will not be processed if it is not properly filled out or is incomplete. Any misrepresentations in your notice regarding whether content or activity is infringing may expose you to liability for damages. <br /><br />
-    <ul style="list-style: none;">
-    	<li>(i) A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.<br /><br /></li>
-        <li>(ii) Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site.<br /><br /></li>
-        <li>(iii) Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit the MVCI to locate the material.<br /><br /></li>
-        <li>(iv) Information reasonably sufficient to permit MVCI to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address at which the complaining party may be contacted.<br /><br /></li>
-        <li>(v) A statement that the complaining party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.<br /><br /></li>
-        <li>(vi) A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>
-	</ul><br />
-    You may send your completed notice to us at Marriott Vacations Worldwide Corporation, 6649 Westwood Blvd., Orlando, FL 32821, attn: Law Dept. IP Counsel, or by email to <a class='general-info-link' href="mailto:copyright@mvwc.com">copyright@mvwc.com</a>. 
-
 	<h3 class="general-info-cursive">
 		Message Boards
 	</h3>

@@ -25,10 +25,10 @@ $contentItem = array(
 		'extraClasses' => $classes
 	)),
 	2 => new ColumnItemContent(array(
-		'imgPath' => '201810/41286/WaikoloaOCeanClub01_690x520.jpg',
-		'imgAlt' => 'Waikoloa',
+		'imgPath' => '201809/NewportCoastVillas02_690x520.jpg',
+		'imgAlt' => 'View of the main pool at Marriott\'s Newport Coast Villas in Newport Coast, California.',
  		'contentHeader' => 'Special Offer',
-		'contentParagraph' => 'Hawaii Bonus Vacation Offer',
+		'contentParagraph' => 'Florida Beach Bonus Vacation Offer',
 		'buttonText' => 'Learn More',
 		'buttonHref' => '/request-information',
 		'buttonID' => 'specialOfferHome',
@@ -84,36 +84,16 @@ $contentItem = array(
 
 	function getCarouselElement($carouselItem) {
 		$img =  getImageTagCarouselLazy($carouselItem->imgPath, $carouselItem->imgAlt, NULL, TRUE);
-		//$img2 = getImageOverlay($carouselItem->imgOverlay, $carouselItem->imgOverlayID); -- Not being used by anything but causing log noise
-		if( isset($carouselItem->targetWindow) ) { $target = 'target="' . $carouselItem->targetWindow . '"'; } else { $target= ""; }
-		
-		if( isset($carouselItem->captionText))
-			$captionText = $carouselItem->captionText;
-		else
-			$captionText = "";
-
-		if(isset($carouselItem->buttonColor)) 
-			$buttonColor = $carouselItem->buttonColor;
-		else
-			$buttonColor = "transparent";
-
-		if(isset($carouselItem->buttonText))
-			$buttonText = $carouselItem->buttonText;
-		else
-			$buttonText = "";
-
-		if(isset($carouselItem->buttonHref))
-			$buttonHref = $carouselItem->buttonHref;
-		else
-			$buttonHref = "";
-
+		$img2 = getImageOverlay($carouselItem->imgOverlay, $carouselItem->imgOverlayID);
+		$targetWindow = $carouselItem->targetWindow;
+		if( $targetWindow ) { $target .= 'target="' . $targetWindow . '"'; }
 		return <<<HTML
 			<div class='slick-slide'>
 				<div class='slider-caption'>
 					<h1 class='slider-caption-text'>
-						$captionText
+						$carouselItem->captionText
 					</h1>
-					<a class='btn' role='button' href='$buttonHref' $target style='background: $buttonColor'>$buttonText</a>
+					<a class='btn' role='button' href='$carouselItem->buttonHref' $target style='background: $carouselItem->buttonColor'>$carouselItem->buttonText</a>
 				</div>
 					$img
 			</div>

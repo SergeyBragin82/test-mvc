@@ -18,10 +18,10 @@
 	</div>
  	<div class="navlinks py-4 pl-4 pr-2" id="navGroup">
  		<?php
- 			navlink("/landing/cc/offers/newport/?fid=IM59*1-IVMRDB&loc=CO08*1-IYU303", "Newport Coast, California", 0, false);
- 			navlink("/landing/cc/offers/newyorkcity/?fid=IM59*1-IVMRHG&loc=CO08*1-IYU30C", "New York City, New York", 1, true);
- 			navlink("/landing/cc/offers/orlando/?fid=IM59*1-IVMRDE&loc=CO08*1-IYU306", "Orlando, Florida", 2, false);
- 			navlink("/landing/cc/offers/palmbeaches/?fid=IM59*1-IVMRHD&loc=CO08*1-IYU309", "The Palm Beaches, Florida" , 3, false);
+ 			navlink("/landing/cc/offers/newport/?fid=" . $loc["main_npc_fid"] ."&loc=" . $loc["main_npc_loc"] . "&main_loc=" . $loc_set, "Newport Coast, California", 0, false, $loc_set);
+ 			navlink("/landing/cc/offers/newyorkcity/?fid=" .  $loc["main_nyc_fid"] . "&loc=" . $loc["main_nyc_loc"]  . "&main_loc=" . $loc_set, "New York City, New York", 1, true, $loc_set);
+ 			navlink("/landing/cc/offers/orlando/?fid=" . $loc["main_orl_fid"]  . "&loc=" .  $loc["main_orl_loc"] . "&main_loc=" . $loc_set, "Orlando, Florida", 2, false, $loc_set);
+ 			navlink("/landing/cc/offers/palmbeaches/?fid=" .  $loc["main_sin_fid"] . "&loc=" .  $loc["main_sin_loc"] . "&main_loc=" . $loc_set , "The Palm Beaches, Florida" , 3, false, $loc_set);
  			
  		?>
     </div>
@@ -35,7 +35,7 @@
 	</script>
 <?php 
 
-function navlink($url, $title, $index, $ishotel) {
+function navlink($url, $title, $index, $ishotel, $loc_set) {
 	$class = "";
 
 	if(strpos($_SERVER["REQUEST_URI"], $url) !== false) {
@@ -65,7 +65,7 @@ function navlink($url, $title, $index, $ishotel) {
 				<li><a class="nlink" href="<?php echo $url; ?>">Get Offer</a></li>
 				<li><a class="nlink" href="<?php echo $url; ?>#about">About the <?php echo $ishotel==true ? "Hotel" : "Resort"; ?></a></li>
 				<li><a class="nlink" href="<?php echo $url; ?>#attractions">Area Attractions</a></li>
-				<li><a class="nlink" href="/landing/cc/offers/details">Details of Participation</a></li>
+				<li><a class="nlink" href="/landing/cc/offers/details?loc=<?php echo $loc_set;?>">Details of Participation</a></li>
 			</ul>
 	    </div>
 	</div>
