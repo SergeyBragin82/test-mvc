@@ -197,9 +197,6 @@ function resortBookingSection($brandCode, $propertyCode, $resortCode, $disclaime
   if(!emptyOrNull($extraContent)) {
     $bodyHtml .= $extraContent;
   }
-
-  $bodyHtml .= tripAdvisorQuoteActivities();
-
   $bodyHtml .= '</div>';
   if (($brandCode !== 'RCC' || $propertyCode === 'WHRLH') && $resortCode !== 'BK' && !$ebrochure) {
     $bodyHtml .= '<div class="col-xs-12 col-sm-12 col-md-7">' . bookingWidget($propertyCode, $childResorts, $resortName) . '</div>';
@@ -207,32 +204,8 @@ function resortBookingSection($brandCode, $propertyCode, $resortCode, $disclaime
   $bodyHtml .= '</div></div>';
   return $bodyHtml;
 }
-
-function tripAdvisorQuoteOffers() {
-    return <<<HTML
-    <div class='container ta-container-quote' id='taQuoteContainer'>
-      <div class='row'>
-        <div class='col-xs-12' id='quoteCol'>
-        <div class="resort-action resort-action-divider ta-container-review pt-4"></div>
-        <div class="white-bg ta-quote"><img height="20" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/open_quote.svg"/></div>
-        <div class="white-bg ta-quote-up"><img height="20" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/close_quote.svg"/></div>
-        </div>
-      </div>
-    </div>
-HTML;
-}
-
 function tripAdvisorQuote2() {
-    return <<<HTML
-    <div class='container ta-container-quote' id='taQuoteContainer'>
-      <div class='row'>
-        <div class='col-xs-12' id='quoteCol'>
-        <div class="white-bg ta-quote"><img height="20" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/open_quote.svg"/></div>
-        <div class="white-bg ta-quote-up"><img height="20" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/close_quote.svg"/></div>
-        </div>
-      </div>
-    </div>
-HTML;
+  return tripAdvisorQuote();
 }
 
 function tripAdvisorQuote() {
@@ -247,11 +220,13 @@ function tripAdvisorQuote() {
     </div>
 HTML;
 }
-function tripAdvisorQuoteActivities() {
-  return <<<HTML
-    <div class='container ta-container-quote quote-activities' id='taQuoteContainer'>
+
+function tripAdvisorQuoteOffers() {
+    return <<<HTML
+    <div class='container ta-container-quote' id='taQuoteContainer'>
       <div class='row'>
-        <div class='col-xs-12 col-sm-12' id='quoteCol'>
+        <div class='col-xs-12' id='quoteCol'>
+        <div class="resort-action resort-action-divider ta-container-review pt-4"></div>
         <div class="white-bg ta-quote"><img height="20" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMi4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMi4xIDIyLjMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyLjEgMjIuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7fQ0KCS5zdDF7ZmlsbDojMDA5Njg3O30NCjwvc3R5bGU+DQo8ZyBjbGFzcz0ic3QwIj4NCgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTIuMywyLjJDOS42LDMuNCw3LjUsNC45LDYuMiw2LjdjLTEuMywxLjgtMi4xLDMuOC0yLjEsNi4yYzAuNi0wLjQsMS4yLTAuNywxLjctMC45YzAuNi0wLjIsMS4yLTAuMywxLjktMC4zDQoJCWMxLjUsMCwyLjYsMC41LDMuNSwxLjVzMS4zLDIuMiwxLjMsMy44cy0wLjYsMi45LTEuNywzLjljLTEuMSwxLTIuNSwxLjUtNC4yLDEuNWMtMiwwLTMuNi0wLjctNC45LTIuMkMwLjYsMTguNywwLDE2LjgsMCwxNC4zDQoJCUMwLDExLDAuOSw4LjIsMi44LDUuOEM0LjcsMy41LDcuNSwxLjUsMTEuMywwTDEyLjMsMi4yeiBNMzEuOSwyLjJDMjkuMSwzLjUsMjcsNSwyNS43LDYuOGMtMS40LDEuOC0yLjEsMy44LTIuMiw2LjINCgkJYzAuNi0wLjQsMS4yLTAuNywxLjgtMC45czEuMy0wLjMsMS45LTAuM2MxLjQsMCwyLjYsMC41LDMuNSwxLjVzMS4zLDIuMiwxLjMsMy44cy0wLjYsMi45LTEuNywzLjljLTEuMSwxLTIuNSwxLjUtNC4yLDEuNQ0KCQljLTIsMC0zLjYtMC43LTQuOC0yLjJzLTEuOC0zLjQtMS44LTUuOWMwLTMuMywwLjktNi4xLDIuOC04LjVjMS45LTIuNCw0LjctNC4zLDguNS01LjhMMzEuOSwyLjJ6Ii8+DQo8L2c+DQo8L3N2Zz4NCg=="/></div>
         <div class="white-bg ta-quote-up"><img height="20" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMi4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMi4xIDIyLjMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyLjEgMjIuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7fQ0KCS5zdDF7ZmlsbDojMDA5Njg3O30NCjwvc3R5bGU+DQo8ZyBjbGFzcz0ic3QwIj4NCgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMC4yLDIwLjFDMywxOC45LDUsMTcuMyw2LjQsMTUuNmMxLjQtMS44LDIuMS0zLjgsMi4yLTYuMkM4LDkuOCw3LjQsMTAuMSw2LjgsMTAuM3MtMS4zLDAuMy0xLjksMC4zDQoJCWMtMS40LDAtMi42LTAuNS0zLjUtMS41UzAsNi45LDAsNS40czAuNi0yLjksMS43LTMuOUMyLjgsMC41LDQuMiwwLDUuOSwwYzIsMCwzLjYsMC43LDQuOCwyLjJzMS44LDMuNCwxLjgsNS45DQoJCWMwLDMuMy0wLjksNi4xLTIuOCw4LjVjLTEuOSwyLjQtNC43LDQuMy04LjUsNS44TDAuMiwyMC4xeiBNMTkuNywyMC4xYzIuOC0xLjMsNC44LTIuOCw2LjItNC41YzEuMy0xLjgsMi4xLTMuOCwyLjEtNi4yDQoJCWMtMC42LDAuNC0xLjIsMC43LTEuNywwLjlzLTEuMiwwLjMtMS45LDAuM2MtMS41LDAtMi42LTAuNS0zLjUtMS41cy0xLjMtMi4yLTEuMy0zLjhzMC42LTIuOSwxLjctMy45YzEuMS0xLDIuNS0xLjUsNC4yLTEuNQ0KCQljMiwwLDMuNiwwLjcsNC45LDIuMmMxLjIsMS40LDEuOCwzLjQsMS44LDUuOWMwLDMuMy0wLjksNi4xLTIuOCw4LjVjLTEuOSwyLjQtNC43LDQuMy04LjUsNS44TDE5LjcsMjAuMXoiLz4NCjwvZz4NCjwvc3ZnPg0K"/></div>
         </div>

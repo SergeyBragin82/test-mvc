@@ -71,6 +71,20 @@
     <a name='legal7'></a>Owners and Enrolled Owners must consult the Reservation Procedures Documents for more details.
   </p>
 
+  <p>The following disclosures 1 - 4 are relative to properties included in the MVC Trust.</p>
+
+  <p>For properties made available only through the Marriott Vacation Club Destinations Exchange Program, the Vacation Club Points requirements set forth in the Points Charts contained in the Points Charts book and at www.My-VacationClub.com are subject to change by the Exchange Company at any time, in accordance with Article III of the Exchange Procedures for Marriott Vacation Club Destinations Exchange Program.
+  </p>
+
+  <ol>
+    <li>Unless otherwise permitted by applicable law, with respect to any accommodation, no change exceeding ten percent (10%) per annum in the manner in which Vacation Club Point values may be used may be made without the assent of at least twenty-five percent (25%) of the voting power of the association other than the developer.</li>
+    <li>No owner will be prevented from using the trust plan as a result of changes in the manner in which Vacation Club Point values may be used.</li>
+    <li>In the event Vacation Club Point values are changed, no owner will be prevented from using the accommodations in the same manner as was provided for under the original purchase contract.</li>
+    <li>Subject to the limitations in items 1 through 3 above and the Reservation Procedures for Marriott Vacation Club Destinations program, the Vacation Club Points requirements set forth on the Points Charts are subject to change by the Program Manager at any time, in accordance with Article III of the Reservation Procedures. For the most current Points Charts, please refer to www.My-VacationClub.com.</li>
+    <li>Resort specific unit type descriptions are listed by each resort in the Points Charts.</li>
+    <li>Reserved unit types are guaranteed. However, specific views are not guaranteed and may vary from unit to unit based on changes in vegetation, surrounding conditions and other factors.</li>
+  </ol>
+
   <h3 class="general-info-cursive">
     Alabama
   </h3>
@@ -138,11 +152,7 @@
   <h3 class="general-info-cursive">
     Hawaii
   </h3>
-  <p>As of September 2015, the price of timeshare periods at Marriott's Ko Olina Beach Club range from $23,050 to $141,090.
-    The price of interests in the Marriott Vacation Club Destinations timeshare plan start at $3,490 per beneficial interest
-    as of March, 2018, and certain limitations may apply. Prices are subject to change. These projects are registered projects
-    with the Hawaii Department of Commerce and Consumer Affairs. The other projects referenced within this site are not an
-    offer to Hawaii residents. Marriott Vacation Club TD-191, Ko Olina Beach Club TD-153.</p>
+  <p>As of September 2015, the price of timeshare periods at Marriott's Ko Olina Beach Club range from $23,050 to $141,090. The price of interests in the Marriott Vacation Club Destinations timeshare plan ranges from  $2,815 -  $3,525 per beneficial interest (depending on the number of beneficial interests purchased) as of September 30, 2018, and certain limitations may apply. Prices are subject to change. These projects are registered projects with the Hawaii Department of Commerce and Consumer Affairs. The other projects referenced within this site are not an offer to Hawaii residents. Marriott Vacation Club TD-191, Ko Olina Beach Club TD-153.</p>
   <h3 class="general-info-cursive">
     Idaho
   </h3>
@@ -230,10 +240,7 @@
   <h3 class="general-info-cursive">
     New York
   </h3>
-  <p>The price of interests in the Marriott Vacation Club Destinations timeshare plan start at $3,490 per beneficial interest
-    as of March 31, 2018, and certain limitations may apply. Prices are subject to change. THE COMPLETE OFFERING TERMS ARE
-    IN AN OFFERING PLAN AVAILABLE FROM SPONSOR. This project is a registered project with the Real Estate Financing Bureau,
-    Department of Law. The other projects referenced within this site are not considered an offer to New York residents.</p>
+  <p>The price of interests in the Marriott Vacation Club Destinations timeshare plan ranges from  $2,815 -  $3,525 per beneficial interest (depending on the number of beneficial interests purchased) as of September 30, 2018, and certain limitations may apply.THE COMPLETE OFFERING TERMS ARE IN AN OFFERING PLAN AVAILABLE FROM SPONSOR. This project is a registered project with the Real Estate Financing Bureau, Department of Law. The other projects referenced within this site are not considered an offer to New York residents.</p>
   <h3 class="general-info-cursive">
     North Dakota
   </h3>

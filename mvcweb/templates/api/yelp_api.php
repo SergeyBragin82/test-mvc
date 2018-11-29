@@ -25,7 +25,6 @@ $GLOBALS['SEARCH_LIMIT'] = 50;
  */
 function request($bearer_token, $host, $path, $url_params = array()) {
     // Send Yelp API Call
-    if ( empty( $url_params['categories']) ) unset( $url_params['categories'] );
     try {
         $curl = curl_init();
         if (FALSE === $curl)

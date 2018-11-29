@@ -15,7 +15,7 @@ Output Catalog:Online;ExternalCode_00057_001;8796543893122;MGV;MCOGV;GV;87833;GV
 Output Catalog:Online;ExternalCode_00030_001;8796442574466;MOU;SLCMS;MS;223802;MS;719;https://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:84060.1.99999.json;8796162949121
 Output Catalog:Online;ExternalCode_00035_001;8796452765314;MPU;HKTPB;PB;308518;PB;422;https://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:00000.1.48565.json;8796163112961
 Output Catalog:Online;ExternalCode_00013_001;8796489825922;MFV.;AIYFW;FW;240144;FW;988;https://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:08401.1.99999.json;8796163702785
-Output Catalog:Online;wk-resortExternalCodes-001;8797012573826;MWO;KOAMV;WK;223717;WK;615;http://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:96738.1.99999.json;8796355264513
+Output Catalog:Online;wk-resortExternalCodes-001;8797012573826;MWO;KOAMV;WK;12646099;WK;615;http://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:96738.1.99999.json;8796355264513
 Output Catalog:Online;ExternalCode_00010_001;8796485336706;MCP;MCOCY;CY;85383;CY;75;https://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/FL/Orlando.json;8796163637249
 Output Catalog:Online;ExternalCode_00048_001;8796537077378;;SFORF;RF;2224484;RF = San Francisco, FO = Whole Ownership;39;https://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:94104.1.99999.json;8796164423681
 Output Catalog:Online;ExternalCode_00046_001;8796538191490;;ASERA;RA;276030;RA = Aspen, AF = Aspen Fixed;583;https://api.wunderground.com/api/ef316c2c8accef68/conditions/forecast10day/q/zmw:81611.1.99999.json;8796164456449

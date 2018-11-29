@@ -1221,10 +1221,11 @@ Output Catalog:Online;ResortFeature_00010_Options_1;8796486844034;Resort Feature
 <dl>
 	<dt>Sports and Fitness</dt>
 	<dd><li>Fitness Center - Featuring a wide selection of Life Fitness cardio and strength equipment</li></dd>
-	<dd><li>Tennis courts</li></dd>
+	<dd><li>Tennis court</li></dd>
 	<dd><li>Sand volleyball court</li></dd>
 	<dd><li>Basketball court</li></dd>
 	<dd><li>Bocce ball court</li></dd>
+	<dd><li>Pickle Ball Court</li></dd>
 </dl>
 
 <dl>
@@ -1338,12 +1339,6 @@ Output Catalog:Online;ResortFeature_00019_Options_3;8796522167938;Resort Feature
 	<dt>Mikados Japanese Steakhouse**</dt>
 	<dd><li>Dinner</li></dd>
 	<dd><li>Phone: 407-239-4200</li></dd>
-</dl>
-
-<dl>
-	<dt>Hawk's Landing Steakhouse and Grill**</dt>
-	<dd><li>Lunch</li></dd>
-	<dd><li>Phone: 407-238-8829</li></dd>
 </dl>
 
 <dl>
@@ -2880,6 +2875,7 @@ Output Catalog:Online;ResortFeature_00005_Options_5;8796466396802;Resort Feature
 	<dd><li>Social Hour</li></dd>
 </dl>";8796466364034
 Output Catalog:Online;ResortFeature_00010_Options_6;8796486778498;Resort Features;Marketplace;Enjoy Floridian charm and exceptional services and amenities at this beautiful resort. Your whole family will revel in the spacious accommodations and array of exhilarating activities.;2;"<dl>
+	<dd><li>Open for Hot Breakfast Orders</li></dd>
 	<dd><li>Perfect for quick bites and necessities</li></dd>
 	<dd><li>Merchandise includes sundries and resort apparel</li></dd>
 	<dd><li>Snacks, cold drinks, ice cream, and more</li></dd>
@@ -3384,12 +3380,6 @@ Output Catalog:Online;ResortFeature_00037_Options_4;8796536487554;Resort Feature
 <dl>
 	<dt>Mangrove Emporium*</dt>
 	<dd><li>Breakfast</li></dd>
-	<dd><li>Lunch</li></dd>
-	<dd><li>Dinner</li></dd>
-</dl>
-
-<dl>
-	<dt>Hawk's Landing Steakhouse and Grille*</dt>
 	<dd><li>Lunch</li></dd>
 	<dd><li>Dinner</li></dd>
 </dl>
@@ -4223,7 +4213,7 @@ Output Catalog:Online;ResortFeature_00022_Options_3;8796508569218;Resort Feature
 Output Catalog:Online;ResortFeature_00026_Options_1;8796525739650;Resort Features;Golf;With its luxurious accommodations, beautiful waterfront setting and thoughtful services, this resort is your place for memorable Hilton Head Island vacations. Make your getaway here and you can hardly wait to come back again next year.;5;"<dl>
 	<dt>Golf package included*</dt>
 	<dd><li>Contact resort for details at 843-363-3013</li></dd>
-	<dd><li>Courses include Harbour Town Golf Links, Ocean and Sea Marsh</li></dd>
+	<dd><li>Courses include Oyster Reef, Shipyard, and Port Royal</li></dd>
 	<dd><li>Restrictions apply</li></dd>
 	<dd><li>Please <a destination=""https://www.marriottvacationsworldwide.com/common/respages/pdf/resorts/he/heritage_golf_letter.pdf"" target='_blank'>click here</a> to view information on our golf packages.</li></dd>
 </dl>
@@ -4531,26 +4521,16 @@ Output Catalog:Online;ResortFeature_00001_Options_6;8797013589634;;Spa;;;"<dl>
 	<dd><li>Massages</li></dd>
 	<dd><li>Steam room</li></dd>
 </dl>";8796464463490
-Output Catalog:Online;ResortFeature_00010_Options_7;8796486680194;Resort Features;Spa;Enjoy Floridian charm and exceptional services and amenities at this beautiful resort. Your whole family will revel in the spacious accommodations and array of exhilarating activities.;6;"<dl>
-	<dt>The Spa at Grande Vista*</dt>
-	<dd><li>Phone: 407-238-3005 (Appointment required)</li></dd>
-	<dd><li>Body scrub</li></dd>
-	<dd><li>Body wrap</li></dd>
-	<dd><li>Facial treatments</li></dd>
-	<dd><li>Manicures/pedicures</li></dd>
-	<dd><li>Massages</li></dd>
-	<dd><li>Wax treatments</li></dd>
-</dl>
+Output Catalog:Online;ResortFeature_00010_Options_7;8796486680194;Resort Features;Spa;Enjoy Floridian charm and exceptional services and amenities at this beautiful resort. Your whole family will revel in the spacious accommodations and array of exhilarating activities.;6;"
 <dl>
 	<dt>Cypress Spa</dt>
 	<dd><li>Phone: 407-238-6120</li></dd>
-	<dd><li>Body wrap</li></dd>
-	<dd><li>Facials</li></dd>
-	<dd><li>Manicures/pedicures</li></dd>
+	<dd><li>Body Wrap</li></dd>
+	<dd><li>Facial Treatments</li></dd>
+	<dd><li>Manicures/Pedicures</li></dd>
 	<dd><li>Massages</li></dd>
-	<dd><li>Waxing</li></dd>
-</dl>
-<dd>*Off site</dd>";8796486647426
+	<dd><li>Wax Treatments</li></dd>
+</dl>";8796486647426
 Output Catalog:Online;ResortFeature_00010_Options_4;8796486811266;Resort Features;Services;Enjoy Floridian charm and exceptional services and amenities at this beautiful resort. Your whole family will revel in the spacious accommodations and array of exhilarating activities.;1;"<dl>
 	<dd><li>Concierge services</li></dd>
 	<dd><li>Laundry on site</li></dd>
@@ -5222,10 +5202,10 @@ Output Catalog:Online;ResortFeature_00009_Options_2;8796473966210;Resort Feature
 <dd>*Off site</dd>";8796473867906
 Output Catalog:Online;ResortFeature_00057_Options_2;8796480552578;Resort Features;Shopping;To make your Hawaiian vacation all the more spectacular, Marriott's Maui Ocean Club offers you expansive accommodations, exemplary services and the finest level of amenities. Say aloha to the ultimate island retreat.;99;"<dl>
 	<dd><li>Clothing stores</li></dd>
-	<dd><li>Salon</li></dd>
 	<dd><li>Gift/newsstand</li></dd>
 	<dd><li>Florist</li></dd>
-	<dd><li>Barber/beauty shop</li></dd>
+	<dd><li>Jewelry store</li></dd>
+	<dd><li>Photography studio</li></dd>
 </dl>";8796480355970
 Output Catalog:Online;ResortFeature_00057_Options_7;8797436624514;;Spa;;7;"<dl>
     <dt>Spa by the Sea</dt>
@@ -6243,12 +6223,18 @@ Output Catalog:Online;ResortFeature_00003_Options_6;8796462956162;Resort Feature
 
 <dd>* Off site, located at the adjacent Aruba Ocean Club</dd>";8796462857858
 Output Catalog:Online;ResortFeature_00010_Options_3;8796486712962;Resort Features;Dining & Bars;Enjoy Floridian charm and exceptional services and amenities at this beautiful resort. Your whole family will revel in the spacious accommodations and array of exhilarating activities.;3;"<dl>
-	<dt>Pavilion Bar & Grill</dt>
+	<dt>Galley Grill</dt>
 	<dd>(On-site)</dd>
+	<dd><li>Breakfast (Order in the Marketplace)</li></dd>
     <dd><li>Lunch</li></dd>
 	<dd><li>Dinner</li></dd>
+	<dd><li>Phone: 407-238-6057</li></dd>
 </dl>
-
+<dl>
+	<dt>Pavilion Bar</dt>
+	<dd>(On-site)</dd>
+    <dd><li>Lunch</li></dd>
+</dl>
 <dl>
 	<dt>The Grill at Grande Vista</dt>
     <dd>(Off-site at Marriott’s Grande Vista)</dd>
@@ -6280,15 +6266,6 @@ Output Catalog:Online;ResortFeature_00010_Options_3;8796486712962;Resort Feature
 	<dd><li>Dinner</li></dd>
 	<dd><li>Phone: 407-239-4200</li></dd>
 </dl>
-
-<dl>
-	<dt>Hawk's Landing Steakhouse and Grill</dt>
-    <dd>(Off-site at the Marriott Orlando World Center Resort)</dd>
-	<dd><li>Lunch</li></dd>
-	<dd><li>Dinner</li></dd>
-	<dd><li>Phone: 407-238-8829</li></dd>
-</dl>
-
 <dl>
 	<dt>Ristorante Tuscany</dt>
     <dd>(Off-site at the Marriott Orlando World Center Resort)</dd>
@@ -6524,12 +6501,6 @@ Output Catalog:Online;ResortFeature_00036_Options_5;8796534718082;Resort Feature
 <dl>
 	<dt>Food Court*</dt>
 	<dd><li>Breakfast</li></dd>
-	<dd><li>Lunch</li></dd>
-	<dd><li>Dinner</li></dd>
-</dl>
-
-<dl>
-	<dt>Hawk's Landing Steakhouse and Grille*</dt>
 	<dd><li>Lunch</li></dd>
 	<dd><li>Dinner</li></dd>
 </dl>
@@ -6992,13 +6963,6 @@ Output Catalog:Online;ResortFeature_00017_Options_3;8796495855234;Resort Feature
     <dd>(Off-site at the Marriott Orlando World Center Resort)</dd>
                 <dd><li>Phone: 407-239-4200</li></dd>
                 <dd><li>Dinner</li></dd>
-</dl>
-
-<dl>
-                <dt>Hawk's Landing Steakhouse and Grill</dt>
-                <dd><li>Phone: 407-238-8829</li></dd>
-                <dd><li>Lunch</li></dd>
-                <dd><li>Dinner</li></dd>
 </dl>";8796495691394
 Output Catalog:Online;ResortFeature_00021_Options_4;8796503817858;Resort Features;Services;Discover an island vacation with endless comforts, satisfying services and Hawaiian delights. From spacious villas to on-site golf and spa options to a Polynesian dinner show, you'll find everything you need to make your tropical getaway complete.;1;"<dl>
 	<dd><li>Newspaper delivered to room</li></dd>
@@ -7007,7 +6971,6 @@ Output Catalog:Online;ResortFeature_00021_Options_4;8796503817858;Resort Feature
 	<dd><li>Concierge services</li></dd>
 	<dd><li>Onsite Foreign Exchange</li></dd>
 	<dd><li>Complimentary Laundry services</li></dd>
-	<dd><li>Daily housekeeping services available upon request</li></dd>
 	<dd><li>On-site safe deposit boxes (front desk)</li></dd>
 </dl>";8796503621250
 Output Catalog:Online;SD-ResortFeature-Dining-001;8796726902402;;Dining & Bars;;;"<dl>
@@ -7066,3 +7029,11 @@ Output Catalog:Online;PA-resortFeatures-spaTab-001;8797312138882;;Spa;;5;"<dl>
 </dl>
 
 <dd>*Located at the JW Marriott Phuket Resort & Spa</dd>";8797312106114
+Output Catalog:Online;sanFrancisco-resortFeature-services;8799306923650;;Services;;1;"<dl><ul> 
+<li>Mobile Concierge Services</li>
+<li>Valet Parking for a fee</li>
+<li>Self Parking for a fee</li>
+<li>Complimentary Wi-Fi in guestrooms, suites and public spaces</li>
+<li>Self-Service Guest Laundry</li>
+<li>Guest Internet Kiosk</li>
+</ul></dt>";8799306890882

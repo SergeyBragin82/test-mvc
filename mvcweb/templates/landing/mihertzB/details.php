@@ -1,11 +1,12 @@
 <?php 
 $pagetitle = "DOP";
+$pagename = "MVC - Landing Pages | Call Center | DOP | C";
 include("header.php");
 include("mobile_detect.php");
  ?><div>
 <div class="header-desktop">
 	<div class="form-header">
-	      <a href="/landing/cc/offers-b?loc=<?php echo $loc_set; ?>"><img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/marriott_logo_dark.svg"></a>
+	      <a href="/landing/cc/offers-c?loc=<?php echo $loc_set; ?>"><img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/marriott_logo_dark.svg"></a>
 	      <a href="javascript:void();" data-toggle="sidebar">
 	      		<img class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/darkburger.svg">
 	  		</a>
@@ -14,7 +15,7 @@ include("mobile_detect.php");
 	  </div>
 	  <div class="header-mobile">
 	  	<div class="p-2">
-	  		<a href="/landing/cc/offers-b?loc=<?php echo $loc_set; ?>">
+	  		<a href="/landing/cc/offers-c?loc=<?php echo $loc_set; ?>">
 	  	<img class ="mlogo" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/Marriott_logo_horiz.svg"></a>
 	      <a href="javascript:void();" data-toggle="sidebar">
 	      		<img width="35" height="35" class ="hamburgermenu" src="/wp-content/plugins/mvcweb/assets/mvcweb/css/landing/mihertz/hamburger.svg">
@@ -24,6 +25,9 @@ include("mobile_detect.php");
 	  </div>
 	</div>
 	<div class="p-3">
+		<div class="about-resort mx-auto">
+		<a href="javascript:window.history.back();" class="teal-fg kessel" style="font-weight: bold;">&lt; BACK</a>
+	</div>
 <h1 class="text-center mb-4">Details of Participation</h1>
 <div class="details-divider mx-auto my-5"></div>
 <div class="about-resort mx-auto details-copy">
@@ -45,7 +49,7 @@ include("mobile_detect.php");
 <p>Retail values are based on current and projected average room rates during the noted period at the time of print, which are subject to change without notice.  Actual retail value is determined by the location’s rack rate for the period of occupancy.</p>
 
 
-<p><b>Offer:</b> Package purchase must be made with a major credit card, and a major credit card is required upon arrival and check-in. Accommodations are subject to availability. <b>Airfare, transportation, parking, gratuities, additional expenses and applicable taxes, if any, are not included with this offer.</b> A written confirmation of your reservation is required. One offer per family, no groups. This offer is made on a space-available basis only. <b>This offer is nontransferable, and purchase price is nonrefundable.</b> Offer subject to change without notice. This offer is not valid in conjunction with any other promotion. Failure to show for the reservation without a 30-day notification prior to arrival date will result in the forfeiture of the package purchase price. A $99 fee will apply to any changes in or cancellation of a reservation less than 30 days prior to arrival date. A $99 surcharge will apply to guests staying on their package during any portion of the following holiday periods: Labor Day (8/29/18&mdash;9/2/18); Thanksgiving (11/18/18&mdash;11/24/18); Christmas/New Year's (12/18/18&mdash;1/1/19); Presidents Day (2/13/19&mdash;2/18/19); Easter (4/11/19&mdash;4/22/19); Memorial Day (5/22/19&mdash;5/26/19); Independence Day (6/26/19-7/4/19); Labor Day (8/28/19&mdash;9/1/19); Thanksgiving (11/17/19&mdash;11/23/19); and Christmas/New Year’s (12/17/2019&mdash;1/1/2020); subject to availability. Offer expires December 31, 2018. Travel must be completed: (i) for the Orlando and Palm Beach packages by December 14, 2019, (ii) for the Newport Beach package by May 31, 2019, and (iii) for the New York City package by December 31, 2019.</p>
+<p><b>Offer:</b> Package purchase must be made with a major credit card, and a major credit card is required upon arrival and check-in. Accommodations are subject to availability. <b>Airfare, transportation, parking, gratuities, additional expenses and applicable taxes, if any, are not included with this offer.</b> A written confirmation of your reservation is required. One offer per family, no groups. This offer is made on a space-available basis only. <b>This offer is nontransferable, and purchase price is nonrefundable.</b> Offer subject to change without notice. This offer is not valid in conjunction with any other promotion. Failure to show for the reservation without a 30-day notification prior to arrival date will result in the forfeiture of the package purchase price. A $99 fee will apply to any changes in or cancellation of a reservation less than 30 days prior to arrival date. A $99 surcharge will apply to guests staying on their package during any portion of the following holiday periods: Labor Day (8/29/18&mdash;9/2/18); Thanksgiving (11/18/18&mdash;11/24/18); Christmas/New Year's (12/18/18&mdash;1/1/19); Presidents Day (2/13/19&mdash;2/18/19); Easter (4/11/19&mdash;4/22/19); Memorial Day (5/22/19&mdash;5/26/19); Independence Day (6/26/19-7/4/19); Labor Day (8/28/19&mdash;9/1/19); Thanksgiving (11/17/19&mdash;11/23/19); and Christmas/New Year’s (12/17/2019&mdash;1/1/2020); subject to availability. Offer expires March 31, 2019. Travel must be completed: (i) for the Orlando and Palm Beach packages by December 14, 2019, (ii) for the Newport Beach package by May 31, 2019, and (iii) for the New York City package by December 31, 2019.</p>
 
 <p>NEWPORT COAST<sup>&reg;</sup> is a registered trademark of The Irvine Company and is used herein with permission. Marriott's Newport Coast<sup>&reg;</sup> Villas is not affiliated or associated with The Irvine Company.</p>
 

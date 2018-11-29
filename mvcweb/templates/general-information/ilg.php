@@ -111,10 +111,10 @@ display: inline-block;
 				<div class='row'>
 					<div class="col-xl-3" style="padding-right:10px;">
 						<div class="item">
-							<h3 class='header'>Elevated Marriott Rewards<sup>&reg;</sup> Status</h3>
+							<h3 class='header'>Elevated Marriott Rewards Status</h3>
 						</div>
 						<div class="description">
-							As a Marriott Vacation Club Owner, you may be eligible to receive Elite status in the Marriott Rewards program through the Marriott Vacation Club Destinations Exchange Program. 
+							As a Marriott Vacation Club Owner, you may be eligible to receive Elite status in the Marriott Rewards<sup>&reg;</sup> program through the Marriott Vacation Club Destinations<sup>&reg;</sup> Exchange Program. 
 						</div><br /><br />
 					</div>
 					<div class="col-xl-9 15pxleft">
@@ -222,7 +222,7 @@ display: inline-block;
 									New Brands and Destinations Worldwide through Marriott Rewards
 								</h3>
 								<div class='description'>
-									<p>When you become an Owner, you can experience new brands and destinations through Marriott Rewards points earned from your Marriott Vacation Club ownership   — all while enjoying the benefits of your elevated status. You can now use your Marriott Rewards points to stay at more than 6,500 hotels across 29 unique brands, including The Ritz-Carlton<sup>&reg;</sup>, St. Regis, Marriott<sup>&reg;</sup> Hotels, Westin and W Hotels.<sup>1</sup></p>
+									<p>When you become an Owner, you can experience new brands and destinations through Marriott Rewards points earned from your Marriott Vacation Club ownership   — all while enjoying the benefits of your elevated status. You can now use your Marriott Rewards points to stay at more than 6,500 hotels across 29 unique brands, including The Ritz-Carlton<sup>&reg;</sup>, St. Regis<sup>&reg;</sup>, Marriott<sup>&reg;</sup> Hotels, Westin and W<sup>&reg;</sup> Hotels.<sup>1</sup></p>
 								</div>
 								<div class="note" style="font-size:10px;color:#343a40;">
 									<sup>1</sup><i>Excludes timeshare locations.</i>
@@ -233,7 +233,7 @@ display: inline-block;
 									Save 25% on Rental Stays
 								</h3>
 								<div class='description'>
-									<p>As an Owner, you will receive 25% off available nightly rental rates at Marriott Vacation Club resorts. And now, with our expanding family of brands, you’ll receive the same 25% off available nightly rental rates at Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club locations, subject to availability and terms and conditions.<sup>2</sup></p>
+									<p>As an Owner, you will receive 25% off available nightly rental rates at Marriott Vacation Club resorts. And now, with our expanding family of brands, you’ll receive the same 25% off available nightly rental rates at Sheraton Vacation Club and Westin Vacation Club locations, subject to availability and terms and conditions.<sup>2</sup></p>
 								</div>
 								<div class="note" style="font-size:10px;color:#343a40;">
 									<sup>2</sup><i>For direct villa reservations and not applicable for Getaways offers through Interval International.</i>
@@ -256,7 +256,7 @@ display: inline-block;
                         <div id="collapse36" class="faq-panel panel-collapse collapse" role="tabpanel" aria-labelledby="heading36" data-parent="#terms">
                             <div class="card-body rgba-black-light white-text z-depth-1">
 							
-								<p><strong>Owner Rental Discount:</strong> Rental discounts in the amount of 25% off the available nightly rental rate at Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts are only available to Owners and Members of the Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club, Grand Residences by Marriott, The Ritz-Carlton Club, and St. Regis Residence Club, subject to availability.  Owner must be present at check-in and there is a limit of two villas per Owner per night.  Discount may be greater for Marriott Vacation Club Owners at Marriott Vacation Club resorts based on Owner benefit level.  Only one discount may be applied per reservation.  Offer may be modified or terminated at any time.</p>
+								<p><strong>Owner Rental Discount:</strong> Rental discounts in the amount of 25% off the available nightly rental rate at Marriott Vacation Club, Sheraton Vacation Club and Westin Vacation Club resorts are only available to Owners and Members of the Marriott Vacation Club, Sheraton Vacation Club, Westin Vacation Club, Grand Residences by Marriott<sup>SM</sup>, The Ritz-Carlton Club, and St. Regis Residence Club, subject to availability.  Owner must be present at check-in and there is a limit of two villas per Owner per night.  Discount may be greater for Marriott Vacation Club Owners at Marriott Vacation Club resorts based on Owner benefit level.  Only one discount may be applied per reservation.  Offer may be modified or terminated at any time.</p>
                             </div>
                         </div>
 					</div>
@@ -285,7 +285,7 @@ display: inline-block;
 									More Savings on Vacation
 								</h3>
 								<div class='description'>
-									When you become an Owner, you can ask for exclusive Owner discounts on select food, beverage and activity options at participating outlets while vacationing at Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club locations, subject to terms and conditions.
+									When you become an Owner, you can ask for exclusive Owner discounts on select food, beverage and activity options at participating outlets while vacationing at Marriott Vacation Club, Sheraton Vacation Club and Westin Vacation Club locations, subject to terms and conditions.
 								</div>
 							</div>
 									<div class="card-image">
@@ -306,7 +306,7 @@ display: inline-block;
                         <div id="collapse37" class="faq-panel panel-collapse collapse" role="tabpanel" aria-labelledby="heading37" data-parent="#terms">
                             <div class="card-body rgba-black-light white-text z-depth-1">
 							
-                                <p><strong>On-site Discounts:</strong> Discounts for Owners and Members of Marriott Vacation Club<sup>&reg;</sup>, Sheraton<sup>&reg;</sup> Vacation Club, Westin<sup>&reg;</sup> Vacation Club, Grand Residences by Marriott<sup>&reg;</sup>, The Ritz-Carlton Club<sup>&reg;</sup> and St. Regis Residence Club interests are available at participating outlets of select Marriott Vacation Club, Sheraton<sup>&reg;</sup> Vacation Club and Westin<sup>&reg;</sup> Vacation Club resorts. Discounts vary by site, are not guaranteed and may be modified or terminated at any time. Owners should check to see what discounts may be available at the time of check-in.</p>
+                                <p><strong>On-site Discounts:</strong> Discounts for Owners and Members of Marriott Vacation Club, Sheraton Vacation Club, Westin Vacation Club, Grand Residences by Marriott, The Ritz-Carlton Club and St. Regis Residence Club interests are available at participating outlets of select Marriott Vacation Club, Sheraton Vacation Club and Westin Vacation Club resorts. Discounts vary by site, are not guaranteed and may be modified or terminated at any time. Owners should check to see what discounts may be available at the time of check-in.</p>
 
                             </div>
                         </div>

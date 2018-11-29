@@ -165,6 +165,15 @@ HTML;
 	}
  ?>
 
+ 	<style type="text/css">
+ 		
+ 		p.description {
+    		z-index: 5000 !important;
+    		position: relative;
+		}
+
+ 	</style>
+
 	<div class='destinations-resorts-item' style='display: none;' id='resortItemTemplate'>
 		<div class='container'>
 			<div class='row'>

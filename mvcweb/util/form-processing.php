@@ -4,8 +4,6 @@ require_once(dirname(__DIR__) . '/templates/classes/form_json.php');
 
 add_action( 'admin_post_nopriv_request_info_form', 'handle_request_info_form');
 add_action( 'admin_post_request_info_form', 'handle_request_info_form' );
-add_action( 'admin_post_activity_edit_form', 'handle_request_activity_edit_form' );
-
 
 function handle_request_info_form() {
 	function generateWebCrmContent($postInfo) {
@@ -132,206 +130,103 @@ function handle_hawaiian_air_form() {
 add_action( 'admin_post_nopriv_hertz_resort_form', 'handle_hertz_resort_form');
 add_action( 'admin_post_hertz_resort_form', 'handle_hertz_resort_form' );
 
-function handle_hertz_resort_form() {
+add_action( 'admin_post_nopriv_handle_force_write', 'handle_hertz_force_write');
+add_action( 'admin_post_handle_force_write', 'handle_hertz_force_write');
 
-	// check for file and replace if no longer there (aka picked up)
-	$uniqueID = random_int(constant("PHP_INT_MIN"), constant("PHP_INT_MAX"));
-	$fileLocation =  '/user/forms/callcenter/';
-	$intLocation = $fileLocation . '/internal/';
-
-	if(!file_exists($intLocation)) {
-		mkdir($intLocation);
-	}
-
-	if(!file_exists($fileLocation)) {
-		mkdir($fileLocation);
-	}
-
-	$now = date("omdH") . "0000";
-
-	$fileName = 'formData_callcenter' . $now . '.txt';
-	$fullPath = $intLocation . $fileName;
-
-	if(!file_exists($fullPath)) {
-		$file = "WEB_CD|FIRST_NAME|LAST_NAME|PHONE|EMAIL|CITY|STATE_PROV|POSTAL_CD|OPTIN|ORIGIN_LOC|FORM_LOC|SUBMIT_DT|MRW_MEMBER_CD\r\n";
-	} else {
-		$file = file_get_contents($fullPath);
-	}
+function handle_hertz_resort_form () {
 
 	// escape out unwanted pipes
 	foreach($_POST as $key => $value) {
 		$_POST[$key] = str_replace("|", "\\|", $value);
 	}
 
-	$now = date("c");
+	$now = date("omdH") . "0000";
+
+	$now_ts = date("c");
 
 	$phone = preg_replace( '/[^0-9]/', '', $_POST['PHONE'] );
+	$data = getGUID() . "|" . $_POST["FIRST_NAME"] . "|" . $_POST["LAST_NAME"] . "|" . $phone . "|" . $_POST["EMAIL"] . "|" . $_POST["CITY"] . "|" . $_POST["STATE_PROV"] . "|" . $_POST["POSTAL_CD"] . "|" . ($_POST["OPTIN"]=="on" ? "true" : "false") . "|" . $_POST["ORIGIN_LOC"] . "|" . $_POST["FORM_LOC"] . "|" . $now_ts . "|" .  "\r\n";
 
-	$file .= getGUID() . "|" . $_POST["FIRST_NAME"] . "|" . $_POST["LAST_NAME"] . "|" . $phone . "|" . $_POST["EMAIL"] . "|" . $_POST["CITY"] . "|" . $_POST["STATE_PROV"] . "|" . $_POST["POSTAL_CD"] . "|" . ($_POST["OPTIN"]=="on" ? "true" : "false") . "|" . $_POST["ORIGIN_LOC"] . "|" . $_POST["FORM_LOC"] . "|" . $now . "|" .  "\r\n";
-
-	$filec = fopen($fullPath, "w") or die('Cannot open file: ' . $fullPath);
-	fwrite($filec, $file);
-	fclose($filec);
-
-	// move old files if they are there
-	for($i=1;$i<=24; $i++) {
-		$check_date = date_add(date_create(), date_interval_create_from_date_string("-" . $i . " hours"));
-		$check_date_str = $check_date->format("omdH") . "0000";
-
-		$check_location_relative = "formData_callcenter" . $check_date_str . ".txt";
-		$check_location_old = $intLocation . $check_location_relative;
-		$check_location_new = $fileLocation . $check_location_relative;
-
-		if(file_exists($check_location_old)) {
-			rename($check_location_old, $check_location_new);
-		}
+	$count = get_option("mi_current_count");
+	if(!$count) {
+		$count = 0;
 	}
 
-	echo "{\"result\":\"ok\"}";
-//	header("Location: /landing/cc/offers/thankyou/?loc=" . $_POST["ORIGIN_LOC"] . "&fid=" . $_POST["FORM_LOC"]);
-
+	$count++;
+	update_option("mi_current_count", $count);
+	update_option("mi_current_queue_" . $count, $data);
 }
 
-add_action( 'admin_post_delete_activity', 'handle_request_activity_delete');
-
-function handle_request_activity_delete () {
-	if(!wp_get_current_user()->exists()) {
-		die();
-	}
-
-	$id = $_POST["id"];
-	$code = $_POST["code"];
-
-	$resort = new SimpleXMLElement(get_option("MVC_OSA_" . strtolower($code)));
-	$node=$resort->xpath('//Row[@id="'. $id .'"]');
-    $node=dom_import_simplexml($node[0]);
-    $parent=$node->parentNode;
-    $parent->removeChild($node);
-    $new_resort=simplexml_import_dom($parent->ownerDocument);
-    update_option("MVC_OSA_" . strtolower($code), $new_resort->asXML());
-	echo "{\"result\":\"ok\"}";
+function handle_hertz_force_write() {
+		$now = date("omdH") . "0000";
+		error_log("Force Write: $now = " . $now);
+		handle_hertz_resort_form_batch("_debug", $now, true);
+		echo "{\"result\":\"ok\"}";	
 }
 
-function handle_request_activity_edit_form () {
-	if(!wp_get_current_user()->exists()) {
-		die();
-	}
-	
-	$id = $_POST["id"];
-	$code = $_POST["code"];
+function handle_hertz_resort_form_batch($now, $new_timestamp, $donotreset=false) {
+	$data = "WEB_CD|FIRST_NAME|LAST_NAME|PHONE|EMAIL|CITY|STATE_PROV|POSTAL_CD|OPTIN|ORIGIN_LOC|FORM_LOC|SUBMIT_DT|MRW_MEMBER_CD\r\n";
 
-	$resort = new SimpleXMLElement(get_option("MVC_OSA_" . strtolower($code)));
-	
-	if($id) {
-		$activity = $resort->xpath("//Row[@id='" . $id . "']")[0];
+	// check for file and replace if no longer there (aka picked up)
+	$uniqueID = random_int(constant("PHP_INT_MIN"), constant("PHP_INT_MAX"));
+	$fileLocation =  '/user/forms/callcenter/';
+
+	if(!file_exists($fileLocation)) {
+		error_log("file_exists false, creating: " . $fileLocation);
+		mkdir($fileLocation);
 	} else {
-		$activity = $resort->addChild("Row");
+		error_log("file_exists true: " . $fileLocation);
 	}
 
-	
-	if(!$id) {
-		$id = guidv4();
-		$activity->addAttribute("id", $id);
+	$fileName = 'formData_callcenter' . $now . '.txt';
+	$fullPath = $fileLocation . $fileName;
 
+	error_log("Opening " . $fullPath . " for write");
+	$filec = fopen($fullPath, "w");
+	if(!$filec) {
+		error_log("FAILURE: could not open " . $fullPath);
+		header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+		die('Cannot open file: ' . $fullPath);	
+		return;
+	} 
+
+	if(!fwrite($filec, $data)) {
+		error_log("FAILURE: could not write to " . $fullPath);
+		header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+		die('Cannot open file: ' . $fullPath);		
+		return;
 	}
 
-	$activity->ActivityTitle = stripslashes($_POST["title"]);
-	$activity->ActivityDescription = stripslashes($_POST["description"]);
-	$activity->startDate = $_POST["startDate"];
-	$activity->endDate = $_POST["endDate"];
-	$activity->currency = $_POST["currency"];
-	$activity->currencyPrice = $_POST["price"];
-	$activity->frequency = $_POST["frequency"];
-	$activity->dayOfWeek = $_POST["dayOfWeek"];
-	$activity->reservations = ($_POST["reservations"]=="on" ? "yes" : "no");
-	$activity->ActivityPhone = $_POST["phone"];
-
-	$activity->active = ($_POST["active"]=="on" ? "yes" : "no");
-	$activity->photo = ($_POST["photo_url"]);
-        $activity->photo_map = ($_POST["photo_map_url"]);
-        $activity->photo_map_x = ($_POST["photo_map_x"]);
-        $activity->photo_map_y = ($_POST["photo_map_y"]);
-
-	$tags = array();
-
-	foreach($_POST as $key=>$value) {
-		if(substr($key, 0, 4)==="cat_") {
-			if($value=="on") {
-				$tags[] = str_replace("cat_", "", $key);
-			}
-		}
-	}
-	$activity->tags = implode(" ", $tags);
-
-	$days = array("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
-
-	switch($activity->frequency) {
-		case "single":
-			$activity->ActivityDateString = $activity->startDate;
-			break;
-		case "weekly":
-			$activity->ActivityDateString = "Every " . $days[intval($activity->dayOfWeek)] . " " . explode(" ", $activity->startDate)[1];
-			break;
+	$currentcount = get_option("mi_current_count");
+	error_log("Writing " . $currentcount . " rows");
+	for($i=1; $i<=$currentcount; $i++) {
+		$row = get_option("mi_current_queue_" . $i);
+		if(!fwrite($filec, $row)) {
+			error_log("FAILURE: could not write ROW " . $i . " to " . $fullPath);
+			header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+			die('Cannot write file: ' . $fullPath);			
+			return;
+		} 
 	}
 
-	// upload image using request ID 
-	$image_dir = get_home_path() . "/wp-content/images/";
-	if (!file_exists($image_dir)) {
-		mkdir($image_dir);	
-	}
-	
-	$image_dir .= "cms/";
-	if (!file_exists($image_dir)) {
-		mkdir($image_dir);	
+	$newcount = get_option("mi_current_count");
+	if($newcount!=$currentcount) {
+		trigger_error("Mismatch since writing the batch file: " . $newcount . " from " . $currentcount . " diff: " . ($newcount-$currentcount), E_USER_NOTICE);
 	}
 
-	// get uploaded image
-	 
-	if(!file_exists($_FILES['photo']['tmp_name']) || !is_uploaded_file($_FILES['photo']['tmp_name'])) {
-		
-    } else {
-    	$img_id = guidv4();
+	if(!fclose($filec)) {
+		error("FAILURE: Could not close file.");
+		header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+		die('Cannot close file: ' . $fullPath);	
+		return;
+	}
 
-    	$tmpfile = $_FILES['photo']['name'];
-    	//$filepath = $image_dir . $id . "." . pathinfo($tmpfile, PATHINFO_EXTENSION);
-    	$filepath = $image_dir . $img_id . "." . pathinfo($tmpfile, PATHINFO_EXTENSION);
-    	$url = $_SERVER['REQUEST_URI'];
-        if(!move_uploaded_file($_FILES['photo']['tmp_name'], $filepath)) {
-        	// failure state
-        }
-        $activity->photo = "/wp-content/images/cms/" . $img_id . "." . pathinfo($tmpfile, PATHINFO_EXTENSION);
-    }
-    
-    if(!file_exists($_FILES['photo_map']['tmp_name']) || !is_uploaded_file($_FILES['photo_map']['tmp_name'])) {
-		
-    } else {
-    	$img_map_id = guidv4();
-
-    	$tmpfile_map = $_FILES['photo_map']['name'];
-    	//$filepath = $image_dir . $id . "." . pathinfo($tmpfile, PATHINFO_EXTENSION);
-    	$filepath_map = $image_dir . $img_map_id . "." . pathinfo($tmpfile_map, PATHINFO_EXTENSION);
-    	$url_map = $_SERVER['REQUEST_URI'];
-        if(!move_uploaded_file($_FILES['photo_map']['tmp_name'], $filepath_map)) {
-        	// failure state
-        }
-        $activity->photo_map = "/wp-content/images/cms/" . $img_map_id . "." . pathinfo($tmpfile_map, PATHINFO_EXTENSION);
-    }
-
-	update_option("MVC_OSA_" . $code, $resort->asXML());
-        
-	header("Location: admin.php?page=mvc_activities_edit&code=" . $code . "&sortby=" . $_POST['sortby'] . "&dir=" . $_POST['dir']);
-	//echo htmlspecialchars($activity->asXML());
-}
-
-function guidv4()
-{
-    if (function_exists('com_create_guid') === true)
-        return trim(com_create_guid(), '{}');
-
-    $data = openssl_random_pseudo_bytes(16);
-    $data[6] = chr(ord($data[6]) & 0x0f | 0x40); // set version to 0100
-    $data[8] = chr(ord($data[8]) & 0x3f | 0x80); // set bits 6-7 to 10
-    return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
+	if(!$donotreset) {
+		update_option("mi_current_timestamp", $new_timestamp);
+		error_log("Resetting timestamp to " . $new_timestamp);
+		error_log("Resetting count to 0");
+		update_option("mi_current_count", 0);
+	}
 }
 
 function getGUID(){
@@ -351,54 +246,4 @@ function getGUID(){
         return $uuid;
     }
 }
-
-add_action( 'admin_post_import_all_activities', 'handle_import_all_activities' );
-
-function handle_import_all_activities() {
-
-    if(!file_exists($_FILES['import_file']['tmp_name']) || !is_uploaded_file($_FILES['import_file']['tmp_name'])) {
-		
-    } else {
-    
-        $import_file = simplexml_load_file($_FILES['import_file']['tmp_name']);
-
-        foreach($import_file as $activities){
-            
-            $att = $activities->Row->attributes();
-            $resort_code = $att['code'];
-            $activity_option = "MVC_OSA_".$resort_code;
-
-            update_option($activity_option, $activities->asXML());
-
-        }
-    }
-    header("Location: admin.php?page=mvc_activities"); 
-    exit();
-}
-add_action( 'admin_post_delete_all_activity', 'handle_request_delete_all_activity');
-
-function handle_request_delete_all_activity () {
-        if(!wp_get_current_user()->exists()) {
-		die();
-	}
-        $resorts = new SimpleXMLElement(get_option("MVC_RESORTS_INDEX"));
-        foreach ($resorts as $resort) {
-                
-            try{
-                $resort_code = strtolower($resort->xpath("@code")[0]);
-                $clear_dom = new DomDocument('1.0','utf-8'); 
-                $tag_xml = $clear_dom->appendChild($clear_dom->createElement('Activities'));
-                $tag_xml->appendChild($clear_dom->createElement('Activity'));
-                $clear_resort = simplexml_import_dom($clear_dom);
-                update_option("MVC_OSA_" . strtolower($resort_code), $clear_resort->asXML());
-
-            }catch(Exception $e){
-                // do nothing... php will ignore and continue    
-            }
-	}
-        header("Location: admin.php?page=mvc_activities"); 
-        exit();
-}
-
-
 ?>

@@ -234,7 +234,7 @@ Marriott Vacation Club International. All rights reserved.</p>
 <!-- FEEDBACK CONFIGURATION -->
 <script src="/common/omniture/oo/oo_conf_tab.js" type="text/javascript"></script>
 </p>
-<script type="text/javascript" src="https://nebula-cdn.kampyle.com/wu/265006/onsite/embed.js" async></script>
+ 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WFBS89"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

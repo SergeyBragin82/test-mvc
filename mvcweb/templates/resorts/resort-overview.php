@@ -243,7 +243,7 @@
 						var toFind = interest.toLowerCase().trim().replace('_', '');
 						var possibleNode = $('#' + toFind);
 						if (possibleNode && possibleNode.length > 0) {
-							possibleNode.attr('href', <?php echo json_encode("/vacation-resorts/" . $permalink . "/amenities"); ?>);
+							possibleNode.attr('href', <?php echo json_encode("./amenities"); ?>);
 							possibleNode.attr('href', possibleNode.attr('href') + '#' + toFind);
 							possibleNode.find('.features-item').removeClass('disabled');
 						}
