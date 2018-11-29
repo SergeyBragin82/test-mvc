@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mvcweb>
+	<config_params>
+	<param key="GOOGLE_MAPS_API_KEY">AIzaSyAVNURLFAsnr_dKF9kuykISQEMMqI5KjNI</param>
+	<param key="YELP_API_KEY">LPu9DtrMe23V-HFgDaqihbcYoyAymamF8J7C-jeZw30cqXAJZFDRG5NHh2zTYjFUWEcoiifvxN3AFJ4qvv2kykVXnPH6e9XXxbiyArWpx0h6PBqZCs-44JFIYcvKWXYx</param>
+	<param key="OLAPIC_API_KEY">6e7d38d5c66a82548e2717a92d97523bb6c3b7c932fc75b532ea8425762c84a7</param>
+	<param key="OLAPIC_CUSTOMER_ID">
+		216967
+	</param>
+	<param key="TRIPADVISOR_API_KEY">76E8C235DAFB408BA3DCB827B25B2156</param>
+	</config_params>
+	<activity_data>
+		<global_excludes>
+				<exclude key="astrologers"/>
+				<exclude key="mystics"/>
+				<exclude key="psychicmediums"/>
+				<exclude key="psychics"/>
+				<exclude key="lifecoach"/>
+				<exclude key="reiki"/>
+				<exclude key="spermclinic"/>
+				<exclude key="psychic_astrology"/>
+				<exclude key="c_and_mh"/>
+				<exclude key="meditationcenters"/>
+				<exclude key="magicians"/>
+				<exclude key="eventplanning"/>
+				<exclude key="musicalinstrumentsandteachers"/>
+				<exclude key="guitarstores"/>
+				<exclude key="locksmiths"/>
+				<exclude key="securitysystems"/>
+				<exclude key="safestores"/>
+				<exclude key="mobilephonerepair"/>
+				<exclude key="mobilephones"/>
+				<exclude key="appliances"/>
+				<exclude key="localservices"/>
+				<exclude key="cellphoneaccessories"/>
+				<exclude key="electronicsrepair"/>
+				<exclude key="bridal"/>
+				<exclude key="accessories"/>
+				<exclude key="wedding_planning"/>
+				<exclude key="carpet_cleaning"/>
+				<exclude key="rugs"/>
+				<exclude key="stationery"/>
+				<exclude key="florists"/>
+				<exclude key="movers"/>
+				<exclude key="packingsupplies"/>
+				<exclude key="floraldesigners"/>
+				<exclude key="framing"/>
+				<exclude key="pianoservices"/>
+				<exclude key="watches"/>
+				<exclude key="watch_repair"/>
+				<exclude key="clockrepair"/>
+				<exclude key="psychicmediums"/>
+				<exclude key="sewingalterations"/>
+				<exclude key="bridal"/>
+				<exclude key="electronicsrepair"/>
+				<exclude key="itservices"/>
+				<exclude key="cellphoneaccessories"/>
+		</global_excludes>
+		<activity id="1" name="Sports &amp; Recreation">
+			<yelp>
+				<includes>
+					<include key="active"/>
+					<include key="spas"/>
+					<include key="hotsprings"/>
+					<include key="massage"/>
+					<!-- Education !-->
+					<include key="surfschools"/>
+					<include key="swimminglessons"/>
+					<include key="tastingclasses"/>
+					<include key="cheesetastingclasses"/>
+					<include key="winetaseclasses"/>
+					<!-- Hotels/Travel !-->
+					<include key="motorcycle_rental"/>
+					<include key="resorts"/>
+					<include key="skiresorts"/>
+					<include key="tours"/>
+					<include key="aerialtours"/>
+					<include key="arttours"/>
+					<include key="beertours"/>
+					<include key="boattours"/>
+					<include key="bustours"/>
+					<include key="foodtours"/>
+					<include key="historicaltours"/>
+					<include key="scootertours"/>
+					<include key="walkingtours"/>
+					<include key="whalewatchingtours"/>
+					<include key="winetours"/>
+					<include key="trainstations"/>
+					<include key="transport"/>
+					<include key="visitorcenters"/>
+					<include key="parklets"/>
+					<include key="landmarks"/>
+				</includes>
+				<excludes>
+					<exclude key="nudist"/>
+				</excludes>
+			</yelp>
+		</activity>
+		<activity id="2" name="Arts &amp; Entertainment">
+			<yelp>
+				<includes>
+					<include key="arts"/>
+					<include key="publicart"/>
+					<include key="unofficialyelpevents"/>
+					<include key="yelpevents"/>
+				</includes>
+			</yelp>
+		</activity>
+		<activity id="3" name="Restaurants &amp; Bars">
+		    <yelp>
+				<includes>
+					<include key="food"/>
+					<include key="restaurants"/>
+				</includes>
+			</yelp>
+		</activity>
+		<activity id="4" name="Nightlife">
+		    <yelp>
+				<includes>
+					<include key="nightlife"/>
+				</includes>
+				<excludes>
+					<exclude key="printmedia"/>
+					<exclude key="radiostations"/>
+					<exclude key="televisionstations"/>
+					<exclude key="adultentertainment"/>
+					<exclude key="stripclubs"/>
+					<exclude key="stripteasedancers"/>
+					<exclude key="airportlounges"/>
+				</excludes>
+			</yelp>
+		</activity>
+		<activity id="5" name="Shopping">
+		    <yelp>
+				<includes>
+					<include key="shopping"/>
+				</includes>
+				<excludes>
+					<exclude key="adult"/>
+					<exclude key="artsupplies"/>
+					<exclude key="stationery"/>
+					<exclude key="costumes"/>
+					<exclude key="embroideryandcrochet"/>
+					<exclude key="fabricstores"/>
+					<exclude key="framing"/>
+					<exclude key="baby_gear"/>
+					<exclude key="batterystores"/>
+					<exclude key="videoandgames"/>
+					<exclude key="brewingsupplies"/>
+					<exclude key="bridal"/>
+					<exclude key="cannabisdispensaries"/>
+					<exclude key="framing"/>
+					<exclude key="cosmetics"/>
+					<exclude key="drugstores"/>
+					<exclude key="dutyfreeshops"/>
+					<exclude key="farmingequipment"/>
+					<exclude key="ceremonialclothing"/>
+					<exclude key="lingerie"/>
+					<exclude key="fireworks"/>
+					<exclude key="fitnessequipment"/>
+					<exclude key="florists"/>
+					<exclude key="headshops"/>
+					<exclude key="appliances"/>
+					<exclude key="christmastrees"/>
+					<exclude key="hardware"/>
+					<exclude key="hottubandpool"/>
+					<exclude key="mattresses"/>
+					<exclude key="gardening"/>
+					<exclude key="hydroponics"/>
+					<exclude key="outdoorfurniture"/>
+					<exclude key="paintstores"/>
+					<exclude key="playsets"/>
+					<exclude key="hoseequipment"/>
+					<exclude key="livestocksupply"/>
+					<exclude key="luggage"/>
+					<exclude key="marketstalls"/>
+					<exclude key="medicalsupplies"/>
+					<exclude key="militarysupplies"/>
+					<exclude key="militarysurplus"/>
+					<exclude key="cellphoneaccessories"/>
+					<exclude key="mobilephones"/>
+					<exclude key="officeequipment"/>
+					<exclude key="personal_shopping"/>
+					<exclude key="poolbilliards"/>
+					<exclude key="religiousitems"/>
+					<exclude key="safestores"/>
+					<exclude key="safetyequipment"/>
+					<exclude key="spiritual_shop"/>
+					<exclude key="teachersupplies"/>
+					<exclude key="trophyshops"/>
+					<exclude key="uniforms"/>
+					<exclude key="vapeshops"/>
+					<exclude key="vitaminssupplements"/>
+					<exclude key="wigs"/>
+				</excludes>
+			</yelp>
+		</activity>
+		<activity id="6" name="Kid Fun">
+		    <yelp>
+				<includes>
+					<include key="kids_activities"/>
+				</includes>
+			</yelp>
+		</activity>
+		<excluded_resorts>
+			<exclude code="BK"/>
+			<exclude code="PA"/>
+			<exclude code="PB"/>
+		</excluded_resorts>
+	</activity_data>
+</mvcweb>
