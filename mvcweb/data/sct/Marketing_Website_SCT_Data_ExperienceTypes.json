@@ -1,0 +1,1479 @@
+{
+  "ExperienceTypes": [{
+    "Vacations": [{
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "21920",
+      "Detail": {
+        "LongDesc": "Snorkel in hidden bays, laze on pristine beaches, and feast on tantalizing Thai cuisine prepared by a local chef. Get away from it all aboard a small private catamaran on a four-day voyage through some of Thailand's most alluring islands. This is a perfect add-on to our other Thailand trips or a serene escape from the crowds of Phuket.",
+        "CheckInDate": "2018-04-07",
+        "LengthOfStay": 4,
+        "ShortDesc": "Thailand Sailing 4-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_21920_01.jpg",
+        "Location": "Phuket, Thailand"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "22986",
+      "Detail": {
+        "LongDesc": "How do you improve a trip that already includes the Sacred Valley, the Inca Trail and Lake Titicaca? Throw in some bikes, a few kayaks, and loads of high-energy thrills, that’s how! \"Peru Multisport\" connects immersive cultural interaction and classic Peruvian landmarks with challenging physical activities tailored specifically for adrenaline junkies and fitness freaks. Climb and bike your way from small villages to astounding monuments, then explore Lake Titicaca from a kayak; a perspective few visitors ever get the chance to see. Need more? Consult your CEO; they’ll keep your zest for adventure satisfied.",
+        "CheckInDate": "2018-04-07",
+        "LengthOfStay": 15,
+        "ShortDesc": "Peru Multi-Sport 15-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_22986_01.jpg",
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "23726",
+      "Detail": {
+        "LongDesc": "The Taj Mahal took 20,000 workers and 1,000 elephants 22 years to complete, yet it only takes a moment to recognize its utter beauty. Whether strolling in its serene shadows or walking the streets of Delhi, feel the evocative allure of northern India on an eight-day journey. Learn about the G Adventures-supported City Walk project, spend the night in a traditional village home, and explore the “Pink City” of Jaipur with a local historian.",
+        "CheckInDate": "2018-04-08",
+        "LengthOfStay": 8,
+        "ShortDesc": "Northern India Highlights 8-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_23726_01.jpg",
+        "Location": "Delhi, India"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "24489",
+      "Detail": {
+        "LongDesc": "Hop aboard a riverboat and experience the Amazon in style. Led by an Amazon Reserve naturalist guide, your cruise will include daily excursions by motorized skiff designed to reveal the exotic wildlife that calls the rainforest home – with any luck you’ll spot sloths, toucans, or pink dolphins! And, with two full days for exploration in Pacaya–Samiria National Reserve, you'll have the chance to experience the jungle up close. The cuisine on board is regional and provides a unique and delicious window into local culture. Gain a rare glimpse of how life \"on the river\" is lived and experience the magic of the Amazon on this once-in-a-lifetime riverboat adventure.",
+        "CheckInDate": "2018-04-09",
+        "LengthOfStay": 7,
+        "ShortDesc": "Amazon Riverboat Adventure 7-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_24489_01.jpg",
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "22067",
+      "Detail": {
+        "LongDesc": "From close-up encounters with icebergs and glaciers to the region’s plentiful wildlife, this is a voyage of non-stop highlights. Always on the lookout for wildlife that live in this polar wilderness, you’ll explore this landscape not only by ship but also on foot and via Zodiac. Roaming polar bears, lounging seals, grazing reindeer, and colonies of birds all co-exist in this harsh land we dare only to explore a few months of the year.",
+        "CheckInDate": "2018-06-14",
+        "LengthOfStay": 8,
+        "ShortDesc": "Realm of the Polar Bear 8-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_22067_01.jpg",
+        "Location": "Longyearbyen, Norway"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "21595",
+      "Detail": {
+        "LongDesc": "The Antarctic Peninsula is anything but a world of white desolation. Join us on a true adventure to a world of immense scale and visual splendour. Passing huge icebergs in the flat calm of a polar morning will reshape the way you look at your world. Encounter huge whales, enormous rookeries of penguins, and stunning landscapes few have ever witnessed. This 11-day expedition will introduce you to the magic of the South Shetland Islands and the Antarctic Peninsula.",
+        "CheckInDate": "2018-12-12",
+        "LengthOfStay": 11,
+        "ShortDesc": "Antarctica Classic Package 11-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_21595_01.jpg",
+        "Location": "Antarctica"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "24280",
+      "Detail": {
+        "LongDesc": "Find adventure at every turn on this 14-day trip through Peru. Catch the scenic train to Machu Picchu, or challenge yourself by hiking the famous Inca Trail. Peer up into the canopy of the Amazon rain forest to search for jungle wildlife. From sacred ruins to otherworldly mountain vistas and cloud forests, set your sights on this celestial place.",
+        "CheckInDate": "2018-04-05",
+        "LengthOfStay": 14,
+        "ShortDesc": "Iconic Peru 14-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_24280_01.jpg",
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "23763",
+      "Detail": {
+        "LongDesc": "This eight-day adventure into Peru’s culture and history offers an ideal introduction to Machu Picchu, one of the world’s most spectacular archaeological sites. Take a scenic train to the famous citadel and enjoy free time to explore its many corners. Roam the Sacred Valley, taking in incredible views of the Andes. Travelling with knowledgeable guides who know this region best, we’ll leave no stone unturned.",
+        "CheckInDate": "2018-04-14",
+        "LengthOfStay": 8,
+        "ShortDesc": "Explore Machu Picchu 8-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_23763_01.jpg",
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "23279",
+      "Detail": {
+        "LongDesc": "Every traveler should visit Peru at some point. Introduce your kids to it early through this comprehensive trip that bundles the Amazon, Machu Picchu, Cusco, and more into nine life-changing days. You’ll spend two nights at the exclusive G Lodge Amazon learning about the wildlife from naturalists before exploring the Urubamba Valley, gazing awestruck at Machu Picchu and interacting with the locals in Cusco and Lima. Peru will stick with your children long after they’ve stopped being kids. Family of four (2 adults/2 children).",
+        "CheckInDate": "2018-07-06",
+        "LengthOfStay": 9,
+        "ShortDesc": "Peru Family Experience 9-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_23279_01.jpg",
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "21918",
+      "Detail": {
+        "LongDesc": "Go island-hopping in Thailand and experience some of the best snorkelling in the world. Enjoy a week aboard our sailing catamaran and discover what makes Thailand special. With an experienced captain navigating the southern islands, you’ll drop anchor at highlights and secret spots perfect for a swim. Work up an appetite snorkelling, dine on Thai cuisine, and sleep moored under the stars. This trip is perfect on its own or as an add-on with our other Thai adventures.",
+        "CheckInDate": "2018-04-07",
+        "LengthOfStay": 7,
+        "ShortDesc": "Thailand Sailing 7-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_21918_01.jpg",
+        "Location": "Phuket, Thailand"
+      },
+      "GroupId": 5
+    }],
+    "Name": "Adventure Travel Experiences"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "203-185715",
+      "Detail": {
+        "LongDesc": "The 9-Night \"River Cruise, Europe\" cruise by Viking Ocean Cruises with ports of call including: Athens/Piraeus, Corfu Greek Isle, Dubrovnik, Katakolon, Koper, Kotor, Santorini, Venice, Zadar.",
+        "CheckInDate": "2018-03-26",
+        "LengthOfStay": 9,
+        "ShortDesc": "Viking Ocean Cruises 9-Night",
+        "ImageURLs": ["ICE_203-1182_02.jpg", "ICE_203-1182_03.jpg", "ICE_203-1182_04.jpg", "ICE_203-1182_05.jpg", "ICE_203-1182_06.jpg", "ICE_203-1182_07.jpg", "ICE_203-1182_08.jpg", "ICE_203-1182_09.jpg", "ICE_203-1182_10.jpg", "ICE_203-1182_11.jpg", "ICE_203-1182_12.jpg"],
+        "ImageMainURL": "ICE_203-1182_01.jpg",
+        "Location": "River Cruise, Europe"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "46-8662",
+      "Detail": {
+        "LongDesc": "The 7-Night \"Caribbean, Western\" cruise by MSC Cruises with ports of call including: Costa Maya (Majahual), Cozumel, Georgetown GCM, Miami, Nassau, Bahamas, Ocho Rios.",
+        "CheckInDate": "2018-04-07",
+        "LengthOfStay": 7,
+        "ShortDesc": "MSC Cruises 7-Night",
+        "ImageURLs": ["ICE_46-1485_02.jpg", "ICE_46-1485_03.jpg", "ICE_46-1485_04.jpg", "ICE_46-1485_05.jpg", "ICE_46-1485_06.jpg", "ICE_46-1485_07.jpg"],
+        "ImageMainURL": "ICE_46-1485_01.jpg",
+        "Location": "Caribbean, Western"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "2-179554",
+      "Detail": {
+        "LongDesc": "The 15-Day \"Panama Canal\" cruise by Princess Cruises with ports of call including: Cabo San Lucas, Cartagena Colombia, Cruising Panama Canal, Fort Lauderdale, Huatulco, Los Angeles (San Pedro), Oranjestad (Aruba), Puerto Amador, Puerto Quetzal, Puerto Vallarta, Puntarenas CR, Quepos, San Francisco, San Juan del Sur.",
+        "CheckInDate": "2018-04-20",
+        "LengthOfStay": 15,
+        "ShortDesc": "Princess Cruises 15-Day",
+        "ImageURLs": ["ICE_2-13_02.jpg", "ICE_2-13_03.jpg", "ICE_2-13_04.jpg", "ICE_2-13_05.jpg", "ICE_2-13_06.jpg", "ICE_2-13_07.jpg", "ICE_2-13_08.jpg", "ICE_2-13_09.jpg", "ICE_2-13_10.jpg", "ICE_2-13_11.jpg"],
+        "ImageMainURL": "ICE_2-13_01.jpg",
+        "Location": "Panama Canal"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "4-177097",
+      "Detail": {
+        "LongDesc": "The 5-Night \"Caribbean, Eastern\" cruise by Royal Caribbean Cruise Line with ports of call including: Cape Liberty, NJ (NY Metro), Philipsburg St. Maarten, San Juan (Puerto Rico).",
+        "CheckInDate": "2018-05-05",
+        "LengthOfStay": 5,
+        "ShortDesc": "Royal Caribbean Cruise Line 5-Night",
+        "ImageURLs": ["ICE_4-79_02.jpg", "ICE_4-79_03.jpg", "ICE_4-79_04.jpg", "ICE_4-79_05.jpg", "ICE_4-79_06.jpg", "ICE_4-79_07.jpg", "ICE_4-79_08.jpg", "ICE_4-79_09.jpg", "ICE_4-79_10.jpg", "ICE_4-79_11.jpg", "ICE_4-79_12.jpg", "ICE_4-79_13.jpg", "ICE_4-79_14.jpg", "ICE_4-79_15.jpg", "ICE_4-79_16.jpg", "ICE_4-79_17.jpg", "ICE_4-79_18.jpg"],
+        "ImageMainURL": "ICE_4-79_01.jpg",
+        "Location": "Caribbean, Eastern"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "2-61071",
+      "Detail": {
+        "LongDesc": "The 14-Day \"Alaska Cruise Tours\" cruise by Princess Cruises with ports of call including: Anchorage, Anchorage (Whittier), Banff, Calgary, Copper River, Copper River Wilderness Lodge, Cruising College Fjord, Cruising Glacier Bay, Cruising Hubbard Glacier, Denali, Denali Wilderness Lodge, Fairbanks, Jasper, Juneau, Kamloops, Kenai, Kenai Wilderness Lodge, Ketchikan, Lake Louise, Mt. McKinley, Mt. McKinley Wilderness Lodge, Skagway, Vancouver, Whittier.",
+        "CheckInDate": "2018-05-16",
+        "LengthOfStay": 14,
+        "ShortDesc": "Princess Cruises 14-Day",
+        "ImageURLs": ["ICE_2-184_02.jpg", "ICE_2-184_03.jpg", "ICE_2-184_04.jpg", "ICE_2-184_05.jpg", "ICE_2-184_06.jpg", "ICE_2-184_07.jpg", "ICE_2-184_08.jpg", "ICE_2-184_09.jpg", "ICE_2-184_10.jpg"],
+        "ImageMainURL": "ICE_2-184_01.jpg",
+        "Location": "Alaska Cruise Tours"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "3-184175",
+      "Detail": {
+        "LongDesc": "The 14-Day \"South Pacific\" cruise by Holland America Line with ports of call including: Alofi, Atuona, Auckland, Bora Bora, Champagne Bay, Dravuni Island, Huahine, Ile des Pins New Caledonia, Lifou, Luganville, Mare, Moorea, Mystery Island, Noumea, Nuku 'Alofa  (Tonga), Nuku Hiva, Papeete, Port Vila, Raiatea, Rangiroa, Rarotonga Cook Islands, SavuSavu, Suva, Sydney, Vava'U Tonga.",
+        "CheckInDate": "2018-11-11",
+        "LengthOfStay": 14,
+        "ShortDesc": "Holland America Line 14-Day",
+        "ImageURLs": ["ICE_3-50_02.jpg", "ICE_3-50_03.jpg", "ICE_3-50_04.jpg", "ICE_3-50_05.jpg", "ICE_3-50_06.jpg", "ICE_3-50_07.jpg", "ICE_3-50_08.jpg", "ICE_3-50_09.jpg", "ICE_3-50_10.jpg", "ICE_3-50_11.jpg", "ICE_3-50_12.jpg", "ICE_3-50_13.jpg", "ICE_3-50_14.jpg", "ICE_3-50_15.jpg", "ICE_3-50_16.jpg"],
+        "ImageMainURL": "ICE_3-50_01.jpg",
+        "Location": "South Pacific"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "8-117121",
+      "Detail": {
+        "LongDesc": "The 7-Day \"Mexican Baja/Riviera\" cruise by Norwegian Cruise Line with ports of call including: Cabo San Lucas, Los Angeles (San Pedro), Mazatlan, Puerto Vallarta.",
+        "CheckInDate": "2018-10-06",
+        "LengthOfStay": 7,
+        "ShortDesc": "Norwegian Cruise Line 7-Day",
+        "ImageURLs": ["ICE_8-1558_02.jpg", "ICE_8-1558_03.jpg", "ICE_8-1558_04.jpg", "ICE_8-1558_05.jpg", "ICE_8-1558_06.jpg", "ICE_8-1558_07.jpg", "ICE_8-1558_08.jpg", "ICE_8-1558_09.jpg", "ICE_8-1558_10.jpg", "ICE_8-1558_11.jpg", "ICE_8-1558_12.jpg", "ICE_8-1558_13.jpg", "ICE_8-1558_14.jpg", "ICE_8-1558_15.jpg", "ICE_8-1558_16.jpg", "ICE_8-1558_17.jpg"],
+        "ImageMainURL": "ICE_8-1558_01.jpg",
+        "Location": "Mexican Baja/Riviera"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "58-190034",
+      "Detail": {
+        "LongDesc": "The 11-Day \"Canada/New England\" cruise by Oceania Cruises with ports of call including: Bar Harbor, Boston, Charlottetown, Cruising Bay Of Fundy, Halifax, Montreal, New York, Newport, Portland ME, Quebec City, Sydney (Nova Scotia).",
+        "CheckInDate": "2018-10-19",
+        "LengthOfStay": 11,
+        "ShortDesc": "Oceania Cruises 11-Day",
+        "ImageURLs": ["ICE_58-912_02.jpg", "ICE_58-912_03.jpg", "ICE_58-912_04.jpg", "ICE_58-912_05.jpg", "ICE_58-912_06.jpg", "ICE_58-912_07.jpg", "ICE_58-912_08.jpg", "ICE_58-912_09.jpg", "ICE_58-912_10.jpg", "ICE_58-912_11.jpg", "ICE_58-912_12.jpg", "ICE_58-912_13.jpg", "ICE_58-912_14.jpg", "ICE_58-912_15.jpg", "ICE_58-912_16.jpg", "ICE_58-912_17.jpg", "ICE_58-912_18.jpg", "ICE_58-912_19.jpg"],
+        "ImageMainURL": "ICE_58-912_01.jpg",
+        "Location": "Canada/New England"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "46-191332",
+      "Detail": {
+        "LongDesc": "The 4-Night \"South America\" cruise by MSC Cruises with ports of call including: Buzios, Camboriu, Ilha Grande, Porto Belo, Santos.",
+        "CheckInDate": "2018-12-07",
+        "LengthOfStay": 4,
+        "ShortDesc": "MSC Cruises 4-Night",
+        "ImageURLs": ["ICE_46-1545_02.jpg", "ICE_46-1545_03.jpg", "ICE_46-1545_04.jpg", "ICE_46-1545_05.jpg", "ICE_46-1545_06.jpg", "ICE_46-1545_07.jpg"],
+        "ImageMainURL": "ICE_46-1545_01.jpg",
+        "Location": "South America"
+      },
+      "GroupId": 6
+    }],
+    "Name": "Cruises"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "76",
+      "Detail": {
+        "LongDesc": "During your unique Culinary Getaway in California’s Wine Country, you will experience the heart of California’s Wine Country as you’ve never experienced it before. From a hands-on cooking class with a well-trained and experienced chef to a wine tour in a classic train, along with a farm-to-table dinner at a renowned restaurant, this will be a trip you won’t soon forget. Because Napa Valley is known for its wine but loved for its blend of hand-crafted wines and delicious culinary treats, you will enjoy the perfect blend of food, wine, and history in one of California’s most beautiful settings.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Wine Train Culinary Sojourn",
+        "ImageURLs": ["EPI_76_02.jpg", "EPI_76_03.jpg", "EPI_76_04.jpg", "EPI_76_05.jpg"],
+        "ImageMainURL": "EPI_76_01.jpg",
+        "Location": "Sonoma, CA"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "1585",
+      "Detail": {
+        "LongDesc": "Travel with us on a 4-day, 3-night journey to Siem Reap – home to the famous Angkor Wat Temple, delicious Khmer cuisine, and a beautiful culture. Siem Reap is absolutely stunning in both architecture and history.  The Angkor Wat Temple is a UNESCO World Heritage Site and is considered to be one of the new ancient wonders of the world.  Here we will discover the mysteries of Angkor on a full-day, small-group temples tour where we will watch the sunset over the iconic Angkor Wat, see the enigmatic faces of Bayon Temple, and wander around Ta Prohm where the trees are intertwined among the ruins. Our other day will be spent taking a hands-on cooking course and market visit in the villages that surround Siem Reap.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 4,
+        "ShortDesc": "Cambodia Culinary Excursion",
+        "ImageURLs": ["EPI_1585_02.jpg", "EPI_1585_03.jpg", "EPI_1585_04.jpg", "EPI_1585_05.jpg", "EPI_1585_06.jpg", "EPI_1585_07.jpg", "EPI_1585_08.jpg"],
+        "ImageMainURL": "EPI_1585_01.jpg",
+        "Location": "Siem Reap, Cambodia"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "1439",
+      "Detail": {
+        "LongDesc": "Madrid is a beautiful, sophisticated and diverse city.  It has grand avenues as well as small cobblestone streets.  There are smart rooftop bars adjacent to old-fashioned tapas bars, all located in colorful and genteel neighborhoods.  The sheer number of restaurants, gastro bars, tapas bars and food markets is bewildering.  Madrileños (the locals) really care about their food.  A stroll around one of the 40 or more food markets, such as the Mercado de San Miguel in Los Austrias, or the Mercado de San Anton in Chueca, serves as evidence of an infrastructure that can support great gastronomy.  On this getaway, you’ll enhance your culinary skills as you discover fine wines and the wonderful heritage of Spain.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 4,
+        "ShortDesc": "A Culinary Getaway in Madrid",
+        "ImageURLs": ["EPI_1439_02.jpg", "EPI_1439_03.jpg", "EPI_1439_04.jpg", "EPI_1439_05.jpg"],
+        "ImageMainURL": "EPI_1439_01.jpg",
+        "Location": "Madrid, Spain"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "14",
+      "Detail": {
+        "LongDesc": "Cajun cuisine originates from the French-speaking Acadian or \"Cajun\" immigrants deported by the British from Acadia in Canada to the Acadiana region of Louisiana. Creole is a style of cooking that actually originated in Louisiana that blends French, Caribbean, Mediterranean, Spanish and African influences. If you love foods with a \"kick\", and Southern Louisiana fare in general, you will love this culinary getaway. You will peer into the dishes made famous by the celebrity chefs of New Orleans. You will learn how to add your own Cajun twist to every day meals, and taste the flavors that have made this region synonymous with haute (and hot) cuisine.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "New Orleans Culinary Getaway",
+        "ImageURLs": ["EPI_14_02.jpg", "EPI_14_03.jpg", "EPI_14_04.jpg", "EPI_14_05.jpg"],
+        "ImageMainURL": "EPI_14_01.jpg",
+        "Location": "New Orleans, LA"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "349",
+      "Detail": {
+        "LongDesc": "Affectionately referred to as the “the Pearl of the Coast”, Positano is a town located in one of the most beautiful valleys along the sapphire-blue Amalfi Coast.  The picturesque villages of the coastline seem to defy gravity, and the small inns of this vertical village offer magnificent views from their spectacular locations perched high among the cliffs.  Life here still revolves around the sun, sea and food.  Known for its deliciously abundant cuisine, favorite dishes are prepared of fresh fish and meats, influenced by the ocean and local farming.  Specialties include fried anchovies with mint and garlic, spaghetti with clams, life-changing pasta dishes and meats used for tantalizing mixed grills…all sourced fresh from the sea or local pastures.  Of course, the locals won’t let you leave this paradise without tasting Limoncello, a well-known drink made of citrus, strawberries, walnuts or rose petals.",
+        "CheckInDate": "2018-04-08",
+        "LengthOfStay": 7,
+        "ShortDesc": "Cooking Along The Amalfi Coast and Positano",
+        "ImageURLs": ["EPI_349_02.jpg", "EPI_349_03.jpg", "EPI_349_04.jpg", "EPI_349_05.jpg", "EPI_349_06.jpg", "EPI_349_07.jpg", "EPI_349_08.jpg", "EPI_349_09.jpg", "EPI_349_10.jpg", "EPI_349_11.jpg", "EPI_349_12.jpg", "EPI_349_13.jpg", "EPI_349_14.jpg"],
+        "ImageMainURL": "EPI_349_01.jpg",
+        "Location": "Positano, Italy"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "1094",
+      "Detail": {
+        "LongDesc": "The Swiss Alps has been Europe’s playground for hundreds of years. This paradise of glistening peaks, tumbling glaciers, and gushing waterfalls has a magical way of inspiring creative genius. Poets, musicians, inventors—and especially culinary artists—have all flourished in the Alps. Now it’s your turn. The Romans left a legacy of viniculture on the sundrenched slopes of the Swiss Alps. The Swiss invented meringues, fondue, muesli, and Raclette. They invented and perfected chocolate as we know it. Their cheeses are world renown. Switzerland’s restaurants have been awarded more Michelin stars per capita than any country in the world. Explore your own food passions as you make Gruyère cheese in an alpine chalet over an open fire as local cheesemakers have done for over 900 years. Then standing side-by-side with a master chocolatier you develop your own chocolate creations. You learn the secrets of preparing a bubbling caquelon of classic cheese fondue. Your culinary experience will be enhanced by walks through vineyards with breathtaking views, spectacular mountaintop excursions, and guided outings through walled medieval villages and storied castles. Your food adventure in the Swiss Alps includes round trip transfers from the Geneva Airport, six nights hotel accommodations, breakfasts, dinners, ground transportation, excursions, classes, demonstrations, tastings, guided walks, recipes, interpretive notes, and the services of an English-speaking expert guide. Prepare yourself for an active vacation and an unforgettable visual and sensory feast in the Swiss Alps.",
+        "CheckInDate": "2018-06-03",
+        "LengthOfStay": 7,
+        "ShortDesc": "Cheese, Chocolate and Culinary Adventures in the Swiss Alps",
+        "ImageURLs": ["EPI_1094_02.jpg", "EPI_1094_03.jpg", "EPI_1094_04.jpg", "EPI_1094_05.jpg", "EPI_1094_06.jpg", "EPI_1094_07.jpg", "EPI_1094_08.jpg", "EPI_1094_09.jpg", "EPI_1094_10.jpg", "EPI_1094_11.jpg"],
+        "ImageMainURL": "EPI_1094_01.jpg",
+        "Location": "Geneva, Switzerland"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "563",
+      "Detail": {
+        "LongDesc": "Welcome to the Mundo Maya where ancient history greets you in the colors, flavors and aromas of today’s Yucatán.  Roll up your sleeves in the unhurried kitchen of Hacienda Petac to cook side-by-side with a talented Maya staff who will prepare the region’s best Yucatecan fare daily.  Learn the secrets of authentic Yucatecan cooking (a fusion of Cuban, Spanish and Mayan influences) and take home a new vocabulary that easily translates into rave reviews.  Your time at the Hacienda emphasizes local ingredients and menus, your itinerary combines workshops in full meal preparation, tropical drinks and table decorating.  It also includes excursions to the extraordinary Mayan ruins of Uxmal and other must see highlights of the Yucatán.  Mérida and the state of Yucatán have traditionally been isolated from the rest of Mexico by geography, creating a unique culture and independent spirit. The Mundo Maya, as the region is known, boasts some of the most important Mayan archaeological sites in the world. The influence of the Maya on the character of modern Yucatán remains strong. While Spanish is the predominant language, a third of the population of Yucatán still speaks Maya. The state of Yucatán has one of the lowest crime rates anywhere in the country, and for its size, possibly the world. The capital city of Mérida prides itself on this fact, adopting as its motto, Ciudad de Paz - the City of Peace.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 7,
+        "ShortDesc": "A Culinary Adventure In The Heart Of Mexico's Yucatan",
+        "ImageURLs": ["EPI_563_02.jpg", "EPI_563_03.jpg", "EPI_563_04.jpg", "EPI_563_05.jpg"],
+        "ImageMainURL": "EPI_563_01.jpg",
+        "Location": "Merida, Mexico"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "1428",
+      "Detail": {
+        "LongDesc": "Barcelona is surrounded by some of the most prestigious wine regions in Spain and boasts a long, colorful culinary history. On this whimsical culinary escape, you’ll explore the best of Barcelona, while tasting the region’s local flavors. In this exciting and interactive Barcelona experience, you’ll see the city like a local, away from the crowds and tourists. Enjoy an amazing and plentiful diversity of wine, as well as Catalan and Spanish tapas and gourmet dining.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 4,
+        "ShortDesc": "Barcelona Food and Wine Escape",
+        "ImageURLs": ["EPI_1428_02.jpg", "EPI_1428_03.jpg", "EPI_1428_04.jpg", "EPI_1428_05.jpg"],
+        "ImageMainURL": "EPI_1428_01.jpg",
+        "Location": "Barcelona, Spain"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "1275",
+      "Detail": {
+        "LongDesc": "In recent years, the Roaring Fork Valley in Colorado has become an epicenter for a shifting culinary scene in the Rocky Mountains. While many restaurants have featured local game and fish from the surrounding mountains and rivers for years, a myriad of organic farms, dairies and wineries have popped up in recent years throughout this awe-inspiring landscape. Further, the Rocky Mountains of Colorado are widely considered the birthplace of the American craft beer movement. Your culinary experience will be based in Snowmass, Colorado, located in the heart of the Roaring Fork Valley. Visits to a working dairy farm, cider mill, distillery and even a cooking class in neighboring Aspen are all on the agenda; however, this culinary experience will feature a side dish of adventure. In many cases these culinary delights will be accessed on foot, by bike, and even Jeeps to see the bounty of this mountain majesty.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 7,
+        "ShortDesc": "Culinary Adventures in the Heart of the Rocky Mountains",
+        "ImageURLs": ["EPI_1275_02.jpg", "EPI_1275_03.jpg", "EPI_1275_04.jpg", "EPI_1275_05.jpg", "EPI_1275_06.jpg", "EPI_1275_07.jpg", "EPI_1275_08.jpg"],
+        "ImageMainURL": "EPI_1275_01.jpg",
+        "Location": "Snowmass Village, CO"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "914",
+      "Detail": {
+        "LongDesc": "The “City of Light” is a place where cuisine and culture come together as one.  You will discover Paris through all of your senses.  This excursion offers 4 days and 3 nights in a charming, quiet boutique hotel in the heart of Paris and only steps away from historical sites, museums, shopping, and endless culinary delights. You’ll enjoy breathtaking views of Paris from the Seine River Lunch Cruise while enjoying fine French cuisine and wines. Then on the following day, you will learn to make buttery, homemade French croissants in this special baking class (or other famous French pastry depending upon your dates of travel). On this magical excursion, you will discover why Paris overwhelms every food lover with delight!",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 4,
+        "ShortDesc": "Four-Day Edible Escape To The City of Light!",
+        "ImageURLs": ["EPI_914_02.jpg", "EPI_914_03.jpg", "EPI_914_04.jpg", "EPI_914_05.jpg"],
+        "ImageMainURL": "EPI_914_01.jpg",
+        "Location": "Paris, France"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "20",
+      "Detail": {
+        "LongDesc": "This culinary excursion takes you to the magnificent city of Savannah located in Southeast Georgia. Called the Hostess City of the South, it offers the finest in Southern charm and hospitality and endless options for fabulous Lowcountry cuisine. It is also known internationally for its history and architecture. With all its culture and beauty, Savannah is the perfect destination for learning the secrets of true Southern cooking, sightseeing, shopping in upscale boutiques and, best of all, experiencing unparalleled cuisine. This package includes fine accommodations in the heart of Savannah, hands-on cooking class with chef’s table dinner, foodie tasting tour and a gourmet, multi-course dinner at one of the city’s most popular dining establishments.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Southern Succulence",
+        "ImageURLs": ["EPI_20_02.jpg", "EPI_20_03.jpg", "EPI_20_04.jpg", "EPI_20_05.jpg"],
+        "ImageMainURL": "EPI_20_01.jpg",
+        "Location": "Savannah, GA"
+      },
+      "GroupId": 11
+    }, {
+      "SubCollectionId": 10,
+      "CollectionId": 1,
+      "Id": "17",
+      "Detail": {
+        "LongDesc": "Napa Valley provides the perfect setting and culinary inspiration for a celebration of wine country flavors. Step off the beaten path for an insider's tour of the Napa Valley culinary scene and learn the delicious secrets of California Cuisine. Enjoy an intimate tour of the farmers market in Napa. You will experience unique wines through orchestrated tastings, followed by a cooking class where you will learn more about the region's signature foods and celebrated wines. Enjoy VIP Winery tours followed by an in-depth food and wine pairing experience.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 4,
+        "ShortDesc": "Culinary Celebration in the Wine Country",
+        "ImageURLs": ["EPI_17_02.jpg", "EPI_17_03.jpg", "EPI_17_04.jpg", "EPI_17_05.jpg"],
+        "ImageMainURL": "EPI_17_01.jpg",
+        "Location": "Napa, CA"
+      },
+      "GroupId": 11
+    }],
+    "Name": "Culinary Tours"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "FSC",
+      "Detail": {
+        "LongDesc": "Four Seasons Country Club is located within the prestigious Quinta do Lago resort complex, set on 1,800 acres (730 hectares) of pine forest bordered by the Atlantic Ocean and the Ria Formosa Natural Park. Quinta do Lago offers some of the best golf in Europe. The clubhouse has indoor (heated) and outdoor pools, steam rooms, a whirlpool, day care and children's play area, hair and beauty salon, boutique, games room, snooker room, gymnasium, and squash courts. Within the grounds are floodlit tennis courts, a five-a-side football pitch, and a two-lane bowling green. Complimentary Wi-Fi is available.  ",
+        "CheckInDate": "2018-03-01",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Four Seasons Country Club",
+        "ImageURLs": ["II_FSC_02.jpg", "II_FSC_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_FSC_01.jpg",
+        "Location": "Almancil, Portugal"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "BLK",
+      "Detail": {
+        "LongDesc": "Embarc - Whistler is a four-season resort located mere steps from the slopes of Blackcomb Mountain. The lodge-style property features solid river rock, natural slate tile floors, and heavy fir timbers. Ample wood furnishings and vibrant-colored, hand-woven fabrics create a rustic elegance. Visitors can enjoy golf, hiking, water sports, and mountain biking nearby. The Whistler resort area, a two-hour drive from Vancouver, British Columbia, is consistently rated one of North America's best ski destinations.",
+        "CheckInDate": "2018-04-19",
+        "UnitDesc": "Studio",
+        "ShortDesc": "Embarc - Whistler",
+        "ImageURLs": ["II_BLK_02.jpg", "II_BLK_03.jpg"],
+        "UnitType": "STDIO/HOTL",
+        "ImageMainURL": "II_BLK_01.jpg",
+        "Location": "Whistler, Canada"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "YAM",
+      "Detail": {
+        "LongDesc": "Located in the heart of Hirafu village, Yama Shizen provides easy access to shopping, restaurants, and hot springs, and is 1,500 feet (450 meters) from the chairlifts to the ski slopes. Each apartment offers a spacious open-plan kitchen, laundry facilities, and private balcony. ",
+        "CheckInDate": "2018-04-26",
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Yama Shizen",
+        "ImageURLs": ["II_YAM_02.jpg", "II_YAM_03.jpg"],
+        "UnitType": "2 BEDROOM",
+        "ImageMainURL": "II_YAM_01.jpg",
+        "Location": "Kutchan, Japan"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "QHS",
+      "Detail": {
+        "LongDesc": "The Quarter House provides European-style ambiance in New Orleans' French Quarter. Enjoy a blend of modern comfort and classical antique decor. Take advantage of Bourbon Street entertainment, world-renowned restaurants, and Mississippi River cruises, all within walking distance. After a long day, relax in the whirlpool located in the resort's picturesque tropical courtyard. The Quarter House also offers guests weekly Mardi Gras parties, cooking classes, continental breakfast, and French Quarter walking tours at no charge.",
+        "CheckInDate": "2018-08-02",
+        "UnitDesc": "Studio",
+        "ShortDesc": "The Quarter House",
+        "ImageURLs": ["II_QHS_02.jpg", "II_QHS_03.jpg"],
+        "UnitType": "STDIO/HOTL",
+        "ImageMainURL": "II_QHS_01.jpg",
+        "Location": "New Orleans, LA"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "LX2",
+      "Detail": {
+        "LongDesc": "Grand Luxxe Nuevo Vallarta is designed to delight your senses with its stunning architecture and interior design and finishes. Accommodations are spacious suites that feature 12-foot-high (4 meters) ceilings, a large-screen plasma television, a private pool, and a lounge chair on the balcony, from which you can watch breathtaking sunsets. The resort also features swimming pools with a concierge service and activities, walking paths surrounded by beautiful gardens and landscaping, fine-dining restaurants and bars, a Nicklaus-designed golf course, and a spa and fitness center.",
+        "CheckInDate": "2018-08-23",
+        "UnitDesc": "Studio",
+        "ShortDesc": "Grand Luxxe Nuevo Vallarta",
+        "ImageURLs": ["II_LX2_02.jpg", "II_LX2_03.jpg"],
+        "UnitType": "STDIO/HOTL",
+        "ImageMainURL": "II_LX2_01.jpg",
+        "Location": "Nuevo Vallarta, Mexico"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "HRA",
+      "Detail": {
+        "LongDesc": "A legendary vacation destination, Harborside Resort at Atlantis offers much more than just sun, sand, and splash. It opens the door to all the amenities and world-class entertainment at both Harborside and the nearby Atlantis Resort, including exhilarating casinos, 38 restaurants with an array of creative cuisine, 11 swimming areas, and exquisite spas, salons, and boutiques. It also features one of the world's largest marine habitats and the famous Mayan Temple waterslide. Spacious one- and two-bedroom villas offer exceptional comfort and style, with a kitchen and separate living/dining areas.",
+        "CheckInDate": "2018-08-30",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Harborside Resort at Atlantis",
+        "ImageURLs": ["II_HRA_02.jpg", "II_HRA_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_HRA_01.jpg",
+        "Location": "Paradise Island, Bahamas"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "VHL",
+      "Detail": {
+        "LongDesc": "Located in charming Koutouloufari, the resort is an ideal choice for guests looking for an authentic Greek village ambiance. Offering a serene setting, it is within easy walking distance of restaurants, shops, and entertainment. In Koutouloufari, browse shops with artisan-crafted modern and traditional-style silver and gold jewelry, ceramics, leather, and metalwork, as well as replicas of ancient Cretan art and artifacts. ",
+        "CheckInDate": "2018-03-01",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "The Village Holiday Club",
+        "ImageURLs": ["II_VHL_02.jpg", "II_VHL_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_VHL_01.jpg",
+        "Location": "Crete, Greece"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "ALR",
+      "Detail": {
+        "LongDesc": "Alpenland is set in one of Austria's prime ski areas, 30 miles (49 kilometers) south of \"The Festival City\" of Salzburg. The full-service resort offers four restaurants, a nightclub, shops, an indoor swimming pool, saunas, whirlpools, a solarium, and exercise room on-site. Surrounded by mountains and meadows, Alpenland, located in the heart of St. Johann, is a year-round vacation destination, with skiing, hiking, and climbing. Vacationers can take advantage of tours to castles, picturesque churches, and nearby ice caves. Munich, Vienna, and Milan are all accessible by car or train.",
+        "CheckInDate": "2018-10-04",
+        "UnitDesc": "Studio",
+        "ShortDesc": "Alpenland Sporthotel - St. Johann-im-Pongau",
+        "ImageURLs": ["II_ALR_02.jpg", "II_ALR_03.jpg"],
+        "UnitType": "STDIO/HOTL",
+        "ImageMainURL": "II_ALR_01.jpg",
+        "Location": "St. Johann im Pongau, Austria"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "HYS",
+      "Detail": {
+        "LongDesc": "Hyatt Residence Club San Antonio, Wild Oak Ranch is set within the beautiful Texas Hill Country. The resort's design is reminiscent of historic ranch architecture, with its limestone exteriors, rustic wood beams, and custom furnishings. Explore 39 acres (16 hectares) of lush landscaping and nature trails, and enjoy amenities including an indoor/outdoor pool with waterslides, spas, an 800-foot (244 meters) river pool, a fire pit at the Wildflower Pavilion, and cabanas. Discover your perfect vacation by watching a movie under the stars, relaxing in a hammock, listening to live music at JB's Restaurant, or playing a round of golf. ",
+        "CheckInDate": "2018-11-08",
+        "UnitDesc": "Studio",
+        "ShortDesc": "Hyatt Residence Club San Antonio, Wild Oak Ranch",
+        "ImageURLs": ["II_HYS_02.jpg", "II_HYS_03.jpg"],
+        "UnitType": "STDIO/HOTL",
+        "ImageMainURL": "II_HYS_01.jpg",
+        "Location": "San Antonio, TX"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "CRH",
+      "Detail": {
+        "LongDesc": "Cameron House Resort stands on the peaceful shores of Loch Lomond. Within the grounds of the estate are secluded clusters of superb lodges, each one decorated and equipped to the highest standard. You can enjoy a vast range of leisure facilities right on your doorstep: a private marina, boathouse restaurant on the shore, spectacular golf course, a wealth of outdoor sports activities, and, of course, the magnificent Cameron House Hotel, with its two highly acclaimed restaurants and outstanding indoor Leisure Club.",
+        "CheckInDate": "2018-11-08",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Cameron House on Loch Lomond",
+        "ImageURLs": ["II_CRH_02.jpg", "II_CRH_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_CRH_01.jpg",
+        "Location": "Dunbartonshire, Scotland"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "HRB",
+      "Detail": {
+        "LongDesc": "Harbor Ridge offers a tranquil, private vacation in the midst of picturesque Acadia National Park. The townhouses provide three floors of spacious living with views of the mountains and offshore islands. Guests will enjoy tennis, a game room, fitness center, children's playground, outdoor hot tub, and indoor pool on-site. The park is accessible within minutes. Area attractions are open seasonally from mid-May to October. Winter offers a restful and relaxing atmosphere.",
+        "CheckInDate": "2018-04-05",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Harbor Ridge",
+        "ImageURLs": ["II_HRB_02.jpg", "II_HRB_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_HRB_01.jpg",
+        "Location": "Southwest Harbor, ME"
+      },
+      "GroupId": 3
+    }],
+    "Name": "Exchange Partner Resorts"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "62",
+      "Detail": {
+        "LongDesc": "Travel to some of the world’s most magnificent cities and through the magical countryside of Britain and Ireland. This comprehensive journey takes you through rolling farmland and across the Irish Sea, through England, Ireland, Scotland and Wales. Marvel at the mystery of Stonehenge. Experience Ireland’s culinary renaissance during a cooking class at one of Dublin’s premier culinary institutes. Walk in the footsteps of William Shakespeare at his birthplace, Stratford-upon-Avon. Be mesmerized by the breathtaking landscapes in the English Lake District, Ireland’s Ring of Kerry and the valleys, mountains and imposing castles of North Wales. Admire the ancient Roman ruins at Hadrian’s Wall and in elegant Bath. Get acquainted with Britain’s pageantry in the royal cities of Edinburgh and London.",
+        "CheckInDate": "2018-03-23",
+        "LengthOfStay": 14,
+        "ShortDesc": "Exploring Britain & Ireland featuring England, Ireland, Scotland and Wales",
+        "ImageURLs": ["COL_62_02.jpg", "COL_62_03.jpg", "COL_62_04.jpg", "COL_62_05.jpg"],
+        "ImageMainURL": "COL_62_01.jpg",
+        "Location": "London, England"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "146",
+      "Detail": {
+        "LongDesc": "On a fascinating safari adventure, explore the scenic vistas and magnificent wildlife of Kenya. During your exploration, discover the thriving culture and natural wonders that make this one of the most popular African countries to visit. Numerous safari game drives bring you in search of the “Big 5”- lion, elephant, buffalo, leopard, and rhinoceros. You’ll also visit the Rothschild Giraffe Sanctuary. Your stay inside the beautiful Masai Mara Game Reserve features a traditional bush dinner with Masai dance performance and full day game drive. See all the stunning sights and gorgeous beauty of Kenya on this unforgettable adventure.",
+        "CheckInDate": "2018-04-20",
+        "LengthOfStay": 13,
+        "ShortDesc": "The Plains of Africa Kenya Wildlife Safari",
+        "ImageURLs": ["COL_146_02.jpg", "COL_146_03.jpg", "COL_146_04.jpg", "COL_146_05.jpg"],
+        "ImageMainURL": "COL_146_01.jpg",
+        "Location": "Nairobi, Kenya"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "109",
+      "Detail": {
+        "LongDesc": "From the steaming geothermal vents of Rotorua and the ice sheets and temperate rainforest of Franz Josef Glacier, to the genuine warmth of a farm stay with a local family, experience all of New Zealand’s many facets on this unforgettable journey. Enjoy city tours of Auckland, Napier, Wellington and Dunedin. Spend two nights discovering the sun-soaked Bay of Islands. Explore the wineries of Marlborough. Experience the wild and stunning west coast in Punakaiki famous for the pancake rocks and blow holes. Stand in awe of the giant Kauri tree. Savor a leisurely three-night stay in Queenstown, one of New Zealand’s prettiest towns. Journey by cable car to Skyline restaurant for fantastic views of Queenstown! Cruise Milford Sound in dramatic Fiordland. Delight in an overnight stay on the shores of Lake Te Anau. Sip wine at a regional vineyard in Otago. Explore the beautiful 19th-century gold rush settlement of Arrowtown. Stay in Dunedin, a little slice of Scotland in the South Pacific. Overnight at the foot of massive Mt. Cook. Dine in a restored Christchurch mansion. Immerse yourself in the Maori culture. Witness the famous Haka war challenge, followed by a Hangi feast. Discover the many treasures of New Zealand.",
+        "CheckInDate": "2018-04-23",
+        "LengthOfStay": 23,
+        "ShortDesc": "Exploring New Zealand New Zealand's North & South Islands",
+        "ImageURLs": ["COL_109_02.jpg", "COL_109_03.jpg", "COL_109_04.jpg", "COL_109_05.jpg"],
+        "ImageMainURL": "COL_109_01.jpg",
+        "Location": "Auckland, New Zealand"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "366",
+      "Detail": {
+        "LongDesc": "The past comes alive as you travel from the Land of the Incas to the Galapagos archipelago. This small group tour offers a look into mankind’s collective history. Overnight at the base of mysterious Machu Picchu and take advantage of the chance to explore this “Lost City” twice. Explore the UNESCO Spanish colonial cities of Lima, Quito and Cuzco. Set foot in two hemispheres at the Equatorial Line Monument. After delving into ancient cultures, you’ll connect with one-of-a-kind wildlife as you cruise the pristine Galapagos Islands, made famous by Charles Darwin. Throughout your journey in Peru and Ecuador, you’ll look toward the future and reflect on enchanting days gone by.",
+        "CheckInDate": "2018-05-15",
+        "LengthOfStay": 14,
+        "ShortDesc": "Machu Picchu & the Galapagos Islands",
+        "ImageURLs": ["COL_366_02.jpg", "COL_366_03.jpg", "COL_366_04.jpg"],
+        "ImageMainURL": "COL_366_01.jpg",
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "93",
+      "Detail": {
+        "LongDesc": "Experience the grandeur of the American West as you explore five fantastic national parks on this exciting journey. Experience Yellowstone National Park and stay in a National Historic Landmark at the Grand Canyon. Enjoy a breakfast cruise on Lake Powell. Marvel at the magnitude and color of Zion’s cliffs. Enjoy 2-night stays in Salt Lake City and Jackson Hole. Drive through the incredible Bighorn Mountains and the great Sioux Nations Territory before seeing Mt. Rushmore and Crazy Horse Monument. Meet a local Lakota Native American at dinner and learn about their fascinating way of life, past and present.",
+        "CheckInDate": "2018-10-05",
+        "LengthOfStay": 11,
+        "ShortDesc": "National Parks of America",
+        "ImageURLs": ["COL_93_02.jpg", "COL_93_03.jpg", "COL_93_04.jpg", "COL_93_05.jpg"],
+        "ImageMainURL": "COL_93_01.jpg",
+        "Location": "Scottsdale, AZ"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "14",
+      "Detail": {
+        "LongDesc": "Revel in the magic of Italy on this tour that explores the cities of Rome, Florence, Siena, Venice, Assisi, Perugia and Milan. Travel Italy and discover the rolling hills of the scenic Tuscan and Umbrian countryside, explore medieval hill towns and visit the birthplace of St. Francis, Assisi. Discover the masterpieces of the Renaissance in Florence and see hot glass transformed into exquisite art on Murano Island. Linger in romantic Venice for two nights discovering its treasures. Your journey comes to a close in Milan and includes a visit to the magnificent Gothic Cathedral – the Duomo.",
+        "CheckInDate": "2018-11-29",
+        "LengthOfStay": 9,
+        "ShortDesc": "Reflections of Italy",
+        "ImageURLs": ["COL_14_02.jpg", "COL_14_03.jpg", "COL_14_04.jpg", "COL_14_05.jpg"],
+        "ImageMainURL": "COL_14_01.jpg",
+        "Location": "Rome, Italy"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "163",
+      "Detail": {
+        "LongDesc": "South Africa’s cosmopolitan cities, posh resorts, expansive desert, magnificent wildlife and fertile wine country combine with a harmonious mix of many cultures to create a beautiful mosaic to discover on this fascinating tour. Ponder history during a visit to the Apartheid Museum. Search out the “Big Five” during an open-air safari game drive. Visit the Featherbed Nature Reserve. Travel the lush Garden Route between the mountains and the balmy Indian Ocean. Visit a working ostrich farm. Indulge in a wine tasting and lunch at a local vineyard in the winelands region. Relax during a leisurely stay in Cape Town, one of the most beautiful cities in the world.",
+        "CheckInDate": "2018-04-09",
+        "LengthOfStay": 12,
+        "ShortDesc": "Spectacular South Africa Culture & Nature in Harmony",
+        "ImageURLs": ["COL_163_02.jpg", "COL_163_03.jpg", "COL_163_04.jpg", "COL_163_05.jpg"],
+        "ImageMainURL": "COL_163_01.jpg",
+        "Location": "Sandton, South Africa"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "2",
+      "Detail": {
+        "LongDesc": "Discover the magnificent ruins of ancient Greece in their tranquil Mediterranean settings. This comprehensive journey explores Greece's most important ancient monuments, like the famed Temple of Zeus, archeological site of Olympia and ancient artifacts of Delphi. Explore Athens your way – choose a tour of the incredible Acropolis, or embark on a walking tour of some of the city’s hidden gems. Visit a local farm in the countryside to see how olive oil and wine are produced. Learn how to cook traditional Mediterranean cuisine during a cooking demonstration. Wander the winding streets, vineyards, marketplaces and beaches of Mykonos and Santorini. Explore the excavations of the ancient city at Akrotiri, the most important prehistoric settlement found anywhere in the Eastern Mediterranean. In Athens, enjoy traditional cuisine, wine and entertainment at a family-owned taverna in the lively Plaka district. Learn the history of this fascinating country from local experts on guided tours of Athens, Meteora, Delphi, Olympia and Corinth.",
+        "CheckInDate": "2018-04-10",
+        "LengthOfStay": 14,
+        "ShortDesc": "Exploring Greece and Its Islands featuring Classical Greece, Mykonos & Santorini",
+        "ImageURLs": ["COL_2_02.jpg", "COL_2_03.jpg", "COL_2_04.jpg", "COL_2_05.jpg"],
+        "ImageMainURL": "COL_2_01.jpg",
+        "Location": "Athens, Greece"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "216",
+      "Detail": {
+        "LongDesc": "Ice-fields, rushing streams, lovely waterfalls, glacial peaks and towering summits are just a few of the scenic wonders awaiting you in the Canadian Rockies and Glacier National Park. Visit Head-Smashed-In Buffalo Jump, one of the world’s oldest and best preserved buffalo jumps and a UNESCO World Heritage site. Ride aboard a Jammer (open-air touring car) during your visit to Glacier National Park. Experience a true western outdoor BBQ with live entertainment. Journey along the unforgettable Icefields Parkway. Stop at Columbia Icefield and choose a ride across this mass of glacier ice or take a walk on the Glacier Skywalk. A 3-night stay in Banff lets you explore Bow Falls and the Hoodoos (the \"Land of the Sleeping Giants\").",
+        "CheckInDate": "2018-06-10",
+        "LengthOfStay": 7,
+        "ShortDesc": "Canadian Rockies & Glacier National Park",
+        "ImageURLs": ["COL_216_02.jpg", "COL_216_03.jpg", "COL_216_04.jpg", "COL_216_05.jpg"],
+        "ImageMainURL": "COL_216_01.jpg",
+        "Location": "Calgary, Canada"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "620",
+      "Detail": {
+        "LongDesc": "The “land of fire and ice” is a place of many wonders, including the rare opportunity to see the spectacular aurora borealis – or northern lights. This tour will bring you on a search for that once-in-a-lifetime moment. Take an exhilarating evening northern lights cruise. Travel to the “Golden Circle,” home to many of Iceland’s most renowned natural wonders. Spend time at Thingvellir National Park, the nation’s most historic area. Gaze at the spectacular Gullfoss waterfall – one of the world's most incredible cascades. At Eyjafjallajökull Volcano Visitor Center, learn about life during and after the dramatic 2010 volcanic explosion. Explore Skogar Folk Museum and see traditional turf-built homes. Walk on a black volcanic sand beach. See Jökulsárlón glacial lagoon filled with floating icebergs. Relax in the warm, mineral-rich water of the natural geothermal pool the Blue Lagoon. Spend your evenings gazing at the night sky in search of the elusive and dazzling northern lights.",
+        "CheckInDate": "2018-11-03",
+        "LengthOfStay": 6,
+        "ShortDesc": "Discover the Magical Northern Lights",
+        "ImageURLs": ["COL_620_02.jpg", "COL_620_03.jpg", "COL_620_04.jpg", "COL_620_05.jpg"],
+        "ImageMainURL": "COL_620_01.jpg",
+        "Location": "Reykjavík, Iceland"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "555",
+      "Detail": {
+        "LongDesc": "Savor a true taste of “Irish Splendor” when you spend the night in a stately castle. Relax by a roaring peat fire. Stand in awe on the Cliffs of Moher. Overnight on the grounds of an Irish castle. Tour rollicking Dublin and share a conversation with the locals at a pub featuring traditional Irish entertainers. Sip on the “Water of Life” at a whiskey distillery. Visit Christ Church Cathedral, one of Ireland’s most historic structures. Explore the spectacular Dingle Peninsula and drive the Slea Head road for majestic coastal views. Gaze upon the historic Rock of Cashel. Visit the famous Gap of Dunloe where you can shop for traditional Irish goods. Meet a local family and enjoy tea and scones at their farm. Kiss the Blarney Stone at Blarney Castle. From the breathtaking sights of Kerry to the historic Rock of Cashel, gaze across the countryside and culture of Ireland.",
+        "CheckInDate": "2018-11-29",
+        "LengthOfStay": 7,
+        "ShortDesc": "Discover Ireland",
+        "ImageURLs": ["COL_555_02.jpg", "COL_555_03.jpg", "COL_555_04.jpg", "COL_555_05.jpg"],
+        "ImageMainURL": "COL_555_01.jpg",
+        "Location": "Dublin, Ireland"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "304",
+      "Detail": {
+        "LongDesc": "The romance of Italy comes to life. Explore a local farm and indulge in a cheese and wine tasting. Explore the rugged coast and remote fishing villages of the Cinque Terre. Spend four relaxing nights in a Tuscan villa. Choose the way you discover the charming town of Lucca: on foot or by bicycle. Get to know Florence with a walking tour of the city’s treasures and monuments, including the Piazza del Duomo. Experience medieval life at the Palazzo Davanzati. Venture to rose-hued Siena. Visit a winery in the countryside and learn the secrets of Tuscan cuisine when you participate in a cooking lesson. Wander the streets of Bologna and taste some of the area’s specialty foods. Spend two wonderful nights in Venice. These are Italy’s treasures.",
+        "CheckInDate": "2018-12-04",
+        "LengthOfStay": 11,
+        "ShortDesc": "Italy's Treasures Art, Food & Wine of Italy",
+        "ImageURLs": ["COL_304_02.jpg", "COL_304_03.jpg", "COL_304_04.jpg", "COL_304_05.jpg"],
+        "ImageMainURL": "COL_304_01.jpg",
+        "Location": "Stresa, Italy"
+      },
+      "GroupId": 4
+    }],
+    "Name": "Guided Tours"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "3",
+      "Detail": {
+        "LongDesc": "Cottage room, breakfast for two, spa discount, four hour bike rental, local wines, bottled water, transportation to and from Sonoma Square, self parking, wine tasting, yoga, wine education, nature hikes complimentary appetizer or dessert, $10 credit toward wine purchase.",
+        "Description": "5 nights",
+        "ShortDesc": "The Lodge at Sonoma Renaissance Resort & Spa",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_3_1.jpg",
+        "Location": "Sonoma, CA"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "271",
+      "Detail": {
+        "LongDesc": "Location, location, location: The Sydney Harbour Marriott Hotel at Circular Quay boasts the best there is. Perfectly situated overlooking the gorgeous Sydney Harbour and national landmark, the Sydney Opera House, our Circular Quay hotel is mere steps from the historic Rocks District and world-class shopping. Spend your day sightseeing, then return to our five-star Marriott Sydney hotel for much-deserved pampering in our spa. ",
+        "Description": "5 nights",
+        "ShortDesc": "Sydney Harbour Marriott Hotel at Circular Quay",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_271_1.jpg",
+        "Location": "Sydney, Australia"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "58",
+      "Detail": {
+        "LongDesc": "Room for 2. $100 hotel credit per night. Breakfast for 2. Two tickets on the Naples trolley. Marvel at the stunning views from the private balconies and world-class suites at The Ritz-Carlton, Naples. With three miles of immaculate beaches to explore, you’ll delight in combing the ocean side, gazing at breathtaking sunsets and walking hand in hand on the sandy shore. ",
+        "Description": "5 nights",
+        "ShortDesc": "The Ritz-Carlton, Naples",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_58_1.jpg",
+        "Location": "Naples, FL"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "36",
+      "Detail": {
+        "LongDesc": "Room, breakfast buffet for 2 adults and 2 children. Located in the heart of the hotel zone, with spectacular beach front location, the AAA Four-Diamond Casa Magna Marriott Cancun resort is the perfect choice for your weekend getaways, family vacations and group events. ",
+        "Description": "5 nights",
+        "ShortDesc": "Marriott Cancun Resort",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_36_1.jpg",
+        "Location": "Cancun, Mexico"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "40",
+      "Detail": {
+        "LongDesc": "Room for 2. Daily breakfast. The Renaissance Tuscany il Ciocco Resort & Spa, recently renovated, is situated within a 2000-hectare estate inside the greenest land of Tuscany, the Serchio Valley. The first Renaissance Resort in Tuscany is completing the upgrade phase and is an iconic venue w here classic and elegant Italian style meets the brand new Chic Design by Renaissance Hotels. ",
+        "Description": "5 nights",
+        "ShortDesc": "Renaissance Tuscany Il Ciocco Resort & Spa",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_40_1.jpg",
+        "Location": "Bargana, Italy, Europe"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "285",
+      "Detail": {
+        "LongDesc": "At The Ritz-Carlton, Millenia Singapore, visitors will discover that a work of art does not always require a traditional canvas. A stunning structure designed by Pritzker prize-winning architect Kevin Roche, the luxury hotel sets geometric lines, contemporary style and subtle Oriental touches against a backdrop of the Marina Bay and city skyline. Here, guests are immersed in a visually stimulating, five-star experience, from the hotel’s 4,200-piece contemporary art collection to the spectacular views afforded from each of the 608 guest rooms. Artful details carry over into the 5-star Singapore hotel’s restaurants, where works from known artists such as Dale Chihuly are displayed alongside dishes that are creative both in taste and presentation. Centrally located in the heart of Marina Bay, our five-star hotel allows guests to easily explore Singapore’s treasures, with the Singapore Flyer, ArtScience Museum and Esplanade -Theatres on the Bay, all just steps away.",
+        "Description": "5 nights",
+        "ShortDesc": "The Ritz-Carlton, Millenia Singapore",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_285_1.jpg",
+        "Location": "Singapore"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "61",
+      "Detail": {
+        "LongDesc": "Room for 2. Immerse yourself in a true Hawaiian experience when you stay with us at The Ritz-Carlton, Kapalua in Maui, Hawaii. Both cultural and environmental appreciation, combined with world-class, exclusive facilities, deliver a true escape. Our Maui beach hotel features the special touches that allow you to take relaxation to the next level. ",
+        "Description": "5 nights",
+        "ShortDesc": "The Ritz-Carlton, Kapalua",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_61_1.jpg",
+        "Location": "Kapalua, Maui, HI"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "362",
+      "Detail": {
+        "LongDesc": "Come and experience the mesmerizing beauty of the Maldives, its turquoise waters and  pristine beaches with Sheraton Maldives Full Moon Resort & Spa. Conveniently located on a private island just 15-20 minutes away from the Velana International Airport and 1km away from the nearest inhabited island, this 5-star beach resort offers guest rooms all furnished in tropical style with the finest of amenities.",
+        "Description": "5 nights",
+        "ShortDesc": "Sheraton Maldives Full Moon Resort & Spa",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_362_1.jpg",
+        "Location": "North Malé Atoll, Maldives"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "31",
+      "Detail": {
+        "LongDesc": "Room, water transportation to and from Trellis Bay, airport transfer, on island transportation, wireless internet, sea kayaks and snorkel boards. This new private Scrub island resort is the first to be built in the British Virgin Islands in more than 15 years.  Complimentary airport transfers include a short van ride to activities including hiking, kayaks, diving and snorkeling. ",
+        "Description": "5 nights",
+        "ShortDesc": "Scrub Island Resort, Spa & Marina, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_31_1.jpg",
+        "Location": "Scrub Island, British Virgin Islands, Caribbean"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "11",
+      "Detail": {
+        "LongDesc": "Room, breakfast for two, wireless internet. Soar to new heights in Chicago, an architectural wonderland where you can sing the blues, root for the Bears, shop the Magnificent Mile, dig into a deep dish pizza… and finally come to rest at one of Marriott’s magnificent Chicago hotels. ",
+        "Description": "5 nights",
+        "ShortDesc": "Chicago Marriott Downtown Magnificent Mile",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_11_1.jpg",
+        "Location": "Chicago, IL"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "37",
+      "Detail": {
+        "LongDesc": "Room for 2. Neoclassical palace of incredible elegance is now one of a leading luxury-designed hotel in Prague. A stroll from celebrated Prague landmarks: Old Town Square, Czech State Opera, National Museum or Wenceslas Square, it exudes the intimate air of a boutique hotel, from the sleek lobby scented by exotic flowers, to elegant guest rooms.",
+        "Description": "5 nights",
+        "ShortDesc": "Boscolo Prague, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_37_1.jpg",
+        "Location": "Prague, Czech Republic, Europe"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "290",
+      "Detail": {
+        "LongDesc": "Perfectly located in the heart central London. Within walking distance of Buckingham Palace and Westminster Abbey and adjacent to St James's Park.",
+        "Description": "5 nights",
+        "ShortDesc": "St. Ermin's Hotel, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_290_1.jpg",
+        "Location": "London, England"
+      },
+      "GroupId": 7
+    }],
+    "Name": "Hotels And Luxury Residences"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 2,
+      "CollectionId": 1,
+      "Id": "290",
+      "Detail": {
+        "LongDesc": "Perfectly located in the heart central London. Within walking distance of Buckingham Palace and Westminster Abbey and adjacent to St James's Park.",
+        "Description": "5 nights",
+        "ShortDesc": "St. Ermin's Hotel, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_290_1.jpg",
+        "Location": "London, England"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "HERDO",
+      "Detail": {
+        "LongDesc": "A contemporary lifestyle adults only hotel that offers modern Greek design with an international touch. Located in a tropical sandy beach and surrounded by beautiful parks, it offers tailor made experiences and easy access to cosmopolitan Chania.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Domes Noruz Chania, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_HERDO_1.jpg",
+        "Location": "Chania-Crete, Greece"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "SJOJW",
+      "Detail": {
+        "LongDesc": "JW Marriott Guanacaste Resort & Spa is a tropical haven in boasting elegant rooms with beach views, a spa, an 18-hole golf course and eight eateries. Celebrate memorable festivities in our beachfront resort and explore the natural beauty of Costa Rica.",
+        "LengthOfStay": 5,
+        "ShortDesc": "JW Marriott Guanacaste Resort & Spa",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_SJOJW_1.jpg",
+        "Location": "Guanacaste, Costa Rica"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "VCEJW",
+      "Detail": {
+        "LongDesc": "The JW Marriott Venice Resort & Spa is a five-star luxury hotel situated on a private island just minutes away from Venice's premier attractions and landmarks. Amenities include several restaurants, an on-site cooking school, a rooftop pool and a spa.",
+        "LengthOfStay": 5,
+        "ShortDesc": "JW Marriott Venice Resort & Spa",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_VCEJW_1.jpg",
+        "Location": "Venice, Italy"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "MFMJW",
+      "Detail": {
+        "LongDesc": "Located within the Galaxy Macau™ Resort, the JW Marriott Hotel Macau greets visitors with timeless sophistication and modern style. Discover gorgeously appointed accommodation, delicious on-site dining and the thrilling Grand Resort Deck.",
+        "LengthOfStay": 5,
+        "ShortDesc": "JW Marriott Hotel Macau",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_MFMJW_1.jpg",
+        "Location": "Macau, China"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "BNAGO",
+      "Detail": {
+        "LongDesc": "Enjoy a stay at Gaylord Opryland Resort & Convention Center. Our popular Nashville hotel provides an array of entertainment, a full-service spa, golf course, restaurants, shops and 700,000 square feet of flexible wedding and event venues.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Gaylord Opryland Resort & Convention Center",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_BNAGO_1.jpg",
+        "Location": "Nashville, TN"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "ZRHAK",
+      "Detail": {
+        "LongDesc": "Discover your new “Lieblingsplatz” (favorite place) at the Kameha Grand Zurich Hotel, in the beating heart of one of Europe’s most stylish cities.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Kameha Grand Zurich, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_ZRHAK_1.jpg",
+        "Location": "Zurich, Switzerland"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "OKAMC",
+      "Detail": {
+        "LongDesc": "At Marriott Hotels & Resorts®, it's our mission to make every business trip a pleasure and every vacation the trip of a lifetime. Enjoy amenity-filled guest rooms, superb dining, exemplary meeting facilities and our time-honored 'spirit to serve®'.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Okinawa Marriott Resort & Spa",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_OKAMC_1.jpg",
+        "Location": "Nago City Okinawa, Japan"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "GLZAK",
+      "Detail": {
+        "LongDesc": "Hotel Nassau Breda is located in the vibrant city centre of Breda and is a luxury lifestyle hotel in the Southern region of the Netherlands.The hotel offers 95 one of a kind rooms including an Panoramic Suite on the fifth floor.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Hotel Nassau Breda, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_GLZAK_1.jpg",
+        "Location": "Breda, Netherlands"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "ROMEX",
+      "Detail": {
+        "LongDesc": "Located in Rome's city center, the 5-star Boscolo Exedra Roma, Autograph Collection features elegant rooms and suites, a pet-friendly policy, free Wi-Fi, a wellness spa, fitness center, superb indoor and outdoor dining and sophisticated event venues.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Boscolo Exedra Roma, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_ROMEX_1.jpg",
+        "Location": "Rome, Italy"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "CWLGS",
+      "Detail": {
+        "LongDesc": "St. Pierre Marriott Hotel & Country Club is a 14th century manor set amid 400 acres of picturesque parkland in the Wye Valley. Featuring 2 golf courses including the champinship Old Course, Beauty Rooms and 11 function rooms, 2 restaurants.",
+        "LengthOfStay": 5,
+        "ShortDesc": "St. Pierre Marriott Hotel & Country Club",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_CWLGS_1.jpg",
+        "Location": "Chepstow, Wales"
+      },
+      "GroupId": 2
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 2,
+      "Id": "BUDAK",
+      "Detail": {
+        "LongDesc": "The Boscolo Budapest, Autograph Collection boasts lavish accommodation and the world-famous New York Café, as well as versatile meeting space, an on-site spa and a prime location in the heart of the city.",
+        "LengthOfStay": 5,
+        "ShortDesc": "Boscolo Budapest, Autograph Collection",
+        "ImageURLs": [],
+        "ImageMainURL": "MI_BUDAK_1.jpg",
+        "Location": "Budapest, Hungary"
+      },
+      "GroupId": 2
+    }],
+    "Name": "Marriott Rewards"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "107",
+      "Detail": {
+        "LongDesc": "Four night accommodations and two Lower Level End Court OR Corner Tickets to the NCAA Final Four Semi-Final and Final Game.  Includes: five days/four nights accommodations in a Marriott® branded property (or similar property) in the Final Four Host City, breakfast for two daily, premium lower level end court or corner seating to the NCAA Final Four Semi-Final and Final Championship Games, five day full-size rental car, all hotel taxes.\n\n​",
+        "Description": "4 nights, 2 tickets",
+        "ShortDesc": "NCAA Final Four Basketball Tournament Lower Level Experience",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_107_1.jpg",
+        "Location": "San Antonio, TX"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "106",
+      "Detail": {
+        "LongDesc": "Two Night Accommodations and Two Reserved Grandstand Tickets to Game 1, 2, 3 or 4 of the World Series. Includes: three day /two night accommodations for two (double occupancy) in a Marriott® branded property (or similar property), breakfast for two daily, two reserved grandstand tickets to Game 1, 2, 3 or 4 of the World Series (seating upgrades available upon request for an additional fee), three day full size rental car, all hotel taxes.",
+        "Description": "2 nights, 2 tickets",
+        "ShortDesc": "The World Series Single Game Program",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_106_1.jpg",
+        "Location": "Home of League Champions"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "104",
+      "Detail": {
+        "LongDesc": "Enjoy Three Night Accommodations, Two Premium First Floor Grandstand Tickets to the Kentucky Derby and a Kentucky Horse Farm Tour at Churchill Downs, Louisville, Kentucky.  Includes: four days/three nights accommodations at the Marriott Griffin Gate Resort in Lexington, KY (or similar property), breakfast for two daily, local horse farm tour on Friday, two Premium 1st Floor Grandstand Tickets for the Kentucky Derby on Saturday, round-trip airport transfers from Lexington Airport, round-trip Kentucky Derby race transfers, all hotel taxes.",
+        "Description": "3 nights, 2 tickets",
+        "ShortDesc": "The Kentucky Derby Lexington Horse Farm Package",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_104_1.jpg",
+        "Location": "Lexington, KY"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "96",
+      "Detail": {
+        "LongDesc": "Enjoy two night accommodations and two Mezzanine Level (300 Level) tickets to the Emmy Awards Show at Microsoft Theatre, Los Angeles, California.  Includes: three day/two night accommodations for two (double occupancy) at the JW Marriott LA Live (or similar property), breakfast for two daily, two reserved tickets in the 300 Mezzanine Level to the Emmy Award Ceremony, $200 transfer allowance, all hotel taxes",
+        "Description": "2 nights, 2 tickets",
+        "ShortDesc": "The Emmy Awards Experience",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_96_1.jpg",
+        "Location": "Los Angeles, CA"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "330",
+      "Detail": {
+        "LongDesc": "Enjoy Two Night Accommodations and Two Reserved Tickets to Game 1, 2, 3 or 4 of the Stanley Cup Finals. Package includes: three day/two night accommodations for two (double occupancy) in a Marriott® branded property (or similar property), breakfast for two daily, two reserved tickets to Game 1, 2, 3 or 4 of the Stanley Cup Finals, three day full size car rental, all hotel taxes.",
+        "Description": "2 nights",
+        "ShortDesc": "The NHL Stanley Cup Program",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_330_1.jpg",
+        "Location": "USA or Canada"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "328",
+      "Detail": {
+        "LongDesc": "Enjoy Two Night Accommodations and Two 300 Level Tickets to the Country Music Awards Show, at Bridgestone Arena, Nashville, Tennessee.  Includes: three day/two night accommodations for two (double occupancy) in a Marriott® branded property (or similar property), breakfast for two daily, two reserved tickets in the 300 Level of Bridgestone Arena to the CMA Awards Ceremony (seating upgrades available upon request for an additional fee), $200 transfer allowance, all hotel taxes.",
+        "Description": "2 nights",
+        "ShortDesc": "The Country Music Awards Experience",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_328_1.jpg",
+        "Location": "Nashville, TN"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "108",
+      "Detail": {
+        "LongDesc": "Three night accommodations and two reserved tickets to either the Men’s and Women’s Semi-Final OR Final Sessions (Sessions 21 & 22 OR 23 & 24) of the U.S. Open Tennis Tournament, at Arthur Ashe Tennis Center – Flushing New York.  Includes: four days/three night accommodations in a Marriott Hotel (or similar property) in New York City, breakfast for two daily, two Promenade Level Tickets to the Men’s and Women’s Semi-Final Sessions (Sessions 21 & 22) or Final Sessions (23 & 24) of the U.S. Open Tennis Tournament, $200 transfer allowance, all hotel taxes.\n\n​",
+        "Description": "3 nights, 2 tickets",
+        "ShortDesc": "The U.S. Open Tennis Semi-Finals OR Finals Experience",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_108_1.jpg",
+        "Location": "Flushing, NY"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "327",
+      "Detail": {
+        "LongDesc": "Enjoy two night accommodations and two Loge level tickets to the ESPY Awards show at Microsoft Theatre, Los Angeles, California. Package includes: three day/two night accommodations for two (double occupancy) in a Marriott® branded property (or similar property), breakfast for two daily, two reserved tickets in the Loge Level of Microsoft Theatre to the ESPY Award Ceremony, $200 transfer allowance, all hotel taxes.",
+        "Description": "2 Nights and 2 tickets for 2",
+        "ShortDesc": "ESPY Awards Program",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_327_1.jpg",
+        "Location": "Los Angeles, CA"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "111",
+      "Detail": {
+        "LongDesc": "Enjoy Two Night Accommodations in the Courtyard by Marriott Augusta Hotel (or similar property) in Augusta, Georgia and Two Badges to the Thursday/Friday OR Saturday/Sunday Sessions of the Masters Golf Tournament at Augusta National Country Club, Augusta, Georgia.  The Thursday & Friday Masters badge package includes accommodations Wednesday & Thursday night, the Saturday & Sunday Masters badge package includes accommodations Friday & Saturday night. Two Masters Golf Tournament Badges to attend the Tournament Thursday and Friday or Saturday and Sunday. Valet Parking at hospitality site daily. All hotel taxes.",
+        "Description": "2 day passes for 2, hotel, and hospitality",
+        "ShortDesc": "The Masters Golf Two Day Experience",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_111_1.jpg",
+        "Location": "Augusta, GA"
+      },
+      "GroupId": 7
+    }],
+    "Name": "Specialty Packages And Activities"
+  }, {
+    "Vacations": [{
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "40691",
+      "Detail": {
+        "LongDesc": "Villa Paradise is a superb new Luxury Californian property overlooking the bay of Eze and offers approximately 4,000 square feet of living space.  It is a contemporary villa offering beautifully appointed accommodations arranged over two levels with a heated infinity swimming pool and unobstructed sea views, all within few minutes walking distance to the beach.\n\nThe property is nestled in a beautiful quiet residential area below Eze Village, Southeast France – (Cote d'Azur) one of the most scenic stretches of coast on the French Riviera, between Nice and Monte Carlo. The villa is situated just above the sea with 180º views of the Mediterranean Sea and surrounding coastal cliffs, which are stunning. The villa features a beautiful infinity pool with dramatic views, making it one of the most popular areas at the villa. It is the perfect place to enjoy the sunshine and sea air. If you desire a dip in the sea, it is only a seven minute walk to the beach.\n\nThe villa is composed of a large open-plan living area with a modern, fully-equipped kitchen opening onto the terrace, five bedrooms with en-suite bathrooms, an immense rooftop terrace, and parking for five vehicles.\n\nAccommodations\n\nMain Level\n\nEntrance\n\tInfinity Pool with panoramic view\n\tBedroom with an en-suite bathroom and 180º sea view\n\tLarge living room (Home Cinéma ) with 180º sea view\n\tDining room with panoramic view\n\tOpen kitchen\n\tGuest toilet\nLower Level\n\n4 Bedrooms with panoramic views, overlooking the bay of Eze with en-suite bathrooms\n\tBar area / Laundry room\n",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Paradise, Cote D'Azur & St. Tropez",
+        "ImageURLs": ["VOD_40691_02.jpg", "VOD_40691_03.jpg"],
+        "ImageMainURL": "VOD_40691_01.jpg",
+        "Location": "Èze-mer, France"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "17088",
+      "Detail": {
+        "LongDesc": "All the key elements of a superb vacation villa are right here in this beautifully-rendered, six-bedroom oasis of \"the good life.\"  This beautifully-rendered, six-bedroom oasis of \"the good life\" is ready to greet lucky guests who want to spend their sun-kissed vacation at unique 'VI Friendship Villa.' All the key elements of a superb vacation villa are right here: six equally-sized, air-conditioned queen bedroom/bath suites with individual private balconies, a sand bulkhead 'beach,' pool and hot tub, a stunning waterfront location right over silvery ocean waves, and an expansive view of Great Cruz Bay dotted with yachts riding at anchor and The Westin Resort's strand of white sand beach across the Bay.\n\n'VI Friendship Villa' is a sleek, harmonious meld of contemporary design featuring banks of windows which invite the glorious outside right in, natural stone accents, a superb floor plan providing excellent privacy for all guests and lots of space for everyone, and bonuses such as a well-equipped home office, an air-conditioned and fully-equipped exercise room with satellite TV which looks out on the sparkling Bay on three sides, plus a large air-conditioned game room for everyone's enjoyment featuring a ping-pong table, a pool table, game tables, and right outside via sliding French doors, a bulkhead beach—an area spread with white sand and set with chaise lounges for basking in the sun by day and a fire brazier for convivial evenings of cocktails and storytelling by night.\n\n'VI Friendship Villa' integrates clean, modern architecture with a nautical flair expressed in railings inside and out of stylish, stainless steel yacht rigging, which frame the blue expanses of the sea, and cool travertine floors throughout. This spacious villa is dramatically sited cliffside above the ocean, inviting in fresh breezes off the ocean and lulling surf sounds.\n\nCommanding the home's top level is the air-conditioned and well-equipped exercise room. This pavilion is glassed in on three sides for spectacular views, and has a patio right outside which overlooks the ocean, a perfect spot for taking a breather and admiring the view between workout sets. Stairs lead from the exercise room down to VI Friendship's bi-level main floor. A granite-countered kitchen and a pantry separates the two east and west wings of the villa; each wing offers two equally-sized queen bedroom/bath suites, each of which features air-conditioning, a 32-inch, flat-screen satellite TV, coffeemaker, and a private balcony with a sea view. The east wing offers both the soothing blue suite and the crisp blue-and-white suite. The west wing's two suites are done in sage and the other in white and gold. Just beyond the kitchen area are a convenient powder room and the spacious office alcove equipped with a computer with DSL, WiFi and an all-in-one printer/scanner/fax, and which looks out to the bay.\n\nFour steps down from the kitchen is the dining area with a large oversized trestle dining table capable of seating ten people and an adjoining granite counter with 4 stools facing the beautiful island panorama; both are perfect for casual dining, and the adjoining living room area is equipped with a 46-inch TV, DVD player and a Bose surround-sound system which supplies music to every bedroom, living/dining room, kitchen, game room, exercise room and pool deck.\n\nOversized glass-paneled doors fold to one side and lead out to the heart of 'VI Friendship Villa'—the infinity-edged pool, built-in hot tub, a sunning area with chaise lounges and umbrellas, and off to one side, a 6-foot round exterior dining table shaded by an umbrella and flanked by a large stainless steel gas grill with rotisserie, a big commercial blender for tropical libations, a wet bar and a commercial ice maker - essentials for a relaxed vacation for a large group of family or friends!\n\nA short staircase descends from the pool and sun deck area to the bulkhead sand beach area flanked by palm trees. This lower level, also accessible via an interior staircase from the main level, offers two more queen bedroom/bath suites. Situated on opposite sides of this level for excellent privacy, both of these suites boast air-conditioning, TV, coffeemaker and a private balcony. Also on this level are a laundry room and the spacious, air-conditioned game room with a pool table, ping pong, game tables, a 46-inch flat-screen TV and a handy half bath.\n\n'VI Friendship Villa' offers over 10,000 square feet of beautifully-designed vacation space furnished with flair and comfort, with all its small but very polished details enhancing this home's light and airy aura and unique character. Please be sure to book your family and friends early for your sun-filled and restful seaside adventure at 'VI Friendship Villa.'",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "VI Friendship Villa, St. John",
+        "ImageURLs": ["VOD_17088_02.jpg", "VOD_17088_03.jpg"],
+        "ImageMainURL": "VOD_17088_01.jpg",
+        "Location": "St. John, U.S. Virgin Islands"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "24287",
+      "Detail": {
+        "LongDesc": "Set on a high hill overlooking the scenic Tuscan landscape, this incredible 16th century patrician mansion exudes class and elegance at first sight.   The villa spans over 1200 square meters of living space and its central location is convenient to explore the major areas of Florence, Chianti, Siena and Lucca. In its past the villa has been the dwelling of many illustrious guests, among them Paolina Bonaparte, sister of Napoleon and the Grand Duchess of Tuscany. The villa belongs to one of the most prominent aristocratic Italian families, and you will feel as a true royalty vacationing here while having the villa staff pampering you like a prince!\n\nAll rooms of the villa are impeccably decorated with luxurious furnishing and finishes housing a remarkable art collection. The building retains its original architectural structure with its floors, vaulted ceilings, fireplaces and staircases. The villa features opulent heirloom pieces such as oil paintings and antiques, Venetian glass chandeliers, murals, rich tapestry and Persian rugs, all creating a sense of age that the guests will enjoy in every room.\n\nAccommodations\n\nGround Floor\n\nFormal massive dining room with fireplace that seats comfortably up to 20 guests\n\tSmaller dining room\n\tGuest bathroom\n\tLarge gourmet eat-in kitchen\nFirst Floor\n\nVery expansive formal living room with fireplace and piano\n\tSmaller living room\n\tTV room with fireplace\n\tReading room with private library containing an antique collection of books\n\tEnjoyable billiard room\n\tPrivate chapel\nOutside Features\n\nAn impeccable manicured Italian garden nestles the impressive private pool, with its sundeck and a gazebo, perfect for alfresco lunches\n\tThe grounds house also several shaded areas for relaxing in style and tranquility\n\tThe villa’s strategic position over the undulating hills offers a one-of-a-kind view over the vineyards, olive groves, fields and forests of the Tuscan countryside\nWhen not lounging around the pool, you can visit Florence or you may go to the hip beach resort of Forte dei Marmi, both 30 minutes by car. Other options are playing golf at an 18-hole Golf course, horse-back riding or play tennis at nearby facilities. Lastly, do not forget to check out the famous Thermal Spas located very near to the villa. Villa Augusta is perfect for easy hikes and relaxing strolls.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Augusta, Tuscany",
+        "ImageURLs": ["VOD_24287_02.jpg", "VOD_24287_03.jpg"],
+        "ImageMainURL": "VOD_24287_01.jpg",
+        "Location": "Lucca, Italy"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "18537",
+      "Detail": {
+        "LongDesc": "One of the largest beachfront vacation homes in Los Cabos, Casa La Laguna sits on a quiet, pristine, semi-private beach next to the Puerto Los Cabos Marina.  Casa La Laguna sleeps 13-15, and offers 10,000 square feet of living space, 8,000 of which is air conditioned, with another 16,000 square feet outdoors. The villa is renowned for hosting multiple families, generational families, couples, corporate retreats, and weddings. One of the largest and most luxurious beachfront homes available in Los Cabos, Casa La Laguna sits serenely on a tranquil, semi-private beach. With an exquisite blend of Hacienda style and custom Balinese furnishings, this villa features four levels with ocean views from every room, 6 ocean view suites, and 8 bathrooms.\n\nSuperb meals are prepared by amazing gourmet chef Angel in the state-of-the-art kitchen, which opens to a magnificent great room, and 4 unique indoor and outdoor dining areas. Two well-appointed bars reside here, one indoors and one al fresco. A full professional staff of 6 includes our manager/ private concierge and in-villa masseuse. The housekeeping staff is known for offering various special and unique touches to provide the utmost in comfort, including L’Occitane bath products featured throughout.\n\nThe outdoor areas feature beautiful pieces of art, colorful flowers &amp; various fauna gracing the grounds, and fountain &amp; infinity features. The sparkling bi-level pool offers an upper wading pool, a 15-foot slide, and a lower infinity pool large enough for lapping. The huge beachfront Jacuzzi sits above the enticing beach and sea where abundant marine life is in view, including whales, dolphins, and so much more.\n\nThe Media Room offers the perfect venue for private screenings, concerts, and movies. The Spa is open for relaxing massages with incredible and gracious masseuse Tina, always at your convenience, featuring Chanel products. Guests also enjoy the use of a fully-equipped gym.\n\nThe upscale property is highly attractive to visitors seeking a quiet retreat. One small beach restaurant serves the community, and yet, luxurious Jack Nicklaus and Greg Norman golf, and a world class marina are literally 5 minutes away at Puerto Los Cabos. ATV and horseback riding, swimming, snorkeling, surfing, and fishing are all immediately adjacent. World class restaurants and resorts with stunning settings, and high-end shopping are 15 minutes away at the restful, colonial town of San Jose del Cabo, with the more vivacious Cabo San Lucas also within easy reach. Los Cabos, home to the Sea of Cortez on the Baja Peninsula, offers a unique year-round sunny and dry, arid climate, averaging only 10 days of rain per year, unlike most tropical destinations.\n\nAt Casa La Laguna, our world class staff and incredible setting will exceed your expectations in every respect, to which our numerous reviews and repeat guests will attest.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Casa La Laguna, Los Cabos",
+        "ImageURLs": ["VOD_18537_02.jpg", "VOD_18537_03.jpg"],
+        "ImageMainURL": "VOD_18537_01.jpg",
+        "Location": "Cabo San Lucas, Mexico"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "19548",
+      "Detail": {
+        "LongDesc": "Ski-In/Ski-Out Luxury at Glacier Lodge\r\n\r\nNestled in 950 square feet in the heart of Blackcomb Upper Village, this lovely two-bedroom mountain condo is just minutes away from Whistler Village, perfect for your next vacation!  Get ready for a ski-in/ski-out property like no other at this luxury condo, perfectly located to all the activity and adventure of Whistler! \r\n\r\nAs you enter your home, you’ll immediately fall in love with the modern and chic design of the main living spaces. The living room offers a cozy spot to refresh after a long day on the slopes, complete with plenty of plush seating, a flat screen television, and a lovely fireplace to keep you warm.  The dining area offers a beautifully designed table with seating for six where you can enjoy delicious homemade meals together. The chef of the group will love the kitchen, complete with glossy granite countertops and high-end appliances to help you perfect your delicious creation. \r\n\r\nYour condo features two spacious bedrooms, one with a king-sized bed and the other a queen. Both rooms feature memory foam beds to ensure that you have no trouble settling down for the night during your stay. The shared bathroom is extraordinary, with a contemporary modern granite and glass tub enclosure, where you can relax at the end of a thrilling day. Before turning in for the night, head out to the secluded balcony to bask in the brisk mountain air as you sip on a glass of wine and take in the sunset. \r\n\r\nThe Glacier Lodge offers incredible amenities for you to take advantage of during your stay. If the weather permits, bask in the feel of the sunshine on your skin at the pool, or enjoy the refreshingly cool water. Two hot tubs are available here to offer even more leisure and relief. An excellent exercise room awaits those who want to get a little active during their vacation. For skiers, there is a full-service rental shop and valet ski service for your convenience. If you don’t feel like cooking, delicious restaurants can be found on site, or you can stroll over to Whistler Village to enjoy a night of even more entertainment. Even if you visit in the summer, you’ll find endless options for activity, such as bike trails, lakes, championship golf courses, and breathtaking hiking trails right outside your door!\r\n\r\nEscape to the wonderful winter wonderland of Whistler, and  make this exquisite condo your next getaway!",
+        "CheckInDate": "2018-02-15",
+        "LengthOfStay": 7,
+        "ShortDesc": "Ski-In/Ski-Out Luxury at Glacier Lodge",
+        "ImageURLs": ["THO_19548_02.jpg", "THO_19548_03.jpg"],
+        "ImageMainURL": "THO_19548_01.jpg",
+        "Location": "Whistler, Canada"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "5614",
+      "Detail": {
+        "LongDesc": "Rainforest Meets The Sea\r\n\r\nThe 10 Bedroom Villa is a gated estate on 2.5 acres of rainforest offers a stunning 270-degree ocean panorama and a golden-sand beach is virtually footsteps away. \r\n\r\nPerfect for Families, Retreats & Private Weddings, Punto de Vista is the only large Luxury Villa to the Beach in Manuel Antonio and with new Private Beach in less than 5 minutes away! \r\n\r\nThe uniquely designed, perfectly sited villa is nestled into the lush jungle teaming with monkeys, sloths and tropical birds. The multi-level complex with it's own elevator, is comprised of both the main Villa, a mansion of steel, glass and natural rock as well as a meticulously crafted entry cottage on a multi-acre rain-forest estate. \r\n\r\nFeatures 10 boutique-style bedrooms all with their own uniquely tiled entrances in Italian Bisazza tile as well as their own private baths with locally produced organic bath products and rain showers. \r\n\r\nFor casual dining or elaborate feasts, the fourth-floor dining terrace promises spectacular ocean and jungle views, and plenty of space to seat dinner parties of up to 28 persons. The terrace bar is perfect for pre-dining wine tasting or post dinner drinks. As in the living room, the dining terrace has an iPad Mini sculpted into a teak wood column for access to the perfect tune. Our delicious Breakfast is served daily on our incredible Dining Terrace.\r\n\r\nVilla amenities include a ballroom-disco off of the pool terrace and main level bar, a covered dining terrace and bar with sweeping views as well as an open-air roof deck w/ bar and jacuzzi that's perfect for below-the-stars dining. It's also an outdoor movie theatre! The stunning roof deck features a 10-person solar-heated Jacuzzi with a commanding 270 degree view of the Manuel Antonio Bay.\r\n\r\nThe villa is only a short 5-minute walk to a golden-sand beach, and always within earshot of the sea. But the acquisition of our 6-Passenger, 2014 Polaris Ranger Crew Buggy really puts the villa on the sand in a convenient 60 second adventure.\r\n\r\nAdditional Amenities:\r\n\r\n•Pre-Arrival concierge who will attend to your every vacation need, from the details of transportation and provisioning, to the chef services and don't forget the In-home spa services\r\n\r\n•Onsite concierge Olivier can set you up with last minute dining or spa reservations on or off premises as well a vast array of Tropical adventures on the ocean or on land!\r\n\r\n•Access to our \"Beach Buggy\" service, new private 6 passenger Polaris Ranger, and take an incredible 2 minute ride through the verdant forest and to Manuel Antonio's golden sand beach seeing Toucans, Monkeys, Sloths, Iguanas and other wildlife along the way.\r\n\r\n•Bi-Lingual Villa Manager/Concierge, coordinate your transportation, recommend activities, plan tours, and stock the kitchen prior to your arrival, Twice Daily Maid/Turndown service, on site Maintanence and 24 hour Security. \r\n\r\n*Every morning, enjoy a handmade, gourmet breakfast that is complementary with your stay.\r\n\r\nPunto de Vista was recently awarded Best Property as well as Best Architecture in Costa Rica and WonBest Property America's by the Google/Bloomberg Television International Property Awards in the UK!\r\n\r\nVilla Punto de Vista was one of the homes Sorelle Amore stayed in during her Best Job On The Planet journey with THIRDHOME. Visit the following link to see coverage from Sorelle's stay: https://www.thirdhome.com/blog/category/best-job-on-the-planet/costa-rica/",
+        "CheckInDate": "2018-09-22",
+        "LengthOfStay": 7,
+        "ShortDesc": "Villa Punto de Vista (Rainforest Meets The Sea)",
+        "ImageURLs": ["THO_5614_02.jpg", "THO_5614_03.jpg"],
+        "ImageMainURL": "THO_5614_01.jpg",
+        "Location": "Manuel Antonio, Costa Rica"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "45032",
+      "Detail": {
+        "LongDesc": "For many travelers Sorrento is the starting point of choice to explore the Amalfi Coast.  This vibrant town, overlooking the Bay of Naples, exudes old world charm thanks to its piazzas and narrow alleys. Sorrento is blessed with great restaurants and shops, incredible sunsets, it is closed to Hercolanum and Pompeii ruins, and well connected to the island of Ischia, Procida and Capri.\n\nJust a 10 minute drive from the town center, in its hilltops and surrounded by greenery and olive trees, the luxury three floor Villa Stradivari is nestled inside two acres of manicure gardens and lush vegetation. The comfortable interiors, the peaceful outdoor areas, an infinity pool with stunning views, and the general serenity of the villa welcomes you.\n\nStradivari's location is perfect for both beach lovers as well as those who wish to explore the Amalfi Coast and its marvels. The villa is set 3 kilometers from the center of Sorrento, away from the noise and traffic and yet very close to the town’s comforts. The grounds offer unforgettable and picture-perfect views of the Gulf of Naples, Capri and Mt. Vesuvius. Good to know: There is an 850 meter walking trail down to the fishing village below where you can have lunch or dinner right on the beach. The village can be also reached by car in 5 minutes.\n\nAccommodations\n\nFirst Floor\n\nThe bright interiors are comfortable and welcoming. High-end details such wood floors, vaulted fresco ceilings, hand-painted ceramic tiles make villa Stradivari a great accommodation for those looking for understated luxury. Large areas, generous French doors opening up to majestic sea-views, sitting rooms with plush sofas, timeless and refined dining room with ample seating for large groups, these are the social spaces available at the villa. A small and convenient kitchen to serve light meals, besides the commercial grade one on the ground floor, and a panoramic covered terrace are also on this level.\n\nOutside Features\n\nWith its well-furnished outdoor areas, the private panoramic infinity pool and a romantic pergola to eat alfresco, this villa has several perfect spots to enjoy. Do not forget to have a drink on the villa covered terrace when the sun is ready to melt into the sea. The lush vegetation shields the villa’s privacy and its cozy feel.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Stradivari, Amalfi Coast",
+        "ImageURLs": ["VOD_45032_02.jpg", "VOD_45032_03.jpg"],
+        "ImageMainURL": "VOD_45032_01.jpg",
+        "Location": "Sorrento, Italy"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "43659",
+      "Detail": {
+        "LongDesc": "Nautilus is a three bedroom Residence situated at Firostefani village , just a step away from fabulous restaurants, shops and just 10 minutes walk from Fira.  It offers three bedrooms, outdoors Jacuzzi, sunbathing terraces, panoramic views of the sea and the volcano and beautiful sunsets. From the main door you enter to the main courtyard with outdoors sitting- dining area with amazing views. Stairs lead up to the two upper floor roof top terraces with sun beds for sunbathing and outdoors Jacuzzi with beautiful sea views.\n\nThe name Nautilus comes from the shell collection and decoration that is dominant inside the living area. The house has typical Santorini architecture with vaulted ceilings and curves, combined with elegant furnishing, antique and art objects without compromising in modern comfort sand facilities.\n\nThe house features three bedrooms, one master bedroom with queen size bed, separate entrance and en-suite bathroom. Two other bedrooms with double beds are situated on the main building and share one full bathroom with shower cabin.\n\nIn the main building you will find a comfortable living area, the shell decoration and a boat are dominant in this room that create a special and artistic atmosphere.\n\nThere is also a separate dining room with a wooden table and antique furnishings suitable to sit 10 guests and a fully equipped kitchen adjacent to the dining room.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Nautilus Residence, Santorini",
+        "ImageURLs": ["VOD_43659_02.jpg", "VOD_43659_03.jpg"],
+        "ImageMainURL": "VOD_43659_01.jpg",
+        "Location": "Θήρα, Ελλάδα"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "18150",
+      "Detail": {
+        "LongDesc": "The Villa Mariana is an architect's dream come true.  This property is a work of art (featured in “Su Casa,” Costa Rica’s premier architectural magazine). Hidden from the road, the house is set in over 2 acres of Manuel Antonio's thriving rainforest, and is surrounded by Costa Rica’s spectacular natural beauty. Every feature of the house and property have been impeccably designed, and is of the highest quality. The appeal is modern tropical and features 20-foot glass walls, and an open floor plan. A cascading water feature greets everyone who enters, and runs through the house to the infinity pool and surrounding decks. In the house, aesthetic features include lighting alcoves, vaulted teak ceilings, fully-appointed kitchen, two indoor gardens, over 200 inset lights, a rainwater recycling system, wireless internet, cable TV, laundry room and an oversized Jacuzzi tub in the spacious master bathroom. Playa La Macha, a private tropical beach surrounded by jungle, is only a 20-minute walk from the house.\n\nThe property is serviced by two electric gates, a guard house and is fully fenced. Adjacent to the main house is a guest or caretaker's house on an independently titled property included in the sale. Both pieces of titled property have their own city electricity and water. The house has been rented as either a four or five bedroom, including the guest house.\n\nAdjacent to The Villa Mariana is Casita Romantica which offers two master suites, each with a queen size bed, en-suite bathrooms, ceiling fans and air conditioning. Casita Romantica also has a fully equipped kitchen, third full bathroom, a pull out sofa in the living room (double-bed size), indoor/outdoor dining with private deck, and infinity edge swimming pool. Amenities include wireless internet access, 3 flat screen TV’s with cable and sound system\n\nThis exquisite and unusual house speaks for itself, and is without a doubt one of the most impressive homes in Manuel Antonio.",
+        "CheckInDate": "2018-01-06",
+        "LengthOfStay": 7,
+        "ShortDesc": "The Villa Mariana, Costa Rica",
+        "ImageURLs": ["VOD_18150_02.jpg", "VOD_18150_03.jpg"],
+        "ImageMainURL": "VOD_18150_01.jpg",
+        "Location": "Manuel Antonio, Costa Rica"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "17228",
+      "Detail": {
+        "LongDesc": "*Please note that the host member is flexible on the 12/24-12/31 week deposit. They can accommodate as early as 12/20 and check out can be as late as 1/2. Please contact Member Services if you would like to coordinate a change in start date for the week or would like to coordinate a stay for longer than the standard 7 nights.*\r\n\r\nMajestically overlooking Middle Harbour with stunning 180-degree views this sumptuous family home is the ideal spot for enjoying this very special part of Sydney. \r\n\r\nWith direct private access to Clontarf Beach, you will be able to feel the sand beneath your feet within minutes of leaving the house.\r\n\r\nClontarf Beach is famed for being very family friendly due to  it's calm waters.  There are also plenty of bbqs and a playground to boot. \r\n\r\nThe upper level is home to a stunning master bedroom with a large walk-in wardrobe and an ensuite with floor-to-ceiling windows that brilliantly capture the splendid views on offer.\r\n\r\nThe second bedroom with a queen bed and ensuite bathroom is also on this floor.\r\n\r\nConnected via stairs and a lift, the main level has been beautifully designed and renovated to bring the outside inside as much as possible.  There are seamless transitions between the living spaces and the outside decking.  \r\n\r\nThe kitchen is a chef's dream with top-end appliances and everything you need to cook and entertain.\r\n\r\nThe third bedroom is within a well laid-out self-contained apartment which has private access, a bathroom, its own kitchen and a huge outside balcony.  An ideal separate space for older children, grand parents or friends.\r\n\r\nWith the beach, quite literally on your doorstep, and the shops, cafes and restaurants of the Spit and Manly close by, you can't fail to have an unforgettable stay.",
+        "CheckInDate": "2018-03-25",
+        "LengthOfStay": 7,
+        "ShortDesc": "Clontarf Retreat",
+        "ImageURLs": ["THO_17228_02.jpg", "THO_17228_03.jpg"],
+        "ImageMainURL": "THO_17228_01.jpg",
+        "Location": "Sydney, Australia"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "2307",
+      "Detail": {
+        "LongDesc": "Our cottage is located in a breath-taking and very special part of the world.  Tucked away in the Tukituki valley it offers views, peace and a tranquility not often found. \r\n\r\nOn our doorstep is world class fly-fishing, golf, hiking, biking and swimming.  Visitors who stay at our cottage often remark not only on the high standard of interiors and facilities, but also on the stunning setting and the peace they find there. \r\n\r\nThe Amphitheatre has been described by internationally recognised singers and musicians as probably the best outdoor venue in the country. Renowned for its acoustics, sitelines and atmosphere it is a truly memorable location. Rather than simply being an uncomfortable slope on a hill, the Black Barn Amphitheatre was carved out of the hillside and purposely built from scratch. Black Barn Vineyards went to a lot of trouble to ensure the space was the perfect outdoor concert venue taking careful consideration of acoustics and views and burying everything from lighting, sound and even eftpos cabling underground. Large flat grassed terraces mean concert-goers sit in comfort with close uninterrupted views of the stage and the whole of Hawkes Bay as their backdrop. Every terrace is fairy lit for concerts and the entire amphitheatre is surrounded by a circle of 50 year-old muscatel grapes. The Black Barn Summer Concert season is restricted to a very limited number of events over Summer and bookings can be made via the winery and website.\r\n\r\nDuring the winter enjoy the intimacy of an Underground Cellar concert, with the warmth of the braziers and New Zealand's best artists, the limited tickets never last long.\r\n\r\nBlack Barn Bistro is the perfect place to spend an hour or two absorbing the atmosphere of Wine Country. It is in the heart of the vineyard surrounded by vines and a table on the large generous veranda lets you look right out across the region. In warmer weather a courtyard covered by a canopy of grapes is also a perfect place to enjoy lunch and a glass of wine. The menu is light, fresh and delicious. There is an emphasis on freshly grown Hawkes Bay produce, the selection changes with the seasons. \r\n\r\nThe Growers’ Market (reopening November 30th) has become a ‘must-do’ for locals and visitors alike on Saturday Mornings through Summer. \r\n\r\nOpen from 9 till Noon every Saturday of summer just follow the line of cars down Black Barn Road to the carparks and you’ll see the market under the trees beside the underground cellars. Under a big ring of Plane trees the canvas covered market has its own place nestled in the heart of the vineyard. Local growers, bakers and producers are either to bed late or up early getting the very freshest and the best produce ready for Market to open at 9am. The market season opens with the new season’s asparagus, strawberries and artichokes and finishes as summer comes to an end with stonefruit peppers and beans. As well as all the seasonal produce, the market is crammed with fresh baked breads, locally roasted coffee, flowers, meat, pickles, olive oil, organic veggies, lavender products etc. etc. etc.\r\n\r\nBlack Barn Vineyards are proud to host second round of the Hawke's Bay Cyclocross Series this winter, also being the first round of the National Cyclocross Series. They have a great course incorporating vineyards, an olive grove, limestone roads and it wouldn't be cyclocross without some mud. \r\n\r\nWe have many visitors who return again and again because of this. It is truly special.",
+        "CheckInDate": "2018-05-04",
+        "LengthOfStay": 7,
+        "ShortDesc": "Tukituki River Valley Cottage",
+        "ImageURLs": ["THO_2307_02.jpg", "THO_2307_03.jpg"],
+        "ImageMainURL": "THO_2307_01.jpg",
+        "Location": "Havelock, New Zealand"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "781",
+      "Detail": {
+        "LongDesc": "FOR THE PAST 15 YEARS WE HAVE HOSTED ENTERTAINERS. WELL KNOWN ATHLETES AND WORLD RENOWNED  BUSINESS ENTREPRENEURS. THE MEXICO MANSION IS ONE OF THE MOST FAMOUS VILLAS IN ALL OF MEXICO.  This MEGA MANSION boasts spectacular bay and ocean views from every angle of this 25,000 square foot estate.  The Mexico Mansion is conveniently located 20 minutes from the airport and 3 minute drive to the main beach areas and restaurants.\r\n\r\nYour Mexico Mansion vacation will tantalize each of your senses. The panoramic views of this tropical paradise are second to none. The beauty of the green lush mountainside, contrasted by the deep blue Pacific Ocean is breathtaking!\r\n\r\nFlor, your personal cook, will prepare your gourmet meals either from our extensive house menu, or customize your menu to suit your individual tastes. From guacamole to lobster tail, you will savor her culinary delights.\r\n\r\nRoberto, your pool-man, will serve you a variety of tropical drinks while you bask in the sun or lounge in one of the two incredible pools. The “Mansion Margarita” is the best in all of Mexico!\r\n\r\nGume, your personal butler, will attend to all of your needs. He can help with planning your day’s activities.\r\n\r\nTania is our personal masseuse and has been professionally trained and is available for ensuite massage at a very nominal rate.\r\n\r\nWE ARE THE ONLY VILLA IN OUR MARKET THAT HAS MULTIPLE STAFF MEMBERS TO PAMPER YOU 24 HOURS PER DAY.  Most villas end service at 10pm. \r\n\r\nWE HAVE THE BEST WEATHER IN THE WORLD! 88 AND SUNNY ALMOST EVERY DAY!\r\n\r\nA vacation or family reunion  to cherish for a lifetime.\r\n\r\nREQUIRED ADDITIONAL FEES:\r\n\r\n$500/DAY STAFF BASE SALARY. THIS IS THE SALARY, NOT THE TIP FOR THE STAFF.\r\n\r\nTHIS COST INCLUDES; A CHEF,, DAY AND NIGHT WAITERS/, BARTENDERs, MAID, AND BUTLER.\r\nTHIS FEE DOES NOT INCLUDE THE STAFF GRATUITY WHICH  IS EXPECTED TO BE 15 TO 20%  BASED ON FAIR MARKET RENTAL OF $17,500 PER WEEK. Only exception to gratuity rule is if you indicate to the owner that your service was not satisfactory.......HAS NEVER HAPPENED IN 20 YEARS!",
+        "CheckInDate": "2018-07-01",
+        "LengthOfStay": 7,
+        "ShortDesc": "Mexico Mansion",
+        "ImageURLs": ["THO_781_02.jpg", "THO_781_03.jpg"],
+        "ImageMainURL": "THO_781_01.jpg",
+        "Location": "Acapulco, Mexico"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "22911",
+      "Detail": {
+        "LongDesc": "A spectacular oceanfront estate located in the secluded Turtle Tail area of Providenciales.  Custom millwork throughout, from exquisite ceiling details to wildly imaginative curved wood walls are some of Turtle Tail Estate’s most noteworthy features, visually unifying an expansive and rambling property.\nTurtle Tail Estate comprises five master bedrooms, each unique, as well as a two bedroom guest cottage at the property entrance. The main house features a Great room for formal dining and entertaining, a day room that opens on three sides, a private office, a family kitchen and breakfast room, a second professional-grade staff kitchen with pizza oven and a 500-bottle wine cellar and humidor among some of its many spaces. Each bedroom has an ocean view, private deck and en suite bathroom.\nSet on ironshore at the water’s edge, the pool spans the length of the house, weaving between living structures. The property offers a 16-person lounge and fire pit, a 12-top shaded dining area, multiple oceanside daybeds and lounge areas and a small private beach enclave steps from the deck. A private dock allows boat excursion pickups directly from the home.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Turtle Tail Estate, Turks and Caicos Islands",
+        "ImageURLs": ["VOD_22911_02.jpg", "VOD_22911_03.jpg"],
+        "ImageMainURL": "VOD_22911_01.jpg",
+        "Location": "Leeward, Turks & Caicos"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "18691",
+      "Detail": {
+        "LongDesc": "Magnificent family historical 'château' in Normandy with a heated swimming pool, tennis court and all the comfort necessary to host up to 15 guests.  Surrounded by 7 hectares (17 acres) of grounds, this magnificent 'château' in Normandy has a heated swimming pool and all the comfort guests could wish indoors and outdoors.\n\nListed as a 17th century monument, the castle and its grounds have been in the same family for 500 years, the most recent Comte and Comtesse occasionally occupy a private wing of the 'château'.\n\nAccomodations\n\nGround Floor\n\nThe entry to the chateau is via a double hall in Carrara marble. To the right of the hall is a spacious dining room, seating up to 20guests. And then, a large kitchen is fully equipped with microwave, oven, stove, dishwasher, coffee maker, and a table seating 8. At the back of the kitchen is the boiler room. To the left of the entrance hall, there is a large warm Italian drawing-room with two luxurious sofas, TV, DVD player, and billiard. This salon has been decorated with historic arms. There are two guest toilets, each with a basin and a WC.\n\nFirst Floor\n\nUpstairs, a wide landing opens onto a large drawing-room / library with Louis XVI wood panelling and a Carrara marble fireplace. There is also a Louis XV music and games room with different sitting areas; and guest toilet. The master bedroom sits on this floor too, it has been arranged with a double and an additional single bed, and is en-suite with separate WC.\n\nSecond Floor\n\nThe landing gives access to the 7 remaining bedrooms. These 7 bedrooms are with full en-suite bathrooms. Two of these bedrooms are single bedrooms with large single bed. Then, there are 4 double bedrooms, and one with a double bed and a single bed.\n\nNearby Attractions\n\nSte Mere Eglise's landing museum (15 min by car), Normandy landing beaches (20 min), public tennis court at Yveto-Bocage (600m), 9-hole golf courses at Quineville and La Glacerie (15km), Omaha Beach (60km). Horse riding is possible at Brix (8km).",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 3,
+        "ShortDesc": "Chateau Yvetot, Normandy",
+        "ImageURLs": ["VOD_18691_02.jpg", "VOD_18691_03.jpg"],
+        "ImageMainURL": "VOD_18691_01.jpg",
+        "Location": "Cherbourg, France"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "18069",
+      "Detail": {
+        "LongDesc": "White Cedars was completed in 2010 and has been built and carefully designed by its British owners to create a simple and calming space for a relaxing holiday.  From every vantage point, White Cedars’ unique design provides breathtaking views of the Caribbean, the islands of St. Martin, St. Barth’s, Saba &amp; St. Kitts, while capturing the prevailing tropical trade winds of this undiscovered paradise.\n\nThe furnishings and interior design successfully blend natural elements of wood, granite and stone with contemporary sophistication. All three bedrooms feature super-king beds using luxury white linen from England and are air-conditioned with screened louvered doors that open to a patio overlooking the pool with a view to the neighboring islands. They also have en-suite bathrooms including two outdoor showers.\n\nThere are two living areas – inside featuring a double height ceiling with fans and outside adjacent to the dining area and TV and computer room.\n\nA fully-equipped, modern kitchen with American appliances allows the guests to do as much cooking or as little as they wish while others can simply sit by the outside bar and enjoy the breathtaking tropical sunset.\n\nThis villa's central location places you 10 minutes from the one of the world’s best beaches and hot spot – Shoal Bay East. There are another 32 beautiful beaches to visit on the island. Wallblake International Airport is only 15 minutes away.",
+        "CheckInDate": "2018-01-04",
+        "LengthOfStay": 3,
+        "ShortDesc": "White Cedars, Anguilla",
+        "ImageURLs": ["VOD_18069_02.jpg", "VOD_18069_03.jpg"],
+        "ImageMainURL": "VOD_18069_01.jpg",
+        "Location": "The Valley, Anguilla"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "19239",
+      "Detail": {
+        "LongDesc": "Modern in Quogue\r\n\r\nContemporary luxury awaits you at this sensational four-bedroom home in the Hamptons! Situated on 3500 square feet in the luxurious East End, this spectacular home offers you a taste of sophistication, complete with the pure elegance that comes with a week in the Hamptons.\r\n\r\nTruly an architect’s dream, this home’s intriguing design captures your attention from the moment you lay eyes on it. The main living spaces are seamlessly connected, and floor-to-ceiling sliding glass walls create an effortless blend of indoor and outdoor living spaces. Each space offers a pristine, white base, accentuated with bright pops of color to complete the tropical feel of the home. The living room, kitchen and dining areas offer contemporary furnishings, and both connect easily to the true crowning jewel of the home, the outdoor terrace. Complete with ample seating and situated overlooking the sparkling blue waters of the swimming pool, this area will quickly become your main gathering area, whether you come to bask in the sun’s rays, or enjoy a delicious cocktail after dinner as you watch the sunset! If you need a break from the great outdoors, you’ll find a cozy, reading nook indoors, complete with plenty of plush seating, books galore, and a large flat screen television.\r\n\r\nThe gourmet kitchen offers state of the art appliances, gleaming hardwood floors, and more than enough space for the master chef of the group to whip up something delicious! The dining table sits just on the other side of the pristine white counter tops, complete with five chairs and an elongated bench on one side for plenty of seating. Enjoy your meals as you keep warm by the light of the beautiful fireplace in the dining area, or enjoying the light breeze that streams in through the open glass doors. \r\n\r\nEach of the bedrooms in this lovely home offers superb interior design, and a warm, comfortable place for you to lay your head at night.  The master bedroom offers a lavish king-sized bed, while each of the three guest bedrooms offers a queen.  Each bedroom is outfitted with bright and striking décor, featuring vibrant colors and luxuriously soft bedding. \r\n\r\nThe East End of the Hamptons is known for unsurpassed luxury and class, offering visitors the chance to learn what it’s like to live the high life. From nature preserves and museums to some of the best cocktail spots around, you’ll never run out of things to do and see! Head out to one of the esteemed vineyards in the area, and try a glass of cool rosé while looking out over the gorgeous greenery around you. Make your way to one of the Hamptons’ beautiful beaches, and stroll along the coast, discovering hidden coves and marveling at the incredible oceanfront mansions along the way. As the sun sinks down in the sky, make sure you explore all the delicious, upscale restaurants in the area, and then head to a trendy bar to hear a local band while you have a drink or two before heading back to your own private paradise!\r\n\r\nWith the perfect mix between private luxury and ample activity, this gorgeously modern home will prove to be the perfect getaway for your week in the Hamptons!",
+        "CheckInDate": "2018-06-02",
+        "LengthOfStay": 7,
+        "ShortDesc": "Modern in Quogue",
+        "ImageURLs": ["THO_19239_02.jpg", "THO_19239_03.jpg"],
+        "ImageMainURL": "THO_19239_01.jpg",
+        "Location": "Quogue, NY"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "2466",
+      "Detail": {
+        "LongDesc": "Welcome to Otter Point!\r\n\r\nSituated near the exclusive Fairwinds community of Nanoose Bay, we're on a quiet and peaceful no thru secluded street, yet very convenient to the many sights of the East Coast of Central Vancouver Island. We are perched on .75 acres of classic west coast land with Douglas Fir, Garry Oak and Arbutus, Enjoy the 250 ft of pristine rocky oceanfront looking onto Georgia Strait. Adjacent to a 1 acre land reserve there is virtually no visibility to our neighbours.\r\n\r\nCompletely renovated this fully-appointed 2800 sq ft home has 3 bedrooms, loft, media room, 3 full baths and sleeps 6. The 2 main bedrooms and all the living space has spacious near 180 degree sweeping views.\r\n\r\nMaster Bedroom with king bed, has an ocean side balcony and full ensuite w/ granite counters, in floor heated slate, slate shower and a jetted soaker tub with a forest and ocean view.\r\n\r\nMain floor Oceanside 2nd bedroom has a deck opening onto the Hot Tub. 3rd bedroom has twin-over-full bunk beds.",
+        "CheckInDate": "2018-08-19",
+        "LengthOfStay": 7,
+        "ShortDesc": "West Coast Oceanfront Beauty",
+        "ImageURLs": ["THO_2466_02.jpg", "THO_2466_03.jpg"],
+        "ImageMainURL": "THO_2466_01.jpg",
+        "Location": "Nanoose Bay, Canada"
+      },
+      "GroupId": 10
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "12648",
+      "Detail": {
+        "LongDesc": "Rio de Janeiro is an inspiring city; its stunning tropical setting is matched by its fun-loving residents. Sheer granite peaks rise from the ocean between glorious stretches of sand. Skyscrapers vie for space with gracefully aging colonial buildings as lush forests tumble down hillsides up to the city limits.\r\n\r\nMuch of Rio’s coastal landscape (including the iconic statue of Christ the Redeemer) has been granted World Heritage status by UNESCO.\r\n\r\nFrequently voted the friendliest and happiest city in the world, Rio revels in life. Irregardless of background or status, Cariocas (locals) share a passion for existence through three obsessions: the beach, football and Carnival.\r\n\r\nPerfectly located, this home is close to all attractions in Rio, and still providing a relaxing feel. Located in a high end condominium, Joatinga, it is surrounded by an abundance of exotic and tropical plants, it will make you feel at one with nature. \r\n\r\nPlease check us on Instagram: @villa_joa_rio_de_janeiro\r\n\r\nJoatinga Beach is 5min walking distance, and shopping malls, Leblon and Ipanema are within 15-20min drive.\r\n\r\n600sqm of built area on a 900sqm of land, the property has a gorgeous living area with high ceilings and breathtaking ocean and mountain views. \r\n\r\nIt features 3 beautiful ensuite bedrooms with balconies, office/study opening onto a charming garden, spacious equipped gym with additional office space, bathroom and sliding doors that open onto the front yard. \r\n\r\nThe property also features an eco-style architecture with stone, wood and natural finishes; marvelous ocean views from the top floor terraces. A swimming pool with sun loungers and an outdoor dining area also offering sea views. \r\n\r\nIt has a large fully equipped kitchen with commercial grade appliances and dining area. \r\n\r\nThere is also:\r\n- Air-conditioning throughout the house. \r\n- 4 car parking garage. \r\n- Outdoor basketball practice court. \r\n- 24 hour gated condominium security\r\n\r\nIf you don't see a week listed - please feel free to request a week.",
+        "CheckInDate": "2018-01-12",
+        "LengthOfStay": 7,
+        "ShortDesc": "Gorgeous Villa Joa - Rio de Janeiro",
+        "ImageURLs": ["THO_12648_02.jpg", "THO_12648_03.jpg"],
+        "ImageMainURL": "THO_12648_01.jpg",
+        "Location": "Rio De Janeiro, Brazil"
+      },
+      "GroupId": 10
+    }],
+    "Name": "Vacation Homes"
+  }],
+  "Created": "2018-04-06 12:48:11 -04:00"
+}

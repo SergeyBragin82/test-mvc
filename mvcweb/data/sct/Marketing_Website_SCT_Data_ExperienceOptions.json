@@ -1,0 +1,1528 @@
+{
+  "ExperienceOptions": [{
+    "Filters": [{
+      "Points": [1, 1500]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SD",
+      "Detail": {
+        "LongDesc": "Enjoy San Diego's historic Gaslamp Quarter in the center of world-class attractions, arts, culture, cuisine and nightlife. Then hop on the downtown trolley to visit Balboa Park and San Diego Zoo.",
+        "CheckInDate": "2018-02-01",
+        "LengthOfStay": 8,
+        "UnitDesc": "1-Bedroom Suite",
+        "ShortDesc": "Marriott Vacation Club Pulse℠, San Diego",
+        "ImageURLs": ["MVW_sd_2.jpg", "MVW_sd_3.jpg", "MVW_sd_4.jpg", "MVW_sd_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_sd_1.jpg",
+        "SummaryArr": ["8 Nights in February", "1-Bedroom Suite", "Excellent View", "<span>1,500 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "San Diego, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "1-460",
+      "Detail": {
+        "LongDesc": "The 4-Day \"Mexican Baja/Riviera\" cruise by Carnival Cruise Lines with ports of call including: Catalina Island, Ensenada, Los Angeles (Long Beach).",
+        "CheckInDate": "2018-02-25",
+        "LengthOfStay": 4,
+        "ShortDesc": "Carnival Cruise Lines 4-Day",
+        "ImageURLs": ["ICE_1-26_02.jpg", "ICE_1-26_03.jpg", "ICE_1-26_04.jpg", "ICE_1-26_05.jpg", "ICE_1-26_06.jpg", "ICE_1-26_07.jpg", "ICE_1-26_08.jpg", "ICE_1-26_09.jpg", "ICE_1-26_10.jpg", "ICE_1-26_11.jpg", "ICE_1-26_12.jpg", "ICE_1-26_13.jpg", "ICE_1-26_14.jpg", "ICE_1-26_15.jpg", "ICE_1-26_16.jpg", "ICE_1-26_17.jpg", "ICE_1-26_18.jpg", "ICE_1-26_19.jpg"],
+        "ImageMainURL": "ICE_1-26_01.jpg",
+        "SummaryArr": ["4 Days in February", "<span>1,250 Points</span>"],
+        "Location": "Mexican Baja/Riviera"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "GV",
+      "Detail": {
+        "LongDesc": "Nestled amid the world's best known and most incredible theme parks and attractions, shopping and delectable dining, our resort is adjacent to the Marriott Golf Academy and Grande Vista Golf Club.",
+        "CheckInDate": "2018-05-23",
+        "LengthOfStay": 9,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Grande Vista",
+        "ImageURLs": ["MVW_gv_2.jpg", "MVW_gv_3.jpg", "MVW_gv_4.jpg", "MVW_gv_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_gv_1.jpg",
+        "SummaryArr": ["9 Nights in May", "1-Bedroom", "Excellent View", "<span>1,425 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Orlando, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "VG",
+      "Detail": {
+        "LongDesc": "This posh resort with architecture and décor influenced by the elegance of southern France is just steps from all the excitement and luxury of the Entertainment Capital of the World.",
+        "CheckInDate": "2018-09-01",
+        "LengthOfStay": 7,
+        "UnitDesc": "Guestroom",
+        "ShortDesc": "Marriott's Grand Chateau&reg;",
+        "ImageURLs": ["MVW_vg_2.jpg", "MVW_vg_3.jpg", "MVW_vg_4.jpg", "MVW_vg_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_vg_1.jpg",
+        "SummaryArr": ["7 Nights in September", "Guestroom", "Excellent View", "<span>1,450 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Las Vegas, NV"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "VBL",
+      "Detail": {
+        "LongDesc": "Shell Vacations Club at Vino Bello Resort is located one hour north of San Francisco. Enjoy the convenience of its 24-hour exercise facility, family-friendly pool, and Spa Terra's full-service offerings. Napa's culinary tradition is upheld at Siena, the on-site, Tuscan-inspired restaurant. The Trinitas Tasting Room gives you the chance to experience wine country, without leaving the comfort of the resort. Guests can also enjoy the local winemaking scene, and dine at one of Napa's many prestigious restaurants. The California coastline provides great hiking and sightseeing opportunities at numerous state parks.",
+        "CheckInDate": "2018-11-15",
+        "UnitDesc": "Studio",
+        "ShortDesc": "Shell Vacations Club at Vino Bello Resort",
+        "ImageURLs": ["II_VBL_02.jpg", "II_VBL_03.jpg"],
+        "UnitType": "STDIO/HOTL",
+        "ImageMainURL": "II_VBL_01.jpg",
+        "SummaryArr": ["7 Nights in November", "Studio", "<span>1,500 Points</span>"],
+        "Location": "Napa, CA"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "CRH",
+      "Detail": {
+        "LongDesc": "Cameron House Resort stands on the peaceful shores of Loch Lomond. Within the grounds of the estate are secluded clusters of superb lodges, each one decorated and equipped to the highest standard. You can enjoy a vast range of leisure facilities right on your doorstep: a private marina, boathouse restaurant on the shore, spectacular golf course, a wealth of outdoor sports activities, and, of course, the magnificent Cameron House Hotel, with its two highly acclaimed restaurants and outstanding indoor Leisure Club.",
+        "CheckInDate": "2018-11-22",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Cameron House on Loch Lomond",
+        "ImageURLs": ["II_CRH_02.jpg", "II_CRH_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_CRH_01.jpg",
+        "SummaryArr": ["7 Nights in November", "1-Bedroom", "<span>1,500 Points</span>"],
+        "Location": "Dunbartonshire, Scotland"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SR",
+      "Detail": {
+        "LongDesc": "Nestled at the foothills of the Santa Rosa and San Jacinto mountains, this resort offers 18 holes of championship golf and other activities surrounded by serene views of the desert.",
+        "CheckInDate": "2019-01-03",
+        "LengthOfStay": 8,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Shadow Ridge",
+        "ImageURLs": ["MVW_sr_2.jpg", "MVW_sr_3.jpg", "MVW_sr_4.jpg", "MVW_sr_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_sr_1.jpg",
+        "SummaryArr": ["8 Nights in January", "Studio", "Excellent View", "<span>1,295 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Palm Desert, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "CV",
+      "Detail": {
+        "LongDesc": "Woven into the Sonoran Desert, this refreshing oasis offers majestic views of crimson mountains and fiery Arizona sunsets. Plus, the Wildfire Golf Club with two courses is steps from your door.",
+        "CheckInDate": "2019-01-13",
+        "LengthOfStay": 7,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Canyon Villas at Desert Ridge&reg;",
+        "ImageURLs": ["MVW_cv_2.jpg", "MVW_cv_3.jpg", "MVW_cv_4.jpg", "MVW_cv_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_cv_1.jpg",
+        "SummaryArr": ["7 Nights in January", "1-Bedroom", "Excellent View", "<span>1,450 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Phoenix, AZ"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "TL",
+      "Detail": {
+        "LongDesc": "From downhill skiing, snowboarding and cross-country skiing to golfing, boating and hiking, this year-round resort is ideal for exploring Lake Tahoe's endless outdoor activities.",
+        "CheckInDate": "2019-06-02",
+        "LengthOfStay": 6,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Timber Lodge&reg;",
+        "ImageURLs": ["MVW_tl_2.jpg", "MVW_tl_3.jpg", "MVW_tl_4.jpg", "MVW_tl_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_tl_1.jpg",
+        "SummaryArr": ["6 Nights in June", "1-Bedroom", "Excellent View", "<span>1,275 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "South Lake Tahoe, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "AB",
+      "Detail": {
+        "LongDesc": "From this beachside resort, discover world-class diving and duty-free shopping and nightlife. You’ll also enjoy access to the amenities at Aruba Marriott® Resort & Stellaris® Casino and the Mandara Spa.",
+        "CheckInDate": "2019-10-20",
+        "LengthOfStay": 8,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Aruba Ocean Club",
+        "ImageURLs": ["MVW_ab_2.jpg", "MVW_ab_3.jpg", "MVW_ab_4.jpg", "MVW_ab_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_ab_1.jpg",
+        "SummaryArr": ["8 Nights in October", "Studio", "Ocean View", "<span>1,500 Points</span>"],
+        "ViewDesc": "Ocean View",
+        "ViewType": "OV",
+        "Location": "Palm Beach, Aruba"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "MH",
+      "Detail": {
+        "LongDesc": "Located on Kaanapali Beach, this resort is surrounded by beautiful scenery and some of the most picturesque conditions for golf, tennis, diving and mountain biking you'll find anywhere.",
+        "CheckInDate": "2019-11-21",
+        "LengthOfStay": 5,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Maui Ocean Club",
+        "ImageURLs": ["MVW_mh_2.jpg", "MVW_mh_3.jpg", "MVW_mh_4.jpg", "MVW_mh_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_mh_1.jpg",
+        "SummaryArr": ["5 Nights in November", "Studio", "Mountain/Garden View", "<span>1,375 Points</span>"],
+        "ViewDesc": "Mountain/Garden View",
+        "ViewType": "MG",
+        "Location": "Lahaina - Maui, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "ALR",
+      "Detail": {
+        "LongDesc": "Alpenland is set in one of Austria's prime ski areas, 30 miles (49 kilometers) south of \"The Festival City\" of Salzburg. The full-service resort offers four restaurants, a nightclub, shops, an indoor swimming pool, saunas, whirlpools, a solarium, and exercise room on-site. Surrounded by mountains and meadows, Alpenland, located in the heart of St. Johann, is a year-round vacation destination, with skiing, hiking, and climbing. Vacationers can take advantage of tours to castles, picturesque churches, and nearby ice caves. Munich, Vienna, and Milan are all accessible by car or train.",
+        "CheckInDate": "2019-11-22",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Alpenland Sporthotel - St. Johann-im-Pongau",
+        "ImageURLs": ["II_ALR_02.jpg", "II_ALR_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_ALR_01.jpg",
+        "SummaryArr": ["7 Nights in November", "1-Bedroom", "<span>1,500 Points</span>"],
+        "Location": "St. Johann im Pongau, Austria"
+      },
+      "GroupId": 3
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [10000, 14999]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "RW",
+      "Detail": {
+        "LongDesc": "The Ritz-Carlton Club, Lake Tahoe, is a picturesque mid-mountain retreat home to world-class skiing and snowboarding, watersports, and more.",
+        "CheckInDate": "2018-02-04",
+        "LengthOfStay": 10,
+        "UnitDesc": "4-Bedroom",
+        "ShortDesc": "The Ritz-Carlton Club&reg;, Lake Tahoe",
+        "ImageURLs": ["MVW_rw_2.jpg", "MVW_rw_3.jpg", "MVW_rw_4.jpg", "MVW_rw_5.jpg"],
+        "UnitType": "4BR",
+        "ImageMainURL": "MVW_rw_1.jpg",
+        "SummaryArr": ["10 Nights in February", "4-Bedroom", "Excellent View", "<span>14,700 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Lake Tahoe, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "19012",
+      "Detail": {
+        "LongDesc": "For a slice of heaven, it doesn’t get much better than this.  Phenomenal volcanic views, cool cavernous interiors…welcome to Santorini. Once a working bakery, this villa has been transformed into the perfect hide-away, great for couples or a small group of friends.\n\nVilla Gaia consists of two cave houses, set on an upper and lower level, connected with exterior stairs. It is rented as a whole and you use both levels with two terraces and an outdoors Jacuzzi plunge pool.\n\nThe upper level offers a smooth, cool sculpted interior with an easy flow from one living area to the next. It consists of a light and airy living room, dining area, and well-equipped kitchen. The master bedroom leading from the living area, offers a cozy bedroom with double bed and en-suite bathroom. The second bedroom has two mattresses pushed together as a double so we can put two sheets or put a double sheet to make a Queen, the bedroom is served with en-suite bathroom and a vista to knock your socks off. A private balcony provides the perfect outdoor area for enjoying the uninterrupted volcano view.\n\nExterior stairs connect you with the lower floor.\n\nEnter the lower floor cave house – if you can take your eyes off the view that is! – which offers fresh white interiors with the continuous flow from living space to bedroom creating a quietly cool and friendly atmosphere. This villa boasts a spacious double bedroom with a gorgeous en-suite bathroom with his and hers vanities. Ideally a villa for two, there is additional sleeping room for extra guests on the banquette style couch, which is serviced by a second bathroom just off the lounge. For those who love to cook, the piece-de-resistance of this villa will most definitely be the kitchen – an uninterrupted Caldera view from your stove top. A private sun drenched terrace with soul-stirring views and outdoor Jacuzzi – plunge pool complete the picture.\n\nVilla Gaia claim an enviable position in the village of Imerovigli, and guests can enjoy the myriad of shops and excellent restaurants which are within a few minutes leisurely stroll from the houses.\n\nAn idyllic setting for a relaxed vacation. Trust us – you’ll forget the very idea of stress.",
+        "CheckInDate": "2019-02-18",
+        "LengthOfStay": 7,
+        "ShortDesc": "Gaia, Santorini",
+        "ImageURLs": ["VOD_19012_02.jpg", "VOD_19012_03.jpg"],
+        "ImageMainURL": "VOD_19012_01.jpg",
+        "SummaryArr": ["7 Nights in February", "<span>13,000 Points</span>"],
+        "Location": "Santorini, Greece"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "104",
+      "Detail": {
+        "LongDesc": "Enjoy Three Night Accommodations, Two Premium First Floor Grandstand Tickets to the Kentucky Derby and a Kentucky Horse Farm Tour at Churchill Downs, Louisville, Kentucky.  Includes: four days/three nights accommodations at the Marriott Griffin Gate Resort in Lexington, KY (or similar property), breakfast for two daily, local horse farm tour on Friday, two Premium 1st Floor Grandstand Tickets for the Kentucky Derby on Saturday, round-trip airport transfers from Lexington Airport, round-trip Kentucky Derby race transfers, all hotel taxes.",
+        "Description": "3 nights, 2 tickets",
+        "ShortDesc": "The Kentucky Derby Lexington Horse Farm Package",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_104_1.jpg",
+        "SummaryArr": ["3 nights, 2 tickets", "<span>13,650 Points</span>"],
+        "Location": "Lexington, KY"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "56",
+      "Detail": {
+        "LongDesc": "Discover storybook castles and glittering palaces amidst stunning Alpine vistas as you explore Austria, Germany and Switzerland. Begin in Vienna with a visit to Schoenbrunn Palace. In Grinzing, the winemaking region of Vienna, sit down to dinner at a traditional inn. Cruise on the Danube and see Melk Abbey. Enjoy a Mozart Dinner Concert in the Baroque Hall of centuries-old St. Peter’s Restaurant in Salzburg, the \"City of Music.\" Spend a night in the heart of the Black Forest. Visit Oberammergau, famous for the Passion Play and expert woodcarvers. Enjoy a magical dinner complete with a visit by local village performers. Enjoy picture stops at Bavaria’s famous castle, Neuschwanstein, and a guided tour of the Chateau de Chillon on Lake Geneva. Enjoy a scenic train ride aboard the Matterhorn Gotthard Bahn into the relaxing pedestrian village of Zermatt.  Spend two nights in the alpine village of Zermatt, Switzerland, at the foot of the Matterhorn where you have a choice of included activities. Relax during two nights in Lucerne, “the Swiss Paradise on the Lake.”",
+        "CheckInDate": "2018-04-20",
+        "LengthOfStay": 12,
+        "ShortDesc": "Exploring the Alpine Countries Austria - Germany - Switzerland",
+        "ImageURLs": ["COL_56_02.jpg", "COL_56_03.jpg", "COL_56_04.jpg", "COL_56_05.jpg"],
+        "ImageMainURL": "COL_56_01.jpg",
+        "SummaryArr": ["12 Days in April", "<span>12,000 Points</span>"],
+        "Location": "Vienna, Austria"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "116-172730",
+      "Detail": {
+        "LongDesc": "The 10-Night \"Alaska\" cruise by Azamara Club Cruises with ports of call including: Cruising Hubbard Glacier, Haines, Icy Strait Point, Juneau, Ketchikan, Nanaimo, Seattle, Seward, Sitka, Skagway, Vancouver, Victoria BC, Wrangell.",
+        "CheckInDate": "2018-06-04",
+        "LengthOfStay": 10,
+        "ShortDesc": "Azamara Club Cruises 10-Night",
+        "ImageURLs": ["ICE_116-625_02.jpg", "ICE_116-625_03.jpg", "ICE_116-625_04.jpg", "ICE_116-625_05.jpg", "ICE_116-625_06.jpg", "ICE_116-625_07.jpg", "ICE_116-625_08.jpg", "ICE_116-625_09.jpg", "ICE_116-625_10.jpg", "ICE_116-625_11.jpg", "ICE_116-625_12.jpg"],
+        "ImageMainURL": "ICE_116-625_01.jpg",
+        "SummaryArr": ["10 Days in June", "<span>14,000 Points</span>"],
+        "Location": "Alaska"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "GR",
+      "Detail": {
+        "LongDesc": "This charming retreat enjoys a coveted beachfront location. Nearby you'll discover challenging golf as well as outdoor activities and attractions to entertain the entire family.",
+        "CheckInDate": "2018-07-01",
+        "LengthOfStay": 21,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Grande Ocean",
+        "ImageURLs": ["MVW_gr_2.jpg", "MVW_gr_3.jpg", "MVW_gr_4.jpg", "MVW_gr_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_gr_1.jpg",
+        "SummaryArr": ["21 Nights in July", "2-Bedroom", "Ocean Side", "<span>14,650 Points</span>"],
+        "ViewDesc": "Ocean Side",
+        "ViewType": "OS",
+        "Location": "Hilton Head Island, SC"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "PS",
+      "Detail": {
+        "LongDesc": "Located on the Atlantic side of Singer Island, this scenic retreat is ideal for relaxing and recharging. Enjoy on-site amenities or explore nearby leisure activities at your own pace.",
+        "CheckInDate": "2019-01-02",
+        "LengthOfStay": 49,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Ocean Pointe",
+        "ImageURLs": ["MVW_ps_2.jpg", "MVW_ps_3.jpg", "MVW_ps_4.jpg", "MVW_ps_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_ps_1.jpg",
+        "SummaryArr": ["49 Nights in January", "Studio", "Ocean Side", "<span>14,775 Points</span>"],
+        "ViewDesc": "Ocean Side",
+        "ViewType": "OS",
+        "Location": "Palm Beach Shores, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "19711",
+      "Detail": {
+        "LongDesc": "Located 30 minute drive from Lucca, on the top of the Tuscan hills, Villa Rica is a traditional charming farmhouse that has been skilfully renovated and converted into a country home to offer comfortable hospitality and a relaxing stay, in an atmosphere of quietness and intimacy.  The house offers beautiful views of the surrounding valleys and of the Tyrrhenian sea, including the near islands of the Tuscan Arcipelago. The house is positioned in a quaint village and near an old church whose bells can be heard chiming hourly adding to the Old World country charm.\n\nVilla Rica harmonizes coziness and interior design simplicity and it is perfect for families with kids. Enjoy the sense of tranquility this place exudes and let us know what you liked the most during your Tuscan vacation.\n\nGround Floor\n\nInviting and bright sitting room with large flat screen satellite TV and cozy fireplace\n\tSpacious dining room with extensible table to sit comfortably 12 guests\n\tFireplace\n\tWooden beamed ceiling and cotto floor\n\tProfessional fully equipped eat-in kitchen that opens onto the garden\nOutside Features\n\nVilla Rica is nestled among olive groves and vineyards and here you can enjoy a tranquil holiday while unwinding by the private swimming pool sipping a glass of your favorite wine. The private garden is very well manicured and the front yard’s pergola shelters you from the summer heat while you enjoy a delicious meal. Few steps away from the house there is a fenced salt water swimming pool (12 x 6 m) with lounge chairs and a shaded area.",
+        "CheckInDate": "2019-03-04",
+        "LengthOfStay": 11,
+        "ShortDesc": "Rica, Tuscany",
+        "ImageURLs": ["VOD_19711_02.jpg", "VOD_19711_03.jpg"],
+        "ImageMainURL": "VOD_19711_01.jpg",
+        "SummaryArr": ["11 Nights in March", "<span>13,500 Points</span>"],
+        "Location": "Lucca, Italy"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "18909",
+      "Detail": {
+        "LongDesc": "Villa Azul Celeste is located directly above the sea, on the Bay of Banderas, and offers incredible ocean vistas and a personal staff to make your stay carefree.  The courtyard entry leads to an exquisitely furnished, spacious villa with 4,000 square feet of interior space and additional 2,000 square feet of terraces, gardens, and a heated infinity pool. Traditional Mexican furniture graces the terra cotta floors and antique hand-hewn, beamed ceilings hang overhead. The villa has recently been refreshed and lovingly restored with attention paid to every detail. With the addition of new artwork and electronic upgrades, guests will delight in all the comforts Azul Celeste offers.\n\nThe master suite on the second floor is spectacular with a king bed, fireplace, large bath and a cupola shower overlooking the sea. A palapa-covered terrace off of the master suite offers a great place to sit with your morning coffee, a great book, or an afternoon cocktail as you watch the sunset. The two guest bedrooms are poolside. One has a king bed and large garden bath with a sculptured rock formation and tropical plants; the other has a king bed and a large private bath. All bedrooms are air-conditioned. All beds have been recently updated with new bedding and pillows, making them truly heavenly.",
+        "CheckInDate": "2019-05-01",
+        "LengthOfStay": 8,
+        "ShortDesc": "Azul Celeste, Puerto Vallarta",
+        "ImageURLs": ["VOD_18909_02.jpg", "VOD_18909_03.jpg"],
+        "ImageMainURL": "VOD_18909_01.jpg",
+        "SummaryArr": ["8 Nights in May", "<span>13,500 Points</span>"],
+        "Location": "Puerto Vallarta, Mexico"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "24280",
+      "Detail": {
+        "LongDesc": "Find adventure at every turn on this 14-day trip through Peru. Catch the scenic train to Machu Picchu, or challenge yourself by hiking the famous Inca Trail. Peer up into the canopy of the Amazon rain forest to search for jungle wildlife. From sacred ruins to otherworldly mountain vistas and cloud forests, set your sights on this celestial place.",
+        "CheckInDate": "2018-06-10",
+        "LengthOfStay": 14,
+        "ShortDesc": "Iconic Peru 14-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_24280_01.jpg",
+        "SummaryArr": ["14 Days in June", "<span>14,750 Points</span>"],
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "18941",
+      "Detail": {
+        "LongDesc": "Enjoy sweeping views of the bay and beach from every room.  \"The Beachhouse\" accommodates a maximum of two persons in approximately 2,000 square feet, and is located on the lower part of the estate, below the main house. Completely private and secure, \"The Beachhouse\" has its own secluded entrance from the street, sweeping views of the bay and beach from every room, infinity pool heated to your desire, gourmet kitchen, living room, outside dining terrace, large bedroom and bath, outdoor shower, air conditioning, and access to the private beach and amenities of the Puerto Vallarta Beach Club. On-call chef and spa services available with advance reservations. The Beachouse at Villa Verano, a private “get away from it all,” romantic atmosphere, ideal for a honeymoon or anniversary.\n\nLivingroom\n\nFurnished in an elegant, contemporary design, with granite surfaces and donghia fabrics,\"The Beachhouse\" is exceptionally comfortable and well-appointed, comparable to a large suite at the Four Seasons or Aman resorts.\n\nA flat-screen TV, portable ipod-compatible stereo and cd player is provided for your entertainment pleasure.\n\nThe Dining Terrace\n\nOpening to the sea, the view from the living room commands a spectacular 180 degree view of the Bay of Banderas.\n\nThe Bedroom\n\nJust 10 steps from your private infinity pool, the bedroom features a king-size pillow top bed, sitting area, and spacious sun deck, with outdoor shower. Additional amenities include sunken tub and shower, 1 and 1/2 baths, washer/dryer, and complimentary wireless internet access.\n\nKitchen\n\nDesigned and equipped by a gourmet restaurateur, the kitchen is a delight to use, with amenities including Maytag French door refrigerator, top of the line Maytag range-oven, microwave, coffee maker, kitchen ware, beautiful dishes, and even a supply of herbs and spices.\n\nThe only distraction might be the view!\n\nThere is a purified water system in the kitchen, and in addition, complimentary bottled water is provided.\n\nOffice\n\nFor those who have to stay in touch, the comfortable office area features complimentary wireless high speed internet, copier/printer, fax with dedicated line, and all the essentials.\n\nFor Larger Parties, rent along with Villa Verano Main House",
+        "CheckInDate": "2019-07-01",
+        "LengthOfStay": 13,
+        "ShortDesc": "The Beachhouse at Villa Verano, Puerto Vallarta",
+        "ImageURLs": ["VOD_18941_02.jpg", "VOD_18941_03.jpg"],
+        "ImageMainURL": "VOD_18941_01.jpg",
+        "SummaryArr": ["13 Nights in July", "<span>14,000 Points</span>"],
+        "Location": "Puerto Vallarta, Mexico"
+      },
+      "GroupId": 9
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [15000, "Above"]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "KO",
+      "Detail": {
+        "LongDesc": "In the scenic Kapolei region on Oahu's southwest shore, this Hawaiian hideaway is nestled within Ko Olina Resort & Marina, a lush, 640-acre gated community built around crystal-clear lagoons.",
+        "CheckInDate": "2018-01-01",
+        "LengthOfStay": 59,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Ko Olina Beach Club",
+        "ImageURLs": ["MVW_ko_2.jpg", "MVW_ko_3.jpg", "MVW_ko_4.jpg", "MVW_ko_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_ko_1.jpg",
+        "SummaryArr": ["59 Nights in January", "Studio", "Mountain View", "<span>15,660 Points</span>"],
+        "ViewDesc": "Mountain View",
+        "ViewType": "MA",
+        "Location": "Kapolei - Oahu, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "ML",
+      "Detail": {
+        "LongDesc": "Located on the southern tip of Florida's Gulf Coast, this resort provides easy access to 3 miles of pristine beach. Nearby spa treatments and championship golf enhance your experience.",
+        "CheckInDate": "2018-01-02",
+        "LengthOfStay": 30,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Crystal Shores",
+        "ImageURLs": ["MVW_ml_2.jpg", "MVW_ml_3.jpg", "MVW_ml_4.jpg", "MVW_ml_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_ml_1.jpg",
+        "SummaryArr": ["30 Nights in January", "2-Bedroom", "Standard View", "<span>15,625 Points</span>"],
+        "ViewDesc": "Standard View",
+        "ViewType": "Std",
+        "Location": "Marco Island, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "107",
+      "Detail": {
+        "LongDesc": "Four night accommodations and two Lower Level End Court OR Corner Tickets to the NCAA Final Four Semi-Final and Final Game.  Includes: five days/four nights accommodations in a Marriott® branded property (or similar property) in the Final Four Host City, breakfast for two daily, premium lower level end court or corner seating to the NCAA Final Four Semi-Final and Final Championship Games, five day full-size rental car, all hotel taxes.\n\n​",
+        "Description": "4 nights, 2 tickets",
+        "ShortDesc": "NCAA Final Four Basketball Tournament Lower Level Experience",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_107_1.jpg",
+        "SummaryArr": ["4 nights, 2 tickets", "<span>18,000 Points</span>"],
+        "Location": "San Antonio, TX"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "37573",
+      "Detail": {
+        "LongDesc": "'Casa Castelli' offers wonderful hillside views of Mismaloya cove, Night of the Iguana peninsula, the coast and the ocean, and spectacular sunsets!  Perched at the end of a cul de sac on a cobblestone street, in the midst of the jungle-like setting at the edge of Lomas de Mismaloya, the six-bedroom, eight bath 'Casa Castelli' is the perfect \"family and friends\" retreat, for a relaxing vacation!\nCasa Castelli's indoor and outdoor living spaces are quite comfortable for up to 12-person groups. Featuring an outdoor infinity pool, BBQ area, wireless internet, wireless sound system with Bose speakers on the main level (for iPhone wireless play), dining for 12, Satellite TV and a lower level game room, 'Casa Castelli' makes it easy to relax and enjoy!\nThe upper level of \"Casa Castelli' is dedicated to the master suite, with amazing ocean views, large bedroom area, very well-appointed bath with views from the Jacuzzi tub and separate shower, bringing the outdoors in! The large, open terrace and outdoor seating area off the master suite provides a wonderful, private retreat from the main areas of the house.\nThe additional bedrooms are quite spacious and impressive, and feature very large and high quality bathrooms.",
+        "CheckInDate": "2018-07-01",
+        "LengthOfStay": 10,
+        "ShortDesc": "Casa Castelli, Puerto Vallarta",
+        "ImageURLs": ["VOD_37573_02.jpg", "VOD_37573_03.jpg"],
+        "ImageMainURL": "VOD_37573_01.jpg",
+        "SummaryArr": ["10 Nights in July", "<span>22,500 Points</span>"],
+        "Location": "Puerto Vallarta, Mexico"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "46-197399",
+      "Detail": {
+        "LongDesc": "The 21-Night \"Europe, Northern\" cruise by MSC Cruises with ports of call including: Akureyri, Alesund, Cork, Cruising Prince Christian Sund, Dublin, Greenock, Hamburg, Hellesylt, Honningsvag, Invergordon, Isafjordur, Kirkwall, Molde, Nuuk, Nynashamn (Stockholm), Oslo, Qaqortoq Greenland, Reykjavik, Southampton, St. Petersburg, Tallinn, Tromso, Trondheim.",
+        "CheckInDate": "2018-08-10",
+        "LengthOfStay": 21,
+        "ShortDesc": "MSC Cruises 21-Night",
+        "ImageURLs": ["ICE_46-502_02.jpg", "ICE_46-502_03.jpg", "ICE_46-502_04.jpg", "ICE_46-502_05.jpg", "ICE_46-502_06.jpg", "ICE_46-502_07.jpg", "ICE_46-502_08.jpg", "ICE_46-502_09.jpg", "ICE_46-502_10.jpg", "ICE_46-502_11.jpg", "ICE_46-502_12.jpg", "ICE_46-502_13.jpg", "ICE_46-502_14.jpg", "ICE_46-502_15.jpg", "ICE_46-502_16.jpg", "ICE_46-502_17.jpg", "ICE_46-502_18.jpg", "ICE_46-502_19.jpg"],
+        "ImageMainURL": "ICE_46-502_01.jpg",
+        "SummaryArr": ["21 Days in August", "<span>19,250 Points</span>"],
+        "Location": "Europe, Northern"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "366",
+      "Detail": {
+        "LongDesc": "The past comes alive as you travel from the Land of the Incas to the Galapagos archipelago. This small group tour offers a look into mankind’s collective history. Overnight at the base of mysterious Machu Picchu and take advantage of the chance to explore this “Lost City” twice. Explore the UNESCO Spanish colonial cities of Lima, Quito and Cuzco. Set foot in two hemispheres at the Equatorial Line Monument. After delving into ancient cultures, you’ll connect with one-of-a-kind wildlife as you cruise the pristine Galapagos Islands, made famous by Charles Darwin. Throughout your journey in Peru and Ecuador, you’ll look toward the future and reflect on enchanting days gone by.",
+        "CheckInDate": "2018-08-21",
+        "LengthOfStay": 14,
+        "ShortDesc": "Machu Picchu & the Galapagos Islands",
+        "ImageURLs": ["COL_366_02.jpg", "COL_366_03.jpg", "COL_366_04.jpg"],
+        "ImageMainURL": "COL_366_01.jpg",
+        "SummaryArr": ["14 Days in August", "<span>29,500 Points</span>"],
+        "Location": "Lima, Peru"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SR",
+      "Detail": {
+        "LongDesc": "Nestled at the foothills of the Santa Rosa and San Jacinto mountains, this resort offers 18 holes of championship golf and other activities surrounded by serene views of the desert.",
+        "CheckInDate": "2019-01-01",
+        "LengthOfStay": 59,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Shadow Ridge",
+        "ImageURLs": ["MVW_sr_2.jpg", "MVW_sr_3.jpg", "MVW_sr_4.jpg", "MVW_sr_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_sr_1.jpg",
+        "SummaryArr": ["59 Nights in January", "1-Bedroom", "Excellent View", "<span>17,425 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Palm Desert, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SN",
+      "Detail": {
+        "LongDesc": "Located on Florida's Gold Coast, this contemporary resort offers incomparable views of the Atlantic and convenient access to world-class golf, tennis and oceanfront activities.",
+        "CheckInDate": "2019-01-02",
+        "LengthOfStay": 30,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Oceana Palms",
+        "ImageURLs": ["MVW_sn_2.jpg", "MVW_sn_3.jpg", "MVW_sn_4.jpg", "MVW_sn_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_sn_1.jpg",
+        "SummaryArr": ["30 Nights in January", "2-Bedroom", "Ocean View", "<span>17,850 Points</span>"],
+        "ViewDesc": "Ocean View",
+        "ViewType": "OV",
+        "Location": "Singer Island, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "21595",
+      "Detail": {
+        "LongDesc": "The Antarctic Peninsula is anything but a world of white desolation. Join us on a true adventure to a world of immense scale and visual splendour. Passing huge icebergs in the flat calm of a polar morning will reshape the way you look at your world. Encounter huge whales, enormous rookeries of penguins, and stunning landscapes few have ever witnessed. This 11-day expedition will introduce you to the magic of the South Shetland Islands and the Antarctic Peninsula.",
+        "CheckInDate": "2018-03-13",
+        "LengthOfStay": 11,
+        "ShortDesc": "Antarctica Classic Package 11-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_21595_01.jpg",
+        "SummaryArr": ["11 Days in March", "<span>37,900 Points</span>"],
+        "Location": "Antarctica"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 1,
+      "CollectionId": 1,
+      "Id": "22067",
+      "Detail": {
+        "LongDesc": "From close-up encounters with icebergs and glaciers to the region’s plentiful wildlife, this is a voyage of non-stop highlights. Always on the lookout for wildlife that live in this polar wilderness, you’ll explore this landscape not only by ship but also on foot and via Zodiac. Roaming polar bears, lounging seals, grazing reindeer, and colonies of birds all co-exist in this harsh land we dare only to explore a few months of the year.",
+        "CheckInDate": "2018-06-14",
+        "LengthOfStay": 8,
+        "ShortDesc": "Realm of the Polar Bear 8-day",
+        "ImageURLs": [],
+        "ImageMainURL": "GADV_22067_01.jpg",
+        "SummaryArr": ["8 Days in June", "<span>28,650 Points</span>"],
+        "Location": "Longyearbyen, Norway"
+      },
+      "GroupId": 5
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "71-26747",
+      "Detail": {
+        "LongDesc": "The 20-Night \"River Cruise, Europe\" cruise by AMA Waterways with ports of call including: Belgrade, Brasov, Bratislava, Bucharest, Budapest, Durnstein, Giurgiu, Iron Gate, Melk, Mohacs, Novi Sad, Nuremberg, Passau, Prague, Regensburg, Rousse, Vidin, Vienna, Vukovar.",
+        "CheckInDate": "2018-07-11",
+        "LengthOfStay": 20,
+        "ShortDesc": "AMA Waterways 20-Night",
+        "ImageURLs": ["ICE_71-926_02.jpg", "ICE_71-926_03.jpg", "ICE_71-926_04.jpg", "ICE_71-926_05.jpg", "ICE_71-926_06.jpg", "ICE_71-926_07.jpg"],
+        "ImageMainURL": "ICE_71-926_01.jpg",
+        "SummaryArr": ["20 Days in July", "<span>49,250 Points</span>"],
+        "Location": "River Cruise, Europe"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "16-158437",
+      "Detail": {
+        "LongDesc": "The 21-Day \"Transatlantic\" cruise by Cunard Line with ports of call including: Alesund, Bar Harbor, Bergen, Boston, Corner Brook, Cruising Sognefjord, Flaam, Halifax, Liverpool, New York, Newport, Quebec City, Reykjavik, Rockland, Saguenay, Sept-Illes, Southampton, Stavanger, Sydney (Nova Scotia).",
+        "CheckInDate": "2018-07-28",
+        "LengthOfStay": 21,
+        "ShortDesc": "Cunard Line 21-Day",
+        "ImageURLs": ["ICE_16-256_02.jpg", "ICE_16-256_03.jpg", "ICE_16-256_04.jpg", "ICE_16-256_05.jpg", "ICE_16-256_06.jpg", "ICE_16-256_07.jpg", "ICE_16-256_08.jpg", "ICE_16-256_09.jpg", "ICE_16-256_10.jpg", "ICE_16-256_11.jpg", "ICE_16-256_12.jpg", "ICE_16-256_13.jpg", "ICE_16-256_14.jpg", "ICE_16-256_15.jpg", "ICE_16-256_16.jpg", "ICE_16-256_17.jpg", "ICE_16-256_18.jpg", "ICE_16-256_19.jpg"],
+        "ImageMainURL": "ICE_16-256_01.jpg",
+        "SummaryArr": ["21 Days in July", "<span>25,000 Points</span>"],
+        "Location": "Transatlantic"
+      },
+      "GroupId": 6
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [1501, 2000]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "DE",
+      "Detail": {
+        "LongDesc": "Discover endless recreation, shopping and dining options enhanced by vibrant desert views. Plus, you'll enjoy many of the perks at the nearby JW Marriott&reg; Desert Springs Resort & Spa.",
+        "CheckInDate": "2018-01-02",
+        "LengthOfStay": 9,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Desert Springs Villas",
+        "ImageURLs": ["MVW_de_2.jpg", "MVW_de_3.jpg", "MVW_de_4.jpg", "MVW_de_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_de_1.jpg",
+        "SummaryArr": ["9 Nights in January", "1-Bedroom", "Excellent View", "<span>1,895 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Palm Desert, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SM",
+      "Detail": {
+        "LongDesc": "This cozy retreat surrounded by the Wasatch Mountains is just steps from charming shops, restaurants and the Town Ski Lift. About a mile away is a mountain biking trail and golf course.",
+        "CheckInDate": "2018-01-05",
+        "LengthOfStay": 7,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Summit Watch",
+        "ImageURLs": ["MVW_sm_2.jpg", "MVW_sm_3.jpg", "MVW_sm_4.jpg", "MVW_sm_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_sm_1.jpg",
+        "SummaryArr": ["7 Nights in January", "Studio", "Excellent View", "<span>1,775 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Park City, UT"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "3-179828",
+      "Detail": {
+        "LongDesc": "The 7-Day \"Caribbean, Eastern\" cruise by Holland America Line with ports of call including: Amber Cove, Cap Cana, Fort Lauderdale, Grand Turk / Caicos Islands, Half Moon Cay, Key West, Nassau, Bahamas, Philipsburg St. Maarten, Punta Cana, San Juan (Puerto Rico), St. Thomas.",
+        "CheckInDate": "2018-04-01",
+        "LengthOfStay": 7,
+        "ShortDesc": "Holland America Line 7-Day",
+        "ImageURLs": ["ICE_3-51_02.jpg", "ICE_3-51_03.jpg", "ICE_3-51_04.jpg", "ICE_3-51_05.jpg", "ICE_3-51_06.jpg", "ICE_3-51_07.jpg", "ICE_3-51_08.jpg", "ICE_3-51_09.jpg", "ICE_3-51_10.jpg", "ICE_3-51_11.jpg", "ICE_3-51_12.jpg", "ICE_3-51_13.jpg", "ICE_3-51_14.jpg", "ICE_3-51_15.jpg", "ICE_3-51_16.jpg", "ICE_3-51_17.jpg"],
+        "ImageMainURL": "ICE_3-51_01.jpg",
+        "SummaryArr": ["7 Days in April", "<span>1,750 Points</span>"],
+        "Location": "Caribbean, Eastern"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "PS",
+      "Detail": {
+        "LongDesc": "Located on the Atlantic side of Singer Island, this scenic retreat is ideal for relaxing and recharging. Enjoy on-site amenities or explore nearby leisure activities at your own pace.",
+        "CheckInDate": "2018-06-26",
+        "LengthOfStay": 7,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Ocean Pointe",
+        "ImageURLs": ["MVW_ps_2.jpg", "MVW_ps_3.jpg", "MVW_ps_4.jpg", "MVW_ps_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_ps_1.jpg",
+        "SummaryArr": ["7 Nights in June", "2-Bedroom", "Ocean Side", "<span>2,000 Points</span>"],
+        "ViewDesc": "Ocean Side",
+        "ViewType": "OS",
+        "Location": "Palm Beach Shores, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "VDC",
+      "Detail": {
+        "LongDesc": "The resort follows the tradition of its sister property in Puerto Vallarta. The Universal Vacation Club has created another vacation destination where the Spanish mission architecture complements the breathtaking sight of the Pacific Ocean meeting the Sea of Cortez. Guests will enjoy a 10,000-square-foot (929 square meters) European health spa and salon services, a boutique, and fitness center. The award-winning activities program offers a nine-hole putting green, fishing tourneys, beachfront water sports, and much more.",
+        "CheckInDate": "2018-10-04",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Villa del Palmar-Cabo",
+        "ImageURLs": ["II_VDC_02.jpg", "II_VDC_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_VDC_01.jpg",
+        "SummaryArr": ["7 Nights in October", "1-Bedroom", "<span>1,500 Points</span>"],
+        "Location": "Cabo San Lucas, Mexico"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "KA",
+      "Detail": {
+        "LongDesc": "This paradise is tucked within a scenic cove on Kalapaki Beach, rated one of Hawaii's best swimming beaches. Learn to surf, snorkel or just relax amid tropical beauty.",
+        "CheckInDate": "2018-11-11",
+        "LengthOfStay": 7,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Kauai Beach Club",
+        "ImageURLs": ["MVW_ka_2.jpg", "MVW_ka_3.jpg", "MVW_ka_4.jpg", "MVW_ka_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_ka_1.jpg",
+        "SummaryArr": ["7 Nights in November", "1-Bedroom", "Garden View", "<span>1,925 Points</span>"],
+        "ViewDesc": "Garden View",
+        "ViewType": "GV",
+        "Location": "Lihue - Kauai, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "CRH",
+      "Detail": {
+        "LongDesc": "Cameron House Resort stands on the peaceful shores of Loch Lomond. Within the grounds of the estate are secluded clusters of superb lodges, each one decorated and equipped to the highest standard. You can enjoy a vast range of leisure facilities right on your doorstep: a private marina, boathouse restaurant on the shore, spectacular golf course, a wealth of outdoor sports activities, and, of course, the magnificent Cameron House Hotel, with its two highly acclaimed restaurants and outstanding indoor Leisure Club.",
+        "CheckInDate": "2019-01-11",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Cameron House on Loch Lomond",
+        "ImageURLs": ["II_CRH_02.jpg", "II_CRH_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_CRH_01.jpg",
+        "SummaryArr": ["7 Nights in January", "1-Bedroom", "<span>1,500 Points</span>"],
+        "Location": "Dunbartonshire, Scotland"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "MB",
+      "Detail": {
+        "LongDesc": "Located in the heart of the Costa del Sol, this relaxing seaside resort reflects the enduring romance of southern Spain. Explore the countryside on horseback, golf or enjoy nearby nightlife.",
+        "CheckInDate": "2019-03-18",
+        "LengthOfStay": 8,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Marbella Beach Resort",
+        "ImageURLs": ["MVW_mb_2.jpg", "MVW_mb_3.jpg", "MVW_mb_4.jpg", "MVW_mb_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_mb_1.jpg",
+        "SummaryArr": ["8 Nights in March", "1-Bedroom", "Excellent View", "<span>1,900 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Marbella, Spain"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "BP",
+      "Detail": {
+        "LongDesc": "Explore miles of tranquil beaches on Florida's Gold Coast. This welcoming retreat overlooks both the Atlantic Ocean and Intracoastal Waterway, and is near famed Las Olas Boulevard.",
+        "CheckInDate": "2019-04-14",
+        "LengthOfStay": 12,
+        "UnitDesc": "Suite",
+        "ShortDesc": "Marriott's BeachPlace Towers",
+        "ImageURLs": ["MVW_bp_2.jpg", "MVW_bp_3.jpg", "MVW_bp_4.jpg", "MVW_bp_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_bp_1.jpg",
+        "SummaryArr": ["12 Nights in April", "Suite", "Excellent View", "<span>1,925 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Fort Lauderdale, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "46-197332",
+      "Detail": {
+        "LongDesc": "The 5-Night \"Europe, Mediterranean\" cruise by MSC Cruises with ports of call including: Ajaccio, Ancona, Barcelona, Bari, Cagliari, Cannes, Civitavecchia/Rome, Corfu Greek Isle, Dubrovnik, Genoa, Ibiza, Koper, Kotor, Marseille, Naples, Palermo, Palma de Mallorca, Ravenna, Sarande, Split Croatia, Valencia, Valletta/Grand Harbour, Venice, Zadar.",
+        "CheckInDate": "2018-05-06",
+        "LengthOfStay": 5,
+        "ShortDesc": "MSC Cruises 5-Night",
+        "ImageURLs": ["ICE_46-303_02.jpg", "ICE_46-303_03.jpg", "ICE_46-303_04.jpg", "ICE_46-303_05.jpg", "ICE_46-303_06.jpg", "ICE_46-303_07.jpg", "ICE_46-303_08.jpg", "ICE_46-303_09.jpg", "ICE_46-303_10.jpg"],
+        "ImageMainURL": "ICE_46-303_01.jpg",
+        "SummaryArr": ["5 Days in May", "<span>2,000 Points</span>"],
+        "Location": "Europe, Mediterranean"
+      },
+      "GroupId": 6
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [2001, 3000]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "AC",
+      "Detail": {
+        "LongDesc": "Marriott's Aruba Surf Club sits amid a sprawling resort playground that includes our sister Marriott Vacation Club resort, Marriott's Aruba Ocean Club, as well as the fabulous Aruba Marriott Resort & Stellaris® Casino.",
+        "CheckInDate": "2018-01-21",
+        "LengthOfStay": 9,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Aruba Surf Club",
+        "ImageURLs": ["MVW_ac_2.jpg", "MVW_ac_3.jpg", "MVW_ac_4.jpg", "MVW_ac_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_ac_1.jpg",
+        "SummaryArr": ["9 Nights in January", "1-Bedroom", "Garden View", "<span>2,950 Points</span>"],
+        "ViewDesc": "Garden View",
+        "ViewType": "GV",
+        "Location": "Palm Beach, Aruba"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "OW",
+      "Detail": {
+        "LongDesc": "This beachfront resort is ideally located near the best golf, beaches and attractions. Its classic Mediterranean architecture and beautiful ocean views make it a stylish and soothing escape.",
+        "CheckInDate": "2018-03-01",
+        "LengthOfStay": 14,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's OceanWatch at Grande Dunes&reg;",
+        "ImageURLs": ["MVW_ow_2.jpg", "MVW_ow_3.jpg", "MVW_ow_4.jpg", "MVW_ow_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_ow_1.jpg",
+        "SummaryArr": ["14 Nights in March", "2-Bedroom", "Garden View", "<span>3,000 Points</span>"],
+        "ViewDesc": "Garden View",
+        "ViewType": "GV",
+        "Location": "Myrtle Beach, SC"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "46-190067",
+      "Detail": {
+        "LongDesc": "The 7-Night \"Europe, Mediterranean\" cruise by MSC Cruises with ports of call including: Ajaccio, Ancona, Athens/Piraeus, Barcelona, Bari, Brindisi, Cagliari, Cannes, Civitavecchia/Rome, Corfu Greek Isle, Dubrovnik, Genoa, Heraklion (Crete), Ibiza, Katakolon, Kotor, La Spezia, Livorno, Livorno/Florence, Mahon Minorca, Marseille, Messina, Mikonos, Naples, Olbia, Palermo, Palma de Mallorca, Santorini, Sarande, Split Croatia, Valencia, Valletta/Grand Harbour, Venice.",
+        "CheckInDate": "2018-04-13",
+        "LengthOfStay": 7,
+        "ShortDesc": "MSC Cruises 7-Night",
+        "ImageURLs": ["ICE_46-303_02.jpg", "ICE_46-303_03.jpg", "ICE_46-303_04.jpg", "ICE_46-303_05.jpg", "ICE_46-303_06.jpg", "ICE_46-303_07.jpg", "ICE_46-303_08.jpg", "ICE_46-303_09.jpg", "ICE_46-303_10.jpg"],
+        "ImageMainURL": "ICE_46-303_01.jpg",
+        "SummaryArr": ["7 Days in April", "<span>3,000 Points</span>"],
+        "Location": "Europe, Mediterranean"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "BLK",
+      "Detail": {
+        "LongDesc": "Embarc - Whistler is a four-season resort located mere steps from the slopes of Blackcomb Mountain. The lodge-style property features solid river rock, natural slate tile floors, and heavy fir timbers. Ample wood furnishings and vibrant-colored, hand-woven fabrics create a rustic elegance. Visitors can enjoy golf, hiking, water sports, and mountain biking nearby. The Whistler resort area, a two-hour drive from Vancouver, British Columbia, is consistently rated one of North America's best ski destinations.",
+        "CheckInDate": "2018-05-31",
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Embarc - Whistler",
+        "ImageURLs": ["II_BLK_02.jpg", "II_BLK_03.jpg"],
+        "UnitType": "2 BEDROOM",
+        "ImageMainURL": "II_BLK_01.jpg",
+        "SummaryArr": ["7 Nights in May", "2-Bedroom", "<span>3,000 Points</span>"],
+        "Location": "Whistler, Canada"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "MH",
+      "Detail": {
+        "LongDesc": "Located on Kaanapali Beach, this resort is surrounded by beautiful scenery and some of the most picturesque conditions for golf, tennis, diving and mountain biking you'll find anywhere.",
+        "CheckInDate": "2018-06-25",
+        "LengthOfStay": 8,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Maui Ocean Club",
+        "ImageURLs": ["MVW_mh_2.jpg", "MVW_mh_3.jpg", "MVW_mh_4.jpg", "MVW_mh_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_mh_1.jpg",
+        "SummaryArr": ["8 Nights in June", "1-Bedroom", "Island View", "<span>2,650 Points</span>"],
+        "ViewDesc": "Island View",
+        "ViewType": "IV",
+        "Location": "Lahaina - Maui, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "NC",
+      "Detail": {
+        "LongDesc": "This 75-acre, Tuscan-inspired enclave is perched atop a bluff offering sweeping views of the Pacific Ocean and Catalina Island—the perfect vantage point for exploring this alluring destination.",
+        "CheckInDate": "2018-10-07",
+        "LengthOfStay": 7,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Newport Coast&reg; Villas",
+        "ImageURLs": ["MVW_nc_2.jpg", "MVW_nc_3.jpg", "MVW_nc_4.jpg", "MVW_nc_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_nc_1.jpg",
+        "SummaryArr": ["7 Nights in October", "2-Bedroom", "Excellent View", "<span>2,900 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Newport Coast, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SN",
+      "Detail": {
+        "LongDesc": "Located on Florida's Gold Coast, this contemporary resort offers incomparable views of the Atlantic and convenient access to world-class golf, tennis and oceanfront activities.",
+        "CheckInDate": "2019-02-10",
+        "LengthOfStay": 5,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Oceana Palms",
+        "ImageURLs": ["MVW_sn_2.jpg", "MVW_sn_3.jpg", "MVW_sn_4.jpg", "MVW_sn_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_sn_1.jpg",
+        "SummaryArr": ["5 Nights in February", "2-Bedroom", "Ocean View", "<span>2,375 Points</span>"],
+        "ViewDesc": "Ocean View",
+        "ViewType": "OV",
+        "Location": "Singer Island, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "HEC",
+      "Detail": {
+        "LongDesc": "Hacienda Encantada Resort & Spa comprises studios, one- and two-bedroom accommodations, and penthouse-level suites. All units feature spacious balconies with breathtaking views of the famous Arch of Cabo San Lucas and Sea of Cortez. The resort is designed in a contemporary Mexican hacienda style. Amenities range from beachside and cliff-side restaurants and two infinity-edge swimming pools to a kids' club, full-service spa, whirlpools, swim-up bars, a market, and delicatessen.",
+        "CheckInDate": "2019-06-14",
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Hacienda Encantada Resort & Spa",
+        "ImageURLs": ["II_HEC_02.jpg", "II_HEC_03.jpg"],
+        "UnitType": "2 BEDROOM",
+        "ImageMainURL": "II_HEC_01.jpg",
+        "SummaryArr": ["7 Nights in June", "2-Bedroom", "<span>3,000 Points</span>"],
+        "Location": "Cabo San Lucas, Mexico"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "CRH",
+      "Detail": {
+        "LongDesc": "Cameron House Resort stands on the peaceful shores of Loch Lomond. Within the grounds of the estate are secluded clusters of superb lodges, each one decorated and equipped to the highest standard. You can enjoy a vast range of leisure facilities right on your doorstep: a private marina, boathouse restaurant on the shore, spectacular golf course, a wealth of outdoor sports activities, and, of course, the magnificent Cameron House Hotel, with its two highly acclaimed restaurants and outstanding indoor Leisure Club.",
+        "CheckInDate": "2019-07-05",
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Cameron House on Loch Lomond",
+        "ImageURLs": ["II_CRH_02.jpg", "II_CRH_03.jpg"],
+        "UnitType": "1 BEDROOM",
+        "ImageMainURL": "II_CRH_01.jpg",
+        "SummaryArr": ["7 Nights in July", "1-Bedroom", "<span>3,000 Points</span>"],
+        "Location": "Dunbartonshire, Scotland"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "BB",
+      "Detail": {
+        "LongDesc": "Gracing the beach within the Port Royal Plantation community, this inviting resort offers a scenic location and an array of on-site amenities, including four swimming pools and a European spa.",
+        "CheckInDate": "2019-09-01",
+        "LengthOfStay": 7,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Barony Beach Club",
+        "ImageURLs": ["MVW_bb_2.jpg", "MVW_bb_3.jpg", "MVW_bb_4.jpg", "MVW_bb_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_bb_1.jpg",
+        "SummaryArr": ["7 Nights in September", "2-Bedroom", "Garden View", "<span>2,900 Points</span>"],
+        "ViewDesc": "Garden View",
+        "ViewType": "GV",
+        "Location": "Hilton Head Island, SC"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "KO",
+      "Detail": {
+        "LongDesc": "In the scenic Kapolei region on Oahu's southwest shore, this Hawaiian hideaway is nestled within Ko Olina Resort & Marina, a lush, 640-acre gated community built around crystal-clear lagoons.",
+        "CheckInDate": "2019-09-06",
+        "LengthOfStay": 7,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Ko Olina Beach Club",
+        "ImageURLs": ["MVW_ko_2.jpg", "MVW_ko_3.jpg", "MVW_ko_4.jpg", "MVW_ko_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_ko_1.jpg",
+        "SummaryArr": ["7 Nights in September", "1-Bedroom", "Mountain View", "<span>2,925 Points</span>"],
+        "ViewDesc": "Mountain View",
+        "ViewType": "MA",
+        "Location": "Kapolei - Oahu, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "46-194191",
+      "Detail": {
+        "LongDesc": "The 6-Night \"Europe\" cruise by MSC Cruises with ports of call including: Bari, Corfu Greek Isle, Dubrovnik, Heraklion (Crete), Mikonos, Venice.",
+        "CheckInDate": "2018-10-27",
+        "LengthOfStay": 6,
+        "ShortDesc": "MSC Cruises 6-Night",
+        "ImageURLs": ["ICE_46-303_02.jpg", "ICE_46-303_03.jpg", "ICE_46-303_04.jpg", "ICE_46-303_05.jpg", "ICE_46-303_06.jpg", "ICE_46-303_07.jpg", "ICE_46-303_08.jpg", "ICE_46-303_09.jpg", "ICE_46-303_10.jpg"],
+        "ImageMainURL": "ICE_46-303_01.jpg",
+        "SummaryArr": ["6 Days in October", "<span>2,500 Points</span>"],
+        "Location": "Europe"
+      },
+      "GroupId": 6
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [3001, 3999]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "MS",
+      "Detail": {
+        "LongDesc": "Built into the Wasatch foothills, this charming resort is surrounded by rugged beauty. Discover the unspoiled outdoors teeming with wildlife and a small town that hosts the Sundance Film Festival.",
+        "CheckInDate": "2018-01-03",
+        "LengthOfStay": 9,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's MountainSide",
+        "ImageURLs": ["MVW_ms_2.jpg", "MVW_ms_3.jpg", "MVW_ms_4.jpg", "MVW_ms_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_ms_1.jpg",
+        "SummaryArr": ["9 Nights in January", "1-Bedroom", "Excellent View", "<span>3,700 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Park City, UT"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "8-196324",
+      "Detail": {
+        "LongDesc": "The 15-Day \"Transatlantic\" cruise by Norwegian Cruise Line with ports of call including: Barcelona, Cadiz, Cartagena Spain, Funchal Madeira, Gibraltar, King's Wharf, Malaga, Miami, Palma de Mallorca, Ponta Delgada, Port Canaveral.",
+        "CheckInDate": "2018-04-07",
+        "LengthOfStay": 15,
+        "ShortDesc": "Norwegian Cruise Line 15-Day",
+        "ImageURLs": ["ICE_8-176_02.jpg", "ICE_8-176_03.jpg", "ICE_8-176_04.jpg", "ICE_8-176_05.jpg", "ICE_8-176_06.jpg", "ICE_8-176_07.jpg", "ICE_8-176_08.jpg", "ICE_8-176_09.jpg", "ICE_8-176_10.jpg", "ICE_8-176_11.jpg", "ICE_8-176_12.jpg", "ICE_8-176_13.jpg", "ICE_8-176_14.jpg", "ICE_8-176_15.jpg", "ICE_8-176_16.jpg", "ICE_8-176_17.jpg", "ICE_8-176_18.jpg", "ICE_8-176_19.jpg"],
+        "ImageMainURL": "ICE_8-176_01.jpg",
+        "SummaryArr": ["15 Days in April", "<span>3,500 Points</span>"],
+        "Location": "Transatlantic"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "NC",
+      "Detail": {
+        "LongDesc": "This 75-acre, Tuscan-inspired enclave is perched atop a bluff offering sweeping views of the Pacific Ocean and Catalina Island—the perfect vantage point for exploring this alluring destination.",
+        "CheckInDate": "2018-06-24",
+        "LengthOfStay": 7,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Newport Coast&reg; Villas",
+        "ImageURLs": ["MVW_nc_2.jpg", "MVW_nc_3.jpg", "MVW_nc_4.jpg", "MVW_nc_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_nc_1.jpg",
+        "SummaryArr": ["7 Nights in June", "2-Bedroom", "Excellent View", "<span>3,725 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Newport Coast, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "GR",
+      "Detail": {
+        "LongDesc": "This charming retreat enjoys a coveted beachfront location. Nearby you'll discover challenging golf as well as outdoor activities and attractions to entertain the entire family.",
+        "CheckInDate": "2018-06-24",
+        "LengthOfStay": 8,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Grande Ocean",
+        "ImageURLs": ["MVW_gr_2.jpg", "MVW_gr_3.jpg", "MVW_gr_4.jpg", "MVW_gr_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_gr_1.jpg",
+        "SummaryArr": ["8 Nights in June", "2-Bedroom", "Ocean Side", "<span>3,675 Points</span>"],
+        "ViewDesc": "Ocean Side",
+        "ViewType": "OS",
+        "Location": "Hilton Head Island, SC"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "LR",
+      "Detail": {
+        "LongDesc": "This sophisticated retreat near world-famous attractions offers access to the amenities of the adjacent JW Marriott&reg; Orlando Grande Lakes and The Ritz-Carlton&reg; Orlando.",
+        "CheckInDate": "2018-08-19",
+        "LengthOfStay": 7,
+        "UnitDesc": "3-Bedroom",
+        "ShortDesc": "Marriott's Lakeshore Reserve",
+        "ImageURLs": ["MVW_lr_2.jpg", "MVW_lr_3.jpg", "MVW_lr_4.jpg", "MVW_lr_5.jpg"],
+        "UnitType": "3BR",
+        "ImageMainURL": "MVW_lr_1.jpg",
+        "SummaryArr": ["7 Nights in August", "3-Bedroom", "Townhome", "<span>3,925 Points</span>"],
+        "ViewDesc": "Townhome",
+        "ViewType": "Tier 3 N/A",
+        "Location": "Orlando, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "HRA",
+      "Detail": {
+        "LongDesc": "A legendary vacation destination, Harborside Resort at Atlantis offers much more than just sun, sand, and splash. It opens the door to all the amenities and world-class entertainment at both Harborside and the nearby Atlantis Resort, including exhilarating casinos, 38 restaurants with an array of creative cuisine, 11 swimming areas, and exquisite spas, salons, and boutiques. It also features one of the world's largest marine habitats and the famous Mayan Temple waterslide. Spacious one- and two-bedroom villas offer exceptional comfort and style, with a kitchen and separate living/dining areas.",
+        "CheckInDate": "2018-11-22",
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Harborside Resort at Atlantis",
+        "ImageURLs": ["II_HRA_02.jpg", "II_HRA_03.jpg"],
+        "UnitType": "2 BEDROOM",
+        "ImageMainURL": "II_HRA_01.jpg",
+        "SummaryArr": ["7 Nights in November", "2-Bedroom", "<span>3,000 Points</span>"],
+        "Location": "Paradise Island, Bahamas"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "6-165044",
+      "Detail": {
+        "LongDesc": "The 7-Night \"Alaska\" cruise by Celebrity Cruises with ports of call including: Alaskan Passage, Astoria, Cruising Hubbard Glacier, Cruising Inside Passage, Cruising Tracy Arm, Icy Strait Point, Juneau, Ketchikan, San Francisco, Seattle, Seward, Sitka, Skagway, Vancouver, Victoria BC.",
+        "CheckInDate": "2018-05-18",
+        "LengthOfStay": 7,
+        "ShortDesc": "Celebrity Cruises 7-Night",
+        "ImageURLs": ["ICE_6-34_02.jpg", "ICE_6-34_03.jpg", "ICE_6-34_04.jpg", "ICE_6-34_05.jpg", "ICE_6-34_06.jpg", "ICE_6-34_07.jpg", "ICE_6-34_08.jpg", "ICE_6-34_09.jpg", "ICE_6-34_10.jpg", "ICE_6-34_11.jpg", "ICE_6-34_12.jpg", "ICE_6-34_13.jpg", "ICE_6-34_14.jpg", "ICE_6-34_15.jpg", "ICE_6-34_16.jpg", "ICE_6-34_17.jpg", "ICE_6-34_18.jpg", "ICE_6-34_19.jpg"],
+        "ImageMainURL": "ICE_6-34_01.jpg",
+        "SummaryArr": ["7 Days in May", "<span>3,500 Points</span>"],
+        "Location": "Alaska"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 3,
+      "Id": "TRM",
+      "Detail": {
+        "LongDesc": "Nestled between the fairways of Le Géant Golf Course and Lac Tremblant, the resort is located in Mont-Tremblant, North America's number one eastern ski destination. The buildings feature white clapboard siding and large porches. Spacious accommodations are perfect for romantic escapes or family vacations. Championship golf courses, breathtaking lakes, and other picturesque alpine scenery make Mont-Tremblant a popular year-round destination. Stroll the pedestrian Tremblant Village, a blend of European-style architecture, cobblestone streets, and French-Canadian flair.",
+        "CheckInDate": "2019-05-24",
+        "UnitDesc": "3-Bedroom",
+        "ShortDesc": "Embarc - Tremblant",
+        "ImageURLs": ["II_TRM_02.jpg", "II_TRM_03.jpg"],
+        "UnitType": "3 BEDROOM",
+        "ImageMainURL": "II_TRM_01.jpg",
+        "SummaryArr": ["7 Nights in May", "3-Bedroom", "<span>3,000 Points</span>"],
+        "Location": "Mont Tremblant, Canada"
+      },
+      "GroupId": 3
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "MB",
+      "Detail": {
+        "LongDesc": "Located in the heart of the Costa del Sol, this relaxing seaside resort reflects the enduring romance of southern Spain. Explore the countryside on horseback, golf or enjoy nearby nightlife.",
+        "CheckInDate": "2019-07-08",
+        "LengthOfStay": 9,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Marbella Beach Resort",
+        "ImageURLs": ["MVW_mb_2.jpg", "MVW_mb_3.jpg", "MVW_mb_4.jpg", "MVW_mb_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_mb_1.jpg",
+        "SummaryArr": ["9 Nights in July", "2-Bedroom", "Excellent View", "<span>3,875 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Marbella, Spain"
+      },
+      "GroupId": 1
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [4000, 6999]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "DS",
+      "Detail": {
+        "LongDesc": "This stylish retreat is shaded by the San Jacinto Peak and surrounded by natural desert beauty. Plus, you'll enjoy many perks at the nearby JW Marriott&reg; Desert Springs Resort & Spa.",
+        "CheckInDate": "2018-01-02",
+        "LengthOfStay": 30,
+        "UnitDesc": "1-Bedroom",
+        "ShortDesc": "Marriott's Desert Springs Villas II",
+        "ImageURLs": ["MVW_ds_2.jpg", "MVW_ds_3.jpg", "MVW_ds_4.jpg", "MVW_ds_5.jpg"],
+        "UnitType": "1BR",
+        "ImageMainURL": "MVW_ds_1.jpg",
+        "SummaryArr": ["30 Nights in January", "1-Bedroom", "Excellent View", "<span>6,950 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Palm Desert, CA"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "SM",
+      "Detail": {
+        "LongDesc": "This cozy retreat surrounded by the Wasatch Mountains is just steps from charming shops, restaurants and the Town Ski Lift. About a mile away is a mountain biking trail and golf course.",
+        "CheckInDate": "2018-02-11",
+        "LengthOfStay": 9,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Summit Watch",
+        "ImageURLs": ["MVW_sm_2.jpg", "MVW_sm_3.jpg", "MVW_sm_4.jpg", "MVW_sm_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_sm_1.jpg",
+        "SummaryArr": ["9 Nights in February", "2-Bedroom", "Excellent View", "<span>6,975 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Park City, UT"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "6-165044",
+      "Detail": {
+        "LongDesc": "The 7-Night \"Alaska\" cruise by Celebrity Cruises with ports of call including: Alaskan Passage, Astoria, Cruising Hubbard Glacier, Cruising Inside Passage, Cruising Tracy Arm, Icy Strait Point, Juneau, Ketchikan, San Francisco, Seattle, Seward, Sitka, Skagway, Vancouver, Victoria BC.",
+        "CheckInDate": "2018-06-09",
+        "LengthOfStay": 7,
+        "ShortDesc": "Celebrity Cruises 7-Night",
+        "ImageURLs": ["ICE_6-34_02.jpg", "ICE_6-34_03.jpg", "ICE_6-34_04.jpg", "ICE_6-34_05.jpg", "ICE_6-34_06.jpg", "ICE_6-34_07.jpg", "ICE_6-34_08.jpg", "ICE_6-34_09.jpg", "ICE_6-34_10.jpg", "ICE_6-34_11.jpg", "ICE_6-34_12.jpg", "ICE_6-34_13.jpg", "ICE_6-34_14.jpg", "ICE_6-34_15.jpg", "ICE_6-34_16.jpg", "ICE_6-34_17.jpg", "ICE_6-34_18.jpg", "ICE_6-34_19.jpg"],
+        "ImageMainURL": "ICE_6-34_01.jpg",
+        "SummaryArr": ["7 Days in June", "<span>6,750 Points</span>"],
+        "Location": "Alaska"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "WI",
+      "Detail": {
+        "LongDesc": "Adjacent to the golden sands of Poipu Beach, this vacation paradise provides unforgettable views. Spend your days oceanside or explore rugged cliffs, towering waterfalls and lush foliage.",
+        "CheckInDate": "2018-06-23",
+        "LengthOfStay": 11,
+        "UnitDesc": "2-Bedroom",
+        "ShortDesc": "Marriott's Waiohai Beach Club",
+        "ImageURLs": ["MVW_wi_2.jpg", "MVW_wi_3.jpg", "MVW_wi_4.jpg", "MVW_wi_5.jpg"],
+        "UnitType": "2BR",
+        "ImageMainURL": "MVW_wi_1.jpg",
+        "SummaryArr": ["11 Nights in June", "2-Bedroom", "Island View", "<span>6,600 Points</span>"],
+        "ViewDesc": "Island View",
+        "ViewType": "IS",
+        "Location": "Koloa - Kauai, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "555",
+      "Detail": {
+        "LongDesc": "Savor a true taste of “Irish Splendor” when you spend the night in a stately castle. Relax by a roaring peat fire. Stand in awe on the Cliffs of Moher. Overnight on the grounds of an Irish castle. Tour rollicking Dublin and share a conversation with the locals at a pub featuring traditional Irish entertainers. Sip on the “Water of Life” at a whiskey distillery. Visit Christ Church Cathedral, one of Ireland’s most historic structures. Explore the spectacular Dingle Peninsula and drive the Slea Head road for majestic coastal views. Gaze upon the historic Rock of Cashel. Visit the famous Gap of Dunloe where you can shop for traditional Irish goods. Meet a local family and enjoy tea and scones at their farm. Kiss the Blarney Stone at Blarney Castle. From the breathtaking sights of Kerry to the historic Rock of Cashel, gaze across the countryside and culture of Ireland.",
+        "CheckInDate": "2018-11-29",
+        "LengthOfStay": 7,
+        "ShortDesc": "Discover Ireland",
+        "ImageURLs": ["COL_555_02.jpg", "COL_555_03.jpg", "COL_555_04.jpg", "COL_555_05.jpg"],
+        "ImageMainURL": "COL_555_01.jpg",
+        "SummaryArr": ["7 Days in November", "<span>5,000 Points</span>"],
+        "Location": "Dublin, Ireland"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "51",
+      "Detail": {
+        "LongDesc": "Explore sunny Portugal, with its miles of dramatic shoreline and legacy of global discovery. Discover Lisbon your way with a choice of included sightseeing. Enjoy a three-night stay in a beautiful resort town on the Portuguese Riviera. Savor time to meander its narrow cobblestone streets, oceanfront promenade and quaint bay area. In Evora, step inside a medieval walled city with Roman ruins. Travel to Portugal's scenic “Silver Coast,” dotted with charming villages and castles. Enjoy a sense of country life with an overnight stay in the heart of Alentejo’s farms and vineyards. Find a wealth of Portuguese hand-made crafts like the famed azulejo hand painted tiles and unique items made of cork. Indulge in Portugal’s regional wines during two winery tours. Be swept away by melancholy Fado tunes. Explore the Algarve’s soft sandy beaches and classic fishing villages.",
+        "CheckInDate": "2018-12-01",
+        "LengthOfStay": 9,
+        "ShortDesc": "Sunny Portugal Estoril Coast, Alentejo & Algarve",
+        "ImageURLs": ["COL_51_02.jpg", "COL_51_03.jpg", "COL_51_04.jpg", "COL_51_05.jpg"],
+        "ImageMainURL": "COL_51_01.jpg",
+        "SummaryArr": ["9 Days in December", "<span>6,000 Points</span>"],
+        "Location": "Cascais, Portugal"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "AC",
+      "Detail": {
+        "LongDesc": "Marriott's Aruba Surf Club sits amid a sprawling resort playground that includes our sister Marriott Vacation Club resort, Marriott's Aruba Ocean Club, as well as the fabulous Aruba Marriott Resort & Stellaris® Casino.",
+        "CheckInDate": "2019-01-02",
+        "LengthOfStay": 30,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Aruba Surf Club",
+        "ImageURLs": ["MVW_ac_2.jpg", "MVW_ac_3.jpg", "MVW_ac_4.jpg", "MVW_ac_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_ac_1.jpg",
+        "SummaryArr": ["30 Nights in January", "Studio", "Garden View", "<span>6,850 Points</span>"],
+        "ViewDesc": "Garden View",
+        "ViewType": "GV",
+        "Location": "Palm Beach, Aruba"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "545",
+      "Detail": {
+        "LongDesc": "Immerse yourself in one of the world’s most iconic cities – London. On your 5-night adventure, delve into the city’s rich history and culture. See the Tower of London, St Paul’s Cathedral, and Westminster Abbey on a city tour. Live like a local and hop on the “Tube” before choosing between a visit to Kensington or a visit to Whitehall and the Churchill War Rooms. Enjoy a traditional pub dinner and ale tasting. Explore Oxford, home to the renowned University. Enjoy a privately guided tour of Blenheim Palace, the birthplace of Winston Churchill and a UNESCO World Heritage Site. Every day in London brings a new adventure.",
+        "CheckInDate": "2018-08-24",
+        "LengthOfStay": 6,
+        "ShortDesc": "Spotlight on London",
+        "ImageURLs": ["COL_545_02.jpg", "COL_545_03.jpg", "COL_545_04.jpg", "COL_545_05.jpg"],
+        "ImageMainURL": "COL_545_01.jpg",
+        "SummaryArr": ["6 Days in August", "<span>6,500 Points</span>"],
+        "Location": "London, England"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "3-158347",
+      "Detail": {
+        "LongDesc": "The 10-Day \"Panama Canal\" cruise by Holland America Line with ports of call including: Bonaire, Colon, Cruising Panama Canal, Curacao, Fort Lauderdale, Gatun Lake, Half Moon Cay, Limon, Oranjestad (Aruba).",
+        "CheckInDate": "2018-11-04",
+        "LengthOfStay": 10,
+        "ShortDesc": "Holland America Line 10-Day",
+        "ImageURLs": ["ICE_3-209_02.jpg", "ICE_3-209_03.jpg", "ICE_3-209_04.jpg", "ICE_3-209_05.jpg", "ICE_3-209_06.jpg", "ICE_3-209_07.jpg", "ICE_3-209_08.jpg", "ICE_3-209_09.jpg", "ICE_3-209_10.jpg", "ICE_3-209_11.jpg", "ICE_3-209_12.jpg", "ICE_3-209_13.jpg", "ICE_3-209_14.jpg", "ICE_3-209_15.jpg", "ICE_3-209_16.jpg", "ICE_3-209_17.jpg"],
+        "ImageMainURL": "ICE_3-209_01.jpg",
+        "SummaryArr": ["10 Days in November", "<span>6,250 Points</span>"],
+        "Location": "Panama Canal"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "6-193425",
+      "Detail": {
+        "LongDesc": "The 15-Night \"Europe, Mediterranean\" cruise by Celebrity Cruises with ports of call including: Abu Dhabi, Aqaba, Athens/Piraeus, Catania Sicily, Civitavecchia/Rome, Cruising Suez Canal, Dubai U.A.E..",
+        "CheckInDate": "2018-11-18",
+        "LengthOfStay": 15,
+        "ShortDesc": "Celebrity Cruises 15-Night",
+        "ImageURLs": ["ICE_6-186_02.jpg", "ICE_6-186_03.jpg", "ICE_6-186_04.jpg", "ICE_6-186_05.jpg", "ICE_6-186_06.jpg", "ICE_6-186_07.jpg", "ICE_6-186_08.jpg", "ICE_6-186_09.jpg", "ICE_6-186_10.jpg", "ICE_6-186_11.jpg", "ICE_6-186_12.jpg", "ICE_6-186_13.jpg", "ICE_6-186_14.jpg", "ICE_6-186_15.jpg", "ICE_6-186_16.jpg", "ICE_6-186_17.jpg", "ICE_6-186_18.jpg", "ICE_6-186_19.jpg"],
+        "ImageMainURL": "ICE_6-186_01.jpg",
+        "SummaryArr": ["15 Days in November", "<span>6,750 Points</span>"],
+        "Location": "Europe, Mediterranean"
+      },
+      "GroupId": 6
+    }],
+    "ExperienceCount": 0
+  }, {
+    "Filters": [{
+      "Points": [7000, 9999]
+    }],
+    "Vacations": [{
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "KN",
+      "Detail": {
+        "LongDesc": "Located in a master-planned community boasting more than 500 acres of tropical foliage, lagoons and scenic coastline, this secluded oasis offers a unique serene Hawaiian experience.",
+        "CheckInDate": "2018-01-02",
+        "LengthOfStay": 15,
+        "UnitDesc": "3-Bedroom",
+        "ShortDesc": "Marriott's Kauai Lagoons",
+        "ImageURLs": ["MVW_kn_2.jpg", "MVW_kn_3.jpg", "MVW_kn_4.jpg", "MVW_kn_5.jpg"],
+        "UnitType": "3BR",
+        "ImageMainURL": "MVW_kn_1.jpg",
+        "SummaryArr": ["15 Nights in January", "3-Bedroom", "Standard", "<span>9,850 Points</span>"],
+        "ViewDesc": "Standard",
+        "ViewType": "Select",
+        "Location": "Lihue - Kauai, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "VR",
+      "Detail": {
+        "LongDesc": "Located at the base of Vail Mountain, The Ritz-Carlton Club, Vail is in the center of everything. Take in breathtaking skiing, gourmet restaurants, and exhilarating nighttime entertainment.",
+        "CheckInDate": "2018-01-07",
+        "LengthOfStay": 7,
+        "UnitDesc": "3-Bedroom",
+        "ShortDesc": "The Ritz-Carlton Club&reg;, Vail",
+        "ImageURLs": ["MVW_vr_2.jpg", "MVW_vr_3.jpg", "MVW_vr_4.jpg", "MVW_vr_5.jpg"],
+        "UnitType": "3BR",
+        "ImageMainURL": "MVW_vr_1.jpg",
+        "SummaryArr": ["7 Nights in January", "3-Bedroom", "Excellent View", "<span>9,325 Points</span>"],
+        "ViewDesc": "Excellent View",
+        "ViewType": "N/A",
+        "Location": "Vail, CO"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "127",
+      "Detail": {
+        "LongDesc": "Join us on a journey through southern Italy and embrace its rich scenery, art, culture, food and wine. We open with a guided tour of Classical Rome that reveals its iconic treasures, followed by an in-depth guided visit of the spectacular Colosseum. Next, travel amid the breathtaking scenery of the Amalfi Coast. From the seaside town of Sorrento to the monastery of Montecassino and the ancient Greek temples of Paestum, each day brings a another delightful experience. Travel by boat to the spectacular island of Capri where a local guide shows you the sights and you soak in the views of the rugged coastline. Enjoy a stop to learn how mozzarella cheese is made and visit the renowed National Archaeological Museum. Along the way, discover the ruins of Pompeii, stop at a local winery at the foot of Mt. Vesuvius and perhaps sip limoncello, a local lemon liquor.",
+        "CheckInDate": "2018-02-22",
+        "LengthOfStay": 9,
+        "ShortDesc": "Rome & the Amalfi Coast",
+        "ImageURLs": ["COL_127_02.jpg", "COL_127_03.jpg", "COL_127_04.jpg", "COL_127_05.jpg"],
+        "ImageMainURL": "COL_127_01.jpg",
+        "SummaryArr": ["9 Days in February", "<span>8,500 Points</span>"],
+        "Location": "Rome, Italy"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 6,
+      "CollectionId": 1,
+      "Id": "106",
+      "Detail": {
+        "LongDesc": "Two Night Accommodations and Two Reserved Grandstand Tickets to Game 1, 2, 3 or 4 of the World Series. Includes: three day /two night accommodations for two (double occupancy) in a Marriott® branded property (or similar property), breakfast for two daily, two reserved grandstand tickets to Game 1, 2, 3 or 4 of the World Series (seating upgrades available upon request for an additional fee), three day full size rental car, all hotel taxes.",
+        "Description": "2 nights, 2 tickets",
+        "ShortDesc": "The World Series Single Game Program",
+        "ImageURLs": [],
+        "ImageMainURL": "CUSTOM_106_1.jpg",
+        "SummaryArr": ["2 nights, 2 tickets", "<span>9,500 Points</span>"],
+        "Location": "Home of League Champions"
+      },
+      "GroupId": 7
+    }, {
+      "SubCollectionId": 9,
+      "CollectionId": 1,
+      "Id": "23330",
+      "Detail": {
+        "LongDesc": "Casa Seren is a luxury oceanfront villa with both blue and white water views.  The villa is a gorgeous, two-story, 3500 square foot, three bedroom property with master suites for everyone. Every bedroom has a majestic oceanfront view, plus double sink en-suite baths for all. You can see and hear the ocean from your spacious patio and from each and every bedroom. Casa Serendipia offers sunsets 365 days a year! The villa is located just one and a half minutes to the beach, plus there are four more blue flag beaches no more than 15 minutes away.\n\nFeatures include an infinity pool, modern kitchen with every appliance, like a dishwasher, garbage disposal, refrigerator with indoor ice-maker and easy pass through for your beverages. The kitchen is fully stocked with cookware and utensils should you decide to dine at home on your large outdoor deck with amazing Pacific views or in the dining room while still enjoying oceanfront luxury. The living room features SKY TV, a DVD player, and there are sound docks inside and out. \n\nThe villa also includes concierge service to arrange your sunset horseback riding tour, zip lining, snorkeling trips, horseback trips to the gorgeous Nauyaca Waterfall or to arrange for a private chef, massage in house or whatever you can think of!",
+        "CheckInDate": "2018-06-01",
+        "LengthOfStay": 6,
+        "ShortDesc": "Casa Seren, Costa Rica",
+        "ImageURLs": ["VOD_23330_02.jpg", "VOD_23330_03.jpg"],
+        "ImageMainURL": "VOD_23330_01.jpg",
+        "SummaryArr": ["6 Nights in June", "<span>8,500 Points</span>"],
+        "Location": "Dominical, Costa Rica"
+      },
+      "GroupId": 9
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "3-166896",
+      "Detail": {
+        "LongDesc": "The 10-Day \"Europe, Mediterranean\" cruise by Holland America Line with ports of call including: Athens/Piraeus, Barcelona, Cadiz, Cartagena Spain, Ceuta, Civitavecchia/Rome, Corfu Greek Isle, Dubrovnik, Gibraltar, Katakolon, Kotor, Livorno/Florence, Marseille, Monte Carlo, Naples, Santorini.",
+        "CheckInDate": "2018-09-28",
+        "LengthOfStay": 10,
+        "ShortDesc": "Holland America Line 10-Day",
+        "ImageURLs": ["ICE_3-1371_02.jpg", "ICE_3-1371_03.jpg", "ICE_3-1371_04.jpg", "ICE_3-1371_05.jpg", "ICE_3-1371_06.jpg", "ICE_3-1371_07.jpg", "ICE_3-1371_08.jpg", "ICE_3-1371_09.jpg", "ICE_3-1371_10.jpg", "ICE_3-1371_11.jpg", "ICE_3-1371_12.jpg", "ICE_3-1371_13.jpg", "ICE_3-1371_14.jpg", "ICE_3-1371_15.jpg", "ICE_3-1371_16.jpg"],
+        "ImageMainURL": "ICE_3-1371_01.jpg",
+        "SummaryArr": ["10 Days in September", "<span>9,000 Points</span>"],
+        "Location": "Europe, Mediterranean"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "KA",
+      "Detail": {
+        "LongDesc": "This paradise is tucked within a scenic cove on Kalapaki Beach, rated one of Hawaii's best swimming beaches. Learn to surf, snorkel or just relax amid tropical beauty.",
+        "CheckInDate": "2019-01-01",
+        "LengthOfStay": 59,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Kauai Beach Club",
+        "ImageURLs": ["MVW_ka_2.jpg", "MVW_ka_3.jpg", "MVW_ka_4.jpg", "MVW_ka_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_ka_1.jpg",
+        "SummaryArr": ["59 Nights in January", "Studio", "Parlor Garden View", "<span>9,225 Points</span>"],
+        "ViewDesc": "Parlor Garden View",
+        "ViewType": "Parlor GV",
+        "Location": "Lihue - Kauai, HI"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 0,
+      "CollectionId": 4,
+      "Id": "PS",
+      "Detail": {
+        "LongDesc": "Located on the Atlantic side of Singer Island, this scenic retreat is ideal for relaxing and recharging. Enjoy on-site amenities or explore nearby leisure activities at your own pace.",
+        "CheckInDate": "2019-01-06",
+        "LengthOfStay": 34,
+        "UnitDesc": "Studio",
+        "ShortDesc": "Marriott's Ocean Pointe",
+        "ImageURLs": ["MVW_ps_2.jpg", "MVW_ps_3.jpg", "MVW_ps_4.jpg", "MVW_ps_5.jpg"],
+        "UnitType": "0BR",
+        "ImageMainURL": "MVW_ps_1.jpg",
+        "SummaryArr": ["34 Nights in January", "Studio", "Ocean Side", "<span>9,550 Points</span>"],
+        "ViewDesc": "Ocean Side",
+        "ViewType": "OS",
+        "Location": "Palm Beach Shores, FL"
+      },
+      "GroupId": 1
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "3-187798",
+      "Detail": {
+        "LongDesc": "The 12-Day \"Europe, Mediterranean\" cruise by Holland America Line with ports of call including: Ajaccio, Alghero Sardinia, Alicante, Argostoli, Athens/Piraeus, Barcelona, Bordeaux, Cadiz, Cartagena Spain, Ceuta, Chania (Crete), Civitavecchia/Rome, Corfu Greek Isle, Cruising Strait of Messina, Dubrovnik, Gibraltar, Iraklion, Katakolon, Kotor, Le Palais, Leixoes, Lisbon, Livorno/Florence, London (Dover), Malaga, Marseille, Mgarr (Victoria) Malta, Monte Carlo, Mykonos, Nafplion, Naples, Navplion, Palermo, Portoferraio (Elba), Rhodes, Santorini, Sarande, Split Croatia, Taormina, Toulon, Valletta/Grand Harbour, Venice.",
+        "CheckInDate": "2018-08-28",
+        "LengthOfStay": 12,
+        "ShortDesc": "Holland America Line 12-Day",
+        "ImageURLs": ["ICE_3-205_02.jpg", "ICE_3-205_03.jpg", "ICE_3-205_04.jpg", "ICE_3-205_05.jpg", "ICE_3-205_06.jpg", "ICE_3-205_07.jpg", "ICE_3-205_08.jpg", "ICE_3-205_09.jpg", "ICE_3-205_10.jpg", "ICE_3-205_11.jpg", "ICE_3-205_12.jpg", "ICE_3-205_13.jpg", "ICE_3-205_14.jpg", "ICE_3-205_15.jpg", "ICE_3-205_16.jpg", "ICE_3-205_17.jpg"],
+        "ImageMainURL": "ICE_3-205_01.jpg",
+        "SummaryArr": ["12 Days in August", "<span>9,000 Points</span>"],
+        "Location": "Europe, Mediterranean"
+      },
+      "GroupId": 6
+    }, {
+      "SubCollectionId": 3,
+      "CollectionId": 1,
+      "Id": "54",
+      "Detail": {
+        "LongDesc": "Sleepy villages where sheep wander the grassy hillsides, lakes set amidst mountains that inspired centuries of literature, and cities thriving with arts and culture – these are the landscapes of Britain. Discover them on this memorable journey through England, Scotland and Wales. Sleep in a historic castle. Enjoy medieval York and its historic Minster. Soak up the pastoral landscapes of the Cotswolds. Walk in the footsteps of William Shakespeare and enjoy dinner at Hall’s Croft, a 400-year-old Shakespearean family home. Explore London and Edinburgh. Personalize your tour with a choice of included excursions in Stratford and Edinburgh. Experience the wonder of Stonehenge.",
+        "CheckInDate": "2018-11-04",
+        "LengthOfStay": 9,
+        "ShortDesc": "British Landscapes featuring England, Scotland and Wales",
+        "ImageURLs": ["COL_54_02.jpg", "COL_54_03.jpg", "COL_54_04.jpg", "COL_54_05.jpg"],
+        "ImageMainURL": "COL_54_01.jpg",
+        "SummaryArr": ["9 Days in November", "<span>9,500 Points</span>"],
+        "Location": "Stratford-upon-Avon, England"
+      },
+      "GroupId": 4
+    }, {
+      "SubCollectionId": 4,
+      "CollectionId": 1,
+      "Id": "171-77165",
+      "Detail": {
+        "LongDesc": "The 5-Day \"River Cruise, Americas\" cruise by American Queen Steamboat Company with ports of call including: Astoria, New Orleans, Nottoway, Oak Alley, Portland OR (Vancouver WA), Stevenson WA, The Dalles.",
+        "CheckInDate": "2018-11-16",
+        "LengthOfStay": 5,
+        "ShortDesc": "American Queen Steamboat Company 5-Day",
+        "ImageURLs": ["ICE_171-988_02.jpg", "ICE_171-988_03.jpg", "ICE_171-988_04.jpg", "ICE_171-988_05.jpg", "ICE_171-988_07.jpg", "ICE_171-988_08.jpg", "ICE_171-988_09.jpg", "ICE_171-988_10.jpg", "ICE_171-988_11.jpg", "ICE_171-988_12.jpg", "ICE_171-988_13.jpg", "ICE_171-988_14.jpg", "ICE_171-988_15.jpg"],
+        "ImageMainURL": "ICE_171-988_01.jpg",
+        "SummaryArr": ["5 Days in November", "<span>7,250 Points</span>"],
+        "Location": "River Cruise, Americas"
+      },
+      "GroupId": 6
+    }],
+    "ExperienceCount": 0
+  }],
+  "Created": "2018-04-10 10:09:02 -04:00"
+}
