@@ -130,7 +130,7 @@ foreach ($carouselImages as $idx => $image) {
                 $(".form-submit").attr("disabled", null);
                 return;
             }
-
+          
             var form = $("#hertzInfoForm");
             var url = form.attr('action');
 
@@ -535,4 +535,3 @@ foreach ($carouselImages as $idx => $image) {
 </script>
 
 <?php include("footer.php"); ?>
-
